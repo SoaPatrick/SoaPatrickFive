@@ -402,8 +402,13 @@ figure .wp-caption-text {
     .navigation .nav-links div a:focus, .navigation .nav-links div a:hover {
       background: #d96363; }
 
-.error-page .container {
+.error-page .container,
+.log-file .container {
   max-width: 1250px; }
+
+.error-page li,
+.log-file li {
+  line-height: calc(1.5em + .2vw); }
 
 .content-wrapper {
   margin: 3em 0;

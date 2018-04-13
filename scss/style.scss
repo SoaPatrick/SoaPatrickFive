@@ -96,13 +96,21 @@ $round-button-size: 45px;
 	}
 }
 
-.error-page .container {
-	max-width: 1250px;
+.error-page,
+.log-file {
+	.container {
+		max-width: 1250px;
+	}
+	
+	li {
+		line-height: calc(1.5em + .2vw);	
+	}	
 }
 
 .content-wrapper {
 	margin: 3em 0;
     padding: 2em 0;
+    
     
 	@media (min-width: 768px) {	
 	    .page-header,

@@ -48,7 +48,7 @@
 		<div class="meta-wrapper">
 			<?php soapatrickfive_posted_on(); ?>
 			<?php the_tags('<span class="tags"><i class="fal fa-tags fa-fw"></i>',', ','</span>'); ?>
-			<?php edit_post_link('Edit', '<span class="edit"><i class="fal fa-pencil fa-fw"></i></span>'); ?>			
+			<?php edit_post_link('Edit', '<span class="edit"><i class="fal fa-pencil fa-fw"></i>','</span>'); ?>			
 		</div>
 	</div>			
 	<?php if (!has_post_format('quote') && !has_post_format('link') && !has_post_format('status')) : ?>
