@@ -6,3 +6,120 @@ Author URI: http://www.soapatrick.com/
 Description: Theme for the SoaPatrick Website
 Version: 1.0.0
 */
+
+/*----------------------------------------------
+	Import Font
+----------------------------------------------*/
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/364b31");
+
+  
+@font-face {
+	font-family: 'QanelasSoft-ExtraBold';
+	src: url('font/364B31_0_0.eot');
+	src: url('font/364B31_0_0.eot?#iefix') format('embedded-opentype'),
+		url('font/364B31_0_0.woff2') format('woff2'),
+		url('font/364B31_0_0.woff') format('woff'),
+		url('font/364B31_0_0.ttf') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700');
+
+/*----------------------------------------------
+	Variables
+----------------------------------------------*/
+
+// Brand Color
+$dark-grey: #222;
+$dark-red: #CF3A3A;
+$soap-color: $dark-red;
+$dark-color: $dark-grey;
+
+$font-base: 'Source Sans Pro', serif;
+$font-heading: 'QanelasSoft-ExtraBold', sans-serif;
+
+// Text Color
+$text-color: #fff;
+
+// Border Radiuses
+$border-radius-base: 0;
+
+// Round-Button Size
+$round-button-size: 45px;
+
+/*----------------------------------------------
+	Imports
+----------------------------------------------*/
+
+@import "_scaffolding.scss";
+@import "_tools.scss";
+@import "_header.scss";
+@import "_blog-post.scss";
+@import "_instagram-feed.scss";
+@import "_footer.scss";
+
+
+
+
+.navigation {
+	h2 {
+		display: none;
+	}
+	
+	.nav-links {
+		display: flex;
+		justify-content: space-between;
+		
+		.nav-previous {
+		    margin-right: 1em;
+		    text-align: left;
+		}
+		.nav-next {
+		    margin-left: 1em;
+		    text-align: right;			
+		}
+		
+		div a {
+		    display: block;
+		    background: $soap-color;
+		    padding:.5em 1em;
+		    box-shadow: 0 0 20px rgba(0,0,0,.2);
+		    color: #fff;
+			font-size: calc(18px + .5vw);
+			
+			&:focus,
+			&:hover {
+				background: lighten($soap-color, 10%);
+			}
+		}  
+	}
+}
+
+.error-page .container {
+	max-width: 1250px;
+}
+
+.content-wrapper {
+	margin: 3em 0;
+    padding: 2em 0;
+    
+	@media (min-width: 768px) {	
+	    .page-header,
+	    .page-content {
+			padding: 0 4em;		
+		}
+	}  
+	
+	hr {
+		box-shadow: 0px 0px 50px rgba(0,0,0,.5);
+		border: 1px solid $soap-color;			
+	}	  
+    
+	.page-header {
+		h1.page-title {
+			font-size: calc(22px + 3vw);
+			text-align: center;
+		}
+	}    
+}

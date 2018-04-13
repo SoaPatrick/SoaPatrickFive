@@ -1,0 +1,95 @@
+/*----------------------------------------------
+	Instagram Feed
+----------------------------------------------*/
+
+.site-content.instagram-feed {
+	transform: rotate(-1.5deg);
+	background: $soap-color;
+	color: #fff;
+ 	padding: 3em 0 6em;
+ 	overflow: hidden;
+ 	margin-left: -1em;
+ 	margin-right: -1em;
+	
+	a {
+		color: #fff;
+		border-bottom-color: #fff;
+	}
+
+    h1 {
+	    font-size: calc(18px + 2vw);	    
+	    text-align: center;
+    }
+    
+    .lead {
+	    text-align: center;
+		max-width: 1200px;
+		margin: 0 auto 2em auto;
+		
+		a {
+			text-decoration: none;
+			font-weight: 700;
+			
+			&:hover,
+			&:focus {
+				text-decoration: underline;
+			}
+		}
+    }
+
+	.flickity-viewport {
+		overflow: visible;
+			
+		.carousel-cell {
+			width: 20vw;
+			height: 20vw;
+			max-width: 350px;		
+			max-height: 350px;
+			min-width: 180px;
+			min-height: 180px;
+			margin-right: 0.5em;
+			transition: opacity .5s ease-in-out;
+	 		border-radius: $border-radius-base;				
+			border: 0;				
+			opacity: .3 ;				
+		
+			&.is-selected {
+				opacity: 1;
+			}
+			
+			a {
+				display: block;
+				border: 0;
+				width: 20vw;
+				height: 20vw;
+				max-width: 350px;		
+				max-height: 350px;
+				min-width: 180px;
+				min-height: 180px;
+		 		border-radius: $border-radius-base;		
+				background-size: cover;
+				background-position: center center;
+				background-repeat: no-repeat;
+			}
+			
+			img {
+				width: 100%;
+				height: auto;
+	 			border-radius: $border-radius-base;
+	 			visibility: hidden;
+			}			
+		}
+							
+		.flickity-prev-next-button {
+		    width: $round-button-size !important;
+		    height: $round-button-size !important;
+		    padding: 0;
+			svg {
+				width: 40% !important;
+				height: 40% !important;
+				left: 29% !important;
+				top: 31% !important;		
+			}
+		}			
+	}
+}

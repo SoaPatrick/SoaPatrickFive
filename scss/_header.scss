@@ -1,0 +1,33 @@
+/*----------------------------------------------
+	Site Header
+----------------------------------------------*/
+
+.site-header {	
+	
+	.container-logo {
+		display: flex;
+		align-items: center;
+		justify-content: center;		
+		
+		.logo {
+			margin: 3em 0 0 0;
+			width: 20vw;
+			max-width: 10em;
+			min-width: 8em;
+			height: auto;
+	
+		  
+			.sp-logo {
+			  width: 100%;
+			  height: auto;
+			  -webkit-filter: drop-shadow( 5px 5px 5px rgba(0,0,0,.1) );
+			  filter: drop-shadow( 5px 5px px rgba(0,0,0,.1) );
+			  	  
+				.letter-s,
+				.letter-p {
+					fill: $soap-color;							
+				}	
+			}
+		}		
+	}	
+}

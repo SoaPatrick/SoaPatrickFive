@@ -9,48 +9,52 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php
-		if ( is_singular() ) :
-			the_title( '<h1 class="entry-title">', '</h1>' );
-		else :
-			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
-		endif;
-
-		if ( 'post' === get_post_type() ) : ?>
-		<div class="entry-meta">
+<article id="post-<?php the_ID(); ?>" <?php post_class( 'blog-post' ); ?>>
+	<header class="blog-post-header">
+		<?php if (has_post_format('quote')) :
+	    	the_title( '<h1 class="blog-post-quote">', '</h1>' ); ?>
+			<p class="quote-author">
+				<?php echo get_post_meta($post->ID, '_format_quote_source_name', true); ?>
+			</p>						
+		<?php elseif (has_post_format('link')) :
+			the_title( '<h1 class="blog-post-link">', '</h1>' );
+			$link_url = get_post_meta($post->ID, '_format_link_url', true);
+			echo '<p><a href="'.$link_url.'" class="link" target="_blank">' .$link_url. '</a></p>';
+		elseif (has_post_format('status')): ?>
+	        <div class="blog-post-status">
+		    	<?php if (get_field( "font-awesome_icon" )) : ?>
+				    <i class="<?php echo get_field( "font-awesome_icon" ) ?>"></i>
+				<?php else : ?>
+					<i class="fal fa-bullhorn"></i>		
+				<?php endif; ?>				        
+		        <?php the_content(); ?>
+		    </div>
+	    <?php else :
+			the_title( '<h1 class="blog-post-title">', '</h1>' );
+		endif; ?>				
+	</header>		
+	<div class="featured-image">
+		<?php 
+			if (has_post_format('video')) :
+				echo get_post_meta($post->ID, '_format_video_embed', true);
+			elseif (has_post_thumbnail()) :							
+				the_post_thumbnail( );
+			else :
+				?><hr class="title-line"><?php
+			endif;
+		?>				
+	</div>	
+	<div class="blog-post-meta">
+		<div class="meta-wrapper">
 			<?php soapatrickfive_posted_on(); ?>
-		</div><!-- .entry-meta -->
-		<?php
-		endif; ?>
-	</header><!-- .entry-header -->
+			<?php the_tags('<span class="tags"><i class="fal fa-tags fa-fw"></i>',', ','</span>'); ?>
+			<?php edit_post_link('Edit', '<span class="edit"><i class="fal fa-pencil fa-fw"></i></span>'); ?>			
+		</div>
+	</div>			
+	<?php if (!has_post_format('quote') && !has_post_format('link') && !has_post_format('status')) : ?>
+		<div class="blog-post-content">
+			<?php the_content('<strong>Continue Reading...</strong>'); ?>
+		</div>
+	<?php endif; ?>
 
-	<?php soapatrickfive_post_thumbnail(); ?>
-
-	<div class="entry-content">
-		<?php
-			the_content( sprintf(
-				wp_kses(
-					/* translators: %s: Name of current post. Only visible to screen readers */
-					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'soapatrickfive' ),
-					array(
-						'span' => array(
-							'class' => array(),
-						),
-					)
-				),
-				get_the_title()
-			) );
-
-			wp_link_pages( array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'soapatrickfive' ),
-				'after'  => '</div>',
-			) );
-		?>
-	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-		<?php soapatrickfive_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
-</article><!-- #post-<?php the_ID(); ?> -->
+</article>

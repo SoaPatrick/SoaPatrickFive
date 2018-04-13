@@ -1,0 +1,114 @@
+/*----------------------------------------------
+	Scaffolding
+----------------------------------------------*/
+
+html,
+body {
+	height: 100%;   	
+	margin: 0;
+	padding: 0;	
+}
+
+body {
+	background: $dark-color;
+	color: $text-color;
+	font-size: calc(18px + .25vw);
+	font-family: $font-base;
+	font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+//    letter-spacing: -.25px; 
+	overflow-x: hidden;       	
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;	
+	height: 100%;
+	
+	.site-footer, 
+	.site-header {
+		flex: none;
+	}
+	
+	.site-content {
+		flex: 1 0 auto;	
+	}
+}
+
+.container {
+    width: 92vw;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container-fluid {
+    width: 100%;  
+    margin: 0 auto;
+}
+
+@media (min-width: 1500px) {
+	.container {
+	    max-width: calc(1500px + 20vw);
+	}
+}
+
+@media (max-width: 767px) {
+	.container {
+		padding: 0 30px;
+		width: auto;
+	}	
+}
+
+/*----------------------------------------------
+	Typography
+----------------------------------------------*/
+
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: $font-heading;
+	text-transform: uppercase;
+}
+
+p {
+	line-height: calc(1.5em + .2vw);			
+}
+
+a {
+	color: $soap-color;
+	font-weight: 400;
+	text-decoration: none;
+	
+	&:hover,
+	&:focus {
+		color: lighten($soap-color, 10%);
+	}
+}
+
+/*----------------------------------------------
+	Site Content
+----------------------------------------------*/
+
+.site-content {
+	padding: 0 0 3em;
+	
+	.page-header h1 {
+	    font-size: calc(18px + 2vw);
+	    margin-bottom: 0.8em;
+	    
+	    .no-wrap {
+		    white-space: nowrap;
+	    }
+	}
+}
+
+/*----------------------------------------------
+	Media Player Fix
+----------------------------------------------*/
+
+.wp-video-shortcode video, 
+video.wp-video-shortcode {
+	height: auto;
+}
