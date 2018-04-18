@@ -10,6 +10,10 @@ get_header(); ?>
 				</header>
 				<hr>
 				<div class="page-content">
+					<h2>April 18, 2018</h2>
+					<ul class="fa-ul">
+						<li><span class="fa-li"><i class="fal fa-minus-circle"></i></span><strong>Removed</strong> instagram feed rotation</li>
+					</ul>						
 					<h2>April 14, 2018</h2>
 					<ul class="fa-ul">
 						<li><span class="fa-li"><i class="fal fa-wrench"></i></span><strong>Changed</strong> text-transform for Status, Quote and Link title</li>
