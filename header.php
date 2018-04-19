@@ -50,6 +50,7 @@
 	*/
 	
 	-->	
+	<script defer src="https://pro.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-+1nLPoB0gaUktsZJP+ycZectl3GX7wP8Xf2PE/JHrb7X1u7Emm+v7wJMbAcPr8Ge" crossorigin="anonymous"></script>
 	<?php wp_head(); ?>
 </head>
 
