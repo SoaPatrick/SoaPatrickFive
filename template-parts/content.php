@@ -37,8 +37,8 @@
 		<?php 
 			if (has_post_format('video')) :
 				echo get_post_meta($post->ID, '_format_video_embed', true);
-			elseif (has_post_thumbnail()) :							
-				the_post_thumbnail( );
+			elseif (has_post_thumbnail()) :	
+				the_post_thumbnail( 'large-featured-image' );						
 			else :
 				?><hr class="title-line"><?php
 			endif;

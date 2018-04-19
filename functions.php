@@ -141,6 +141,15 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 }
 
 /**
+ * Custom Image Sizes
+ * 
+ * https://codex.wordpress.org/Function_Reference/add_image_size
+ */
+if ( function_exists( 'add_image_size' ) ) { 
+	add_image_size( 'large-featured-image', 1250 );    
+}
+
+/**
  * Remove Emojiscript
  */
 remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
