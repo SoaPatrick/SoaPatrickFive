@@ -240,7 +240,7 @@ function register_custom_post_types() {
 	$labels = array(
 		"name" => __( "Factory", "" ),
 		"singular_name" => __( "Portfolio", "" ),
-		"menu_name" => __( "Portfolio", "" ),
+		"menu_name" => __( "Portfolios", "" ),
 		"all_items" => __( "Portfolios", "" ),
 		"add_new" => __( "Add New", "" ),
 		"add_new_item" => __( "Add New Portfolio", "" ),
@@ -271,6 +271,8 @@ function register_custom_post_types() {
 		"description" => "",
 		"public" => true,
 		"publicly_queryable" => true,
+		"menu_icon" => "dashicons-art",
+		"menu_position" => 5,
 		"show_ui" => true,
 		"show_in_rest" => false,
 		"rest_base" => "",
@@ -286,6 +288,57 @@ function register_custom_post_types() {
 	);
 
 	register_post_type( "factory", $args );
+	
+	/* Post Type: Changelog. */
+
+	$labels = array(
+		"name" => __( "Logs", "" ),
+		"singular_name" => __( "Log", "" ),
+		"menu_name" => __( "Logs", "" ),
+		"all_items" => __( "Logs", "" ),
+		"add_new" => __( "Add New", "" ),
+		"add_new_item" => __( "Add New Log", "" ),
+		"edit_item" => __( "Edit Log", "" ),
+		"new_item" => __( "New Log", "" ),
+		"view_item" => __( "View Log", "" ),
+		"view_items" => __( "View Logs", "" ),
+		"search_items" => __( "Search Logs", "" ),
+		"not_found" => __( "No Logs found", "" ),
+		"not_found_in_trash" => __( "No Logs found in Trash", "" ),
+		"parent_item_colon" => __( "Parent Log", "" ),
+		"archives" => __( "Log Archives", "" ),
+		"insert_into_item" => __( "Insert into Log", "" ),
+		"uploaded_to_this_item" => __( "Uploaded to this Log", "" ),
+		"filter_items_list" => __( "Filter Log List", "" ),
+		"items_list_navigation" => __( "Log List Navigation", "" ),
+		"items_list" => __( "Logs List", "" ),
+		"attributes" => __( "Logs Attributes", "" ),
+		"parent_item_colon" => __( "Parent Log", "" ),
+	);
+
+	$args = array(
+		"label" => __( "Logs", "" ),
+		"labels" => $labels,
+		"description" => "",
+		"public" => true,
+		"publicly_queryable" => true,
+		"menu_icon" => "dashicons-hammer",
+		"menu_position" => 6,		
+		"show_ui" => true,
+		"show_in_rest" => false,
+		"rest_base" => "",
+		"has_archive" => true,
+		"show_in_menu" => true,
+		"exclude_from_search" => true,
+		"capability_type" => "post",
+		"map_meta_cap" => true,
+		"hierarchical" => false,
+		"rewrite" => array( "slug" => "log", "with_front" => true ),
+		"query_var" => true,
+		"supports" => array( "title"),
+	);
+
+	register_post_type( "log", $args );	
 }
 
 add_action( 'init', 'register_custom_post_types' );
@@ -320,6 +373,7 @@ function register_my_taxes() {
 		"show_in_quick_edit" => false,
 	);
 	register_taxonomy( "portfolio_category", array( "factory" ), $args );
+	
 }
 
 add_action( 'init', 'register_my_taxes' );
@@ -330,77 +384,12 @@ add_action( 'init', 'register_my_taxes' );
  */
 
 
+
 define( 'ACF_LITE', true );
 include_once('advanced-custom-fields/acf.php');
 
 if(function_exists("register_field_group"))
 {
-	register_field_group(array (
-		'id' => 'acf_background-color',
-		'title' => 'Background Color',
-		'fields' => array (
-			array (
-				'key' => 'field_56ed12bd2bd64',
-				'label' => 'Background Color',
-				'name' => 'background_color',
-				'type' => 'select',
-				'required' => 1,
-				'choices' => array (
-					'background-default' => 'Default',
-					'background-red' => 'Red',
-					'background-pink' => 'Pink',
-					'background-purple' => 'Purple',
-					'background-deep-purple' => 'Deep-Purple',
-					'background-indigo' => 'Indigo',
-					'background-cyan' => 'Cyan',
-					'background-teal' => 'Teal',
-					'background-green' => 'Green',
-					'background-orange' => 'Orange',
-					'background-deep-orange' => 'Deep-Orange',
-					'background-brown' => 'Brown',
-				),
-				'default_value' => '',
-				'allow_null' => 0,
-				'multiple' => 0,
-			),
-		),
-		'location' => array (
-			array (
-				array (
-					'param' => 'post_format',
-					'operator' => '==',
-					'value' => 'link',
-					'order_no' => 0,
-					'group_no' => 0,
-				),
-			),
-			array (
-				array (
-					'param' => 'post_format',
-					'operator' => '==',
-					'value' => 'quote',
-					'order_no' => 0,
-					'group_no' => 1,
-				),
-			),
-			array (
-				array (
-					'param' => 'post_format',
-					'operator' => '==',
-					'value' => 'status',
-					'order_no' => 0,
-					'group_no' => 2,
-				),
-			),
-		),
-		'options' => array (
-			'position' => 'side',
-			'layout' => 'default',
-			'hide_on_screen' => array (
-			),
-		),
-		'menu_order' => 0,
-	));
 	register_field_group(array (
 		'id' => 'acf_font-awesome-icon',
 		'title' => 'Font-Awesome Icon',
@@ -437,7 +426,50 @@ if(function_exists("register_field_group"))
 		),
 		'menu_order' => 0,
 	));
-}
+	
+	register_field_group(array (
+		'id' => 'acf_change-log',
+		'title' => 'Change Log',
+		'fields' => array (
+			array (
+				'key' => 'field_5ad8c6dfbfa48',
+				'label' => 'Changelog Type',
+				'name' => 'changelog_type',
+				'type' => 'select',
+				'required' => 1,
+				'choices' => array (
+					'fal fa-plus-circle' => 'Added',
+					'fal fa-minus-circle' => 'Removed',
+					'fal fa-wrench' => 'Changed',
+					'fal fa-bug' => 'Fixed',
+				),
+				'default_value' => '',
+				'allow_null' => 0,
+				'multiple' => 0,
+			),
+		),
+		'location' => array (
+			array (
+				array (
+					'param' => 'post_type',
+					'operator' => '==',
+					'value' => 'log',
+					'order_no' => 0,
+					'group_no' => 0,
+				),
+			),
+		),
+		'options' => array (
+			'position' => 'acf_after_title',
+			'layout' => 'no_box',
+			'hide_on_screen' => array (
+			),
+		),
+		'menu_order' => 0,
+	));	
+}	
+
+
 
 /**
  * Remove archive title prefixes.
