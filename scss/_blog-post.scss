@@ -1,12 +1,3 @@
-.blog-post-list,
-.blog-post-single {
-	.container {
-		max-width: 1250px;
-	}
-}
-
-
-
 .blog-post {
 	margin: 3em 0;
 	padding: 2em 0;												
@@ -26,11 +17,7 @@
 			font-size: calc(22px + 1.5vw);
 			font-weight: normal;
 			text-transform: initial;
-			line-height: 1.3;		
-			
-			.svg-inline--fa {
-			    color: $soap-color;
-			}			
+			line-height: 1.3;				
 		}
 		
 			
@@ -49,11 +36,6 @@
 			&::after {
 				content: "\f10e";
 			}			
-			
-			.fa-quote-left,
-			.fa-quote-right {
-			    color: $soap-color;
-			}	
 			
 			.fa-quote-left {
 			    margin-right: .25em;				
@@ -87,7 +69,6 @@
 		.blog-post-status  {
 			.svg-inline--fa {
 			    margin-right: .25em;			
-			    color: $soap-color;
 				font-size: calc(22px + 1.5vw);			    
 			}
 			
@@ -115,6 +96,13 @@
 		}
 	}
 	
+	@media (max-width: 767px) {
+		.featured-image {
+			margin-left: -2em;
+			margin-right: -2em;
+		}
+	}
+	
 	.blog-post-meta {
 		
 		.meta-wrapper {
@@ -133,7 +121,6 @@
 			.svg-inline--fa {
 				margin-right: .5em;
 				text-align: left;
-				color: $soap-color;
 			}							
 		}
 	}	
@@ -197,7 +184,6 @@
 .alignnone {
 	max-width: 100%;
 	height: auto;
-	border-radius: $border-radius-base;
 }
 
 .alignleft {
@@ -242,7 +228,7 @@ figure {
 			border-bottom: 0;
 			
 			img {
-				border: 2px solid $soap-color;
+				border: 1px solid $soap-color;
 				
 				&:hover,
 				&:focus {
@@ -252,7 +238,6 @@ figure {
 		}
 		
 		img {
-			border-radius: $border-radius-base;
 		    max-width: 100%;
 		    height: auto;			
 		}
@@ -261,5 +246,43 @@ figure {
 	.wp-caption-text {
 		font-size: .8em;
 		margin-top: -.3em;
+	}
+}
+
+/*----------------------------------------------
+	Blog Post Navigation
+----------------------------------------------*/
+
+.navigation {
+	h2 {
+		display: none;
+	}
+	
+	.nav-links {
+		display: flex;
+		justify-content: space-between;
+		
+		.nav-previous {
+		    margin-right: 1em;
+		    text-align: left;
+		}
+		.nav-next {
+		    margin-left: 1em;
+		    text-align: right;			
+		}
+		
+		div a {
+		    display: block;
+		    background: $soap-color;
+		    padding:.5em 1em;
+		    box-shadow: 0 0 20px rgba(0,0,0,.2);
+		    color: #fff;
+			font-size: calc(18px + .5vw);
+			
+			&:focus,
+			&:hover {
+				background: lighten($soap-color, 10%);
+			}
+		}  
 	}
 }

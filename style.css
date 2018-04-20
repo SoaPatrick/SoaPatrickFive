@@ -5,7 +5,7 @@ Theme URI: http://www.soapatrick
 Author: Patrick Leisinger
 Author URI: http://www.soapatrick.com/
 Description: Theme for the SoaPatrick Website
-Version: 1.0.0
+Version: 5.0.1
 */
 /*----------------------------------------------
 	Import Font
@@ -54,20 +54,22 @@ body {
 
 .container {
   width: 92vw;
-  max-width: 1440px;
+  max-width: 1250px;
   margin: 0 auto; }
 
 .container-fluid {
-  width: 100%;
+  width: 92vw;
+  max-width: 1440px;
   margin: 0 auto; }
 
 @media (min-width: 1500px) {
-  .container {
+  .container-fluid {
     max-width: calc(1500px + 20vw); } }
 
 @media (max-width: 767px) {
-  .container {
-    padding: 0 30px;
+  .container,
+  .container-fluid {
+    padding: 0 2em;
     width: auto; } }
 
 /*----------------------------------------------
@@ -90,6 +92,9 @@ a {
   text-decoration: none; }
   a:hover, a:focus {
     color: #d96363; }
+
+.svg-inline--fa {
+  color: #CF3A3A; }
 
 /*----------------------------------------------
 	Site Content
@@ -141,10 +146,6 @@ video.wp-video-shortcode {
       .site-header .container-logo .logo .sp-logo .letter-p {
         fill: #CF3A3A; }
 
-.blog-post-list .container,
-.blog-post-single .container {
-  max-width: 1250px; }
-
 .blog-post {
   margin: 3em 0;
   padding: 2em 0; }
@@ -161,10 +162,6 @@ video.wp-video-shortcode {
       font-weight: normal;
       text-transform: initial;
       line-height: 1.3; }
-      .blog-post .blog-post-header .blog-post-link .svg-inline--fa,
-      .blog-post .blog-post-header .blog-post-quote .svg-inline--fa,
-      .blog-post .blog-post-header .blog-post-status p .svg-inline--fa {
-        color: #CF3A3A; }
     .blog-post .blog-post-header .blog-post-quote::before, .blog-post .blog-post-header .blog-post-quote::after {
       display: none;
       font-family: "Font Awesome 5 Light"; }
@@ -172,9 +169,6 @@ video.wp-video-shortcode {
       content: "\f10d"; }
     .blog-post .blog-post-header .blog-post-quote::after {
       content: "\f10e"; }
-    .blog-post .blog-post-header .blog-post-quote .fa-quote-left,
-    .blog-post .blog-post-header .blog-post-quote .fa-quote-right {
-      color: #CF3A3A; }
     .blog-post .blog-post-header .blog-post-quote .fa-quote-left {
       margin-right: .25em; }
     .blog-post .blog-post-header .blog-post-quote .fa-quote-right {
@@ -191,7 +185,6 @@ video.wp-video-shortcode {
       margin-right: .25em; }
     .blog-post .blog-post-header .blog-post-status .svg-inline--fa {
       margin-right: .25em;
-      color: #CF3A3A;
       font-size: calc(22px + 1.5vw); }
     .blog-post .blog-post-header .blog-post-status p {
       font-family: "QanelasSoft-ExtraBold", sans-serif;
@@ -207,6 +200,10 @@ video.wp-video-shortcode {
     .blog-post .featured-image hr {
       box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
       border: 1px solid #CF3A3A; }
+  @media (max-width: 767px) {
+    .blog-post .featured-image {
+      margin-left: -2em;
+      margin-right: -2em; } }
   .blog-post .blog-post-meta .meta-wrapper {
     font-size: 90%;
     display: flex;
@@ -219,8 +216,7 @@ video.wp-video-shortcode {
       margin-top: .3em; }
     .blog-post .blog-post-meta .meta-wrapper .svg-inline--fa {
       margin-right: .5em;
-      text-align: left;
-      color: #CF3A3A; }
+      text-align: left; }
   .blog-post .blog-post-content ul,
   .blog-post .blog-post-content ol {
     list-style: none; }
@@ -258,8 +254,7 @@ video.wp-video-shortcode {
 .aligncenter,
 .alignnone {
   max-width: 100%;
-  height: auto;
-  border-radius: 0; }
+  height: auto; }
 
 .alignleft {
   float: left;
@@ -290,12 +285,11 @@ video.wp-video-shortcode {
 figure.alignleft a, figure.alignright a, figure.aligncenter a, figure.alignnone a {
   border-bottom: 0; }
   figure.alignleft a img, figure.alignright a img, figure.aligncenter a img, figure.alignnone a img {
-    border: 2px solid #CF3A3A; }
+    border: 1px solid #CF3A3A; }
     figure.alignleft a img:hover, figure.alignleft a img:focus, figure.alignright a img:hover, figure.alignright a img:focus, figure.aligncenter a img:hover, figure.aligncenter a img:focus, figure.alignnone a img:hover, figure.alignnone a img:focus {
       border-color: transparent; }
 
 figure.alignleft img, figure.alignright img, figure.aligncenter img, figure.alignnone img {
-  border-radius: 0;
   max-width: 100%;
   height: auto; }
 
@@ -304,79 +298,8 @@ figure .wp-caption-text {
   margin-top: -.3em; }
 
 /*----------------------------------------------
-	Instagram Feed
+	Blog Post Navigation
 ----------------------------------------------*/
-.site-content.instagram-feed {
-  background: #CF3A3A;
-  color: #fff;
-  padding: 3em 0 6em;
-  overflow: hidden; }
-  .site-content.instagram-feed a {
-    color: #fff;
-    border-bottom-color: #fff; }
-  .site-content.instagram-feed h1 {
-    font-size: calc(18px + 2vw);
-    text-align: center; }
-  .site-content.instagram-feed .lead {
-    text-align: center;
-    max-width: 1200px;
-    margin: 0 auto 2em auto; }
-    .site-content.instagram-feed .lead a {
-      text-decoration: none;
-      font-weight: 700; }
-      .site-content.instagram-feed .lead a:hover, .site-content.instagram-feed .lead a:focus {
-        text-decoration: underline; }
-  .site-content.instagram-feed .flickity-viewport {
-    overflow: visible; }
-    .site-content.instagram-feed .flickity-viewport .carousel-cell {
-      width: 20vw;
-      height: 20vw;
-      max-width: 350px;
-      max-height: 350px;
-      min-width: 180px;
-      min-height: 180px;
-      margin-right: 0.5em;
-      transition: opacity .5s ease-in-out;
-      border-radius: 0;
-      border: 0;
-      opacity: .3; }
-      .site-content.instagram-feed .flickity-viewport .carousel-cell.is-selected {
-        opacity: 1; }
-      .site-content.instagram-feed .flickity-viewport .carousel-cell a {
-        display: block;
-        border: 0;
-        width: 20vw;
-        height: 20vw;
-        max-width: 350px;
-        max-height: 350px;
-        min-width: 180px;
-        min-height: 180px;
-        border-radius: 0;
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat; }
-      .site-content.instagram-feed .flickity-viewport .carousel-cell img {
-        width: 100%;
-        height: auto;
-        border-radius: 0;
-        visibility: hidden; }
-    .site-content.instagram-feed .flickity-viewport .flickity-prev-next-button {
-      width: 45px !important;
-      height: 45px !important;
-      padding: 0; }
-      .site-content.instagram-feed .flickity-viewport .flickity-prev-next-button svg {
-        width: 40% !important;
-        height: 40% !important;
-        left: 29% !important;
-        top: 31% !important; }
-
-/*----------------------------------------------
-	Site Footer
-----------------------------------------------*/
-.site-footer {
-  padding: 2em 0;
-  text-align: center; }
-
 .navigation h2 {
   display: none; }
 
@@ -399,10 +322,80 @@ figure .wp-caption-text {
     .navigation .nav-links div a:focus, .navigation .nav-links div a:hover {
       background: #d96363; }
 
-.error-page .container,
-.log-file .container {
-  max-width: 1250px; }
+/*----------------------------------------------
+	Instagram Feed
+----------------------------------------------*/
+.site-content.instagram-feed {
+  background: #CF3A3A;
+  color: #fff;
+  padding: 3em 0 6em;
+  overflow: hidden; }
+  .site-content.instagram-feed h1 {
+    font-size: calc(18px + 2vw);
+    text-align: center; }
+  .site-content.instagram-feed .svg-inline--fa {
+    color: inherit; }
+  .site-content.instagram-feed .lead {
+    text-align: center;
+    max-width: 1250px;
+    margin: 0 auto 2em auto; }
+    .site-content.instagram-feed .lead a {
+      text-decoration: none;
+      font-weight: 700;
+      color: inherit; }
+      .site-content.instagram-feed .lead a:hover, .site-content.instagram-feed .lead a:focus {
+        text-decoration: underline; }
+  .site-content.instagram-feed .flickity-viewport {
+    overflow: visible; }
+    .site-content.instagram-feed .flickity-viewport .carousel-cell {
+      width: 20vw;
+      height: 20vw;
+      max-width: 350px;
+      max-height: 350px;
+      min-width: 180px;
+      min-height: 180px;
+      margin-right: 0.5em;
+      transition: opacity .5s ease-in-out;
+      border: 0;
+      opacity: .3; }
+      .site-content.instagram-feed .flickity-viewport .carousel-cell.is-selected {
+        opacity: 1; }
+      .site-content.instagram-feed .flickity-viewport .carousel-cell a {
+        display: block;
+        border: 0;
+        width: 20vw;
+        height: 20vw;
+        max-width: 350px;
+        max-height: 350px;
+        min-width: 180px;
+        min-height: 180px;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat; }
+      .site-content.instagram-feed .flickity-viewport .carousel-cell img {
+        width: 100%;
+        height: auto;
+        visibility: hidden; }
+    .site-content.instagram-feed .flickity-viewport .flickity-prev-next-button {
+      width: 45px !important;
+      height: 45px !important;
+      padding: 0; }
+      .site-content.instagram-feed .flickity-viewport .flickity-prev-next-button svg {
+        width: 40% !important;
+        height: 40% !important;
+        left: 29% !important;
+        top: 31% !important; }
 
+/*----------------------------------------------
+	Site Footer
+----------------------------------------------*/
+.site-footer {
+  padding: 2em 0;
+  text-align: center; }
+
+/*----------------------------------------------
+	Misc
+----------------------------------------------*/
 .error-page li,
 .log-file li {
   line-height: calc(1.5em + .2vw); }

@@ -4,7 +4,7 @@ Theme URI: http://www.soapatrick
 Author: Patrick Leisinger
 Author URI: http://www.soapatrick.com/
 Description: Theme for the SoaPatrick Website
-Version: 1.0.0
+Version: 5.0.1
 */
 
 /*----------------------------------------------
@@ -14,7 +14,6 @@ Version: 1.0.0
 /* @import must be at top of file, otherwise CSS will not work */
 @import url("//hello.myfonts.net/count/364b31");
 
-  
 @font-face {
 	font-family: 'QanelasSoft-ExtraBold';
 	src: url('font/364B31_0_0.eot');
@@ -30,10 +29,17 @@ Version: 1.0.0
 	Variables
 ----------------------------------------------*/
 
+// Colors @link https://material.io/guidelines/style/color.html#color-color-palette
+$blue: #42A5F5;
+$pink: #EC407A;
+$purple: #AB47BC;
+$green: #348236;
+$yellow: #FFB300;
+$red: #CF3A3A;
+
 // Brand Color
 $dark-grey: #222;
-$dark-red: #CF3A3A;
-$soap-color: $dark-red;
+$soap-color: $red;
 $dark-color: $dark-grey;
 
 $font-base: 'Source Sans Pro', serif;
@@ -41,9 +47,6 @@ $font-heading: 'QanelasSoft-ExtraBold', sans-serif;
 
 // Text Color
 $text-color: #fff;
-
-// Border Radiuses
-$border-radius-base: 0;
 
 // Round-Button Size
 $round-button-size: 45px;
@@ -59,49 +62,12 @@ $round-button-size: 45px;
 @import "_instagram-feed.scss";
 @import "_footer.scss";
 
-
-
-
-.navigation {
-	h2 {
-		display: none;
-	}
-	
-	.nav-links {
-		display: flex;
-		justify-content: space-between;
-		
-		.nav-previous {
-		    margin-right: 1em;
-		    text-align: left;
-		}
-		.nav-next {
-		    margin-left: 1em;
-		    text-align: right;			
-		}
-		
-		div a {
-		    display: block;
-		    background: $soap-color;
-		    padding:.5em 1em;
-		    box-shadow: 0 0 20px rgba(0,0,0,.2);
-		    color: #fff;
-			font-size: calc(18px + .5vw);
-			
-			&:focus,
-			&:hover {
-				background: lighten($soap-color, 10%);
-			}
-		}  
-	}
-}
+/*----------------------------------------------
+	Misc
+----------------------------------------------*/
 
 .error-page,
 .log-file {
-	.container {
-		max-width: 1250px;
-	}
-	
 	li {
 		line-height: calc(1.5em + .2vw);	
 	}	
