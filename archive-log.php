@@ -23,25 +23,22 @@ get_header(); ?>
 			
 					$wp_query   = new WP_Query( $args );	
 					
-					if ( have_posts() ) : ?>					
-						<?php
+					if ( have_posts() ) :					
 						$day_check = '';
 						while (have_posts()) : the_post();
 							$day = get_the_date('j');
 							if ($day != $day_check) {
 								if ($day_check != '') {
-									echo '</ul>'; // close the list here
+									echo '</ul>';
 								}
-								echo '<h2>' . get_the_date() . '</h2><ul class="fa-ul">';
+								echo '<h2>' . get_the_date() . '</h2><ul class="fa-ul changes">';
 							}
 							$field = get_field_object('changelog_type');
 							$value = $field['value'];
-							$label = $field['choices'][ $value ];							
-							?>
+							$label = $field['choices'][ $value ];?>
 							<li><span class="fa-li"><i class="<?php echo $value ?>"></i></span><strong><?php echo $label ?></strong> <?php the_title(); ?></li>
-							<?php
-							$day_check = $day;
-							endwhile; ?>
+							<?php $day_check = $day;
+						endwhile; ?>
 						
 						<?php the_posts_navigation();			
 							

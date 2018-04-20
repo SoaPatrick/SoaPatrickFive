@@ -21,6 +21,10 @@ Version: 5.0.1
 /*----------------------------------------------
 	Variables
 ----------------------------------------------*/
+/*
+$dark-color: #fff;
+$text-color: #222;
+*/
 /*----------------------------------------------
 	Imports
 ----------------------------------------------*/
@@ -39,8 +43,7 @@ body {
   font-size: calc(18px + .25vw);
   font-family: "Source Sans Pro", serif;
   font-weight: 300;
-  -webkit-font-smoothing: antialiased;
-  overflow-x: hidden; }
+  -webkit-font-smoothing: antialiased; }
 
 .wrapper {
   display: flex;
@@ -85,7 +88,8 @@ h4 {
   text-transform: uppercase;
   font-weight: normal; }
 
-p {
+p,
+li {
   line-height: calc(1.5em + .2vw); }
 
 a {
@@ -95,19 +99,47 @@ a {
   a:hover, a:focus {
     color: #d96363; }
 
+ul,
+ol {
+  list-style: none; }
+  ul li::before,
+  ol li::before {
+    color: #CF3A3A;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em; }
+
+ul {
+  list-style: none; }
+  ul:not(.fa-ul) li::before {
+    font-family: sans-serif;
+    content: "•"; }
+
+ol {
+  counter-reset: li; }
+  ol li {
+    counter-increment: li; }
+    ol li::before {
+      content: counter(li);
+      font-weight: 400; }
+
 .svg-inline--fa {
   color: #CF3A3A; }
+
+hr {
+  border: 1px solid #CF3A3A; }
 
 /*----------------------------------------------
 	Site Content
 ----------------------------------------------*/
 .site-content {
-  padding: 0 0 3em; }
+  padding: 0 0 4em; }
+  .site-content .container > div {
+    margin: 5em 0; }
   .site-content .page-header h1 {
-    font-size: calc(18px + 2vw);
-    margin-bottom: 0.8em; }
-    .site-content .page-header h1 .no-wrap {
-      white-space: nowrap; }
+    font-size: calc(22px + 3vw);
+    text-align: center;
+    margin-bottom: 0; }
 
 /*----------------------------------------------
 	Media Player Fix
@@ -142,15 +174,14 @@ video.wp-video-shortcode {
     .site-header .container-logo .logo .sp-logo {
       width: 100%;
       height: auto;
-      -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.1));
-      filter: drop-shadow(5px 5px px rgba(0, 0, 0, 0.1)); }
+      -webkit-filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.1));
+      filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.1)); }
       .site-header .container-logo .logo .sp-logo .letter-s,
       .site-header .container-logo .logo .sp-logo .letter-p {
         fill: #CF3A3A; }
 
 .blog-post {
-  margin: 3em 0;
-  padding: 2em 0; }
+  margin: 5em 0; }
   .blog-post .blog-post-header {
     text-align: center; }
     .blog-post .blog-post-header .blog-post-title {
@@ -164,17 +195,19 @@ video.wp-video-shortcode {
       font-weight: normal;
       text-transform: initial;
       line-height: 1.3; }
-    .blog-post .blog-post-header .blog-post-quote::before, .blog-post .blog-post-header .blog-post-quote::after {
-      display: none;
-      font-family: "Font Awesome 5 Light"; }
-    .blog-post .blog-post-header .blog-post-quote::before {
-      content: "\f10d"; }
-    .blog-post .blog-post-header .blog-post-quote::after {
-      content: "\f10e"; }
-    .blog-post .blog-post-header .blog-post-quote .fa-quote-left {
-      margin-right: .25em; }
-    .blog-post .blog-post-header .blog-post-quote .fa-quote-right {
-      margin-left: .25em; }
+    .blog-post .blog-post-header .blog-post-quote {
+      font-style: italic; }
+      .blog-post .blog-post-header .blog-post-quote::before, .blog-post .blog-post-header .blog-post-quote::after {
+        display: none;
+        font-family: "Font Awesome 5 Light"; }
+      .blog-post .blog-post-header .blog-post-quote::before {
+        content: "\f10d"; }
+      .blog-post .blog-post-header .blog-post-quote::after {
+        content: "\f10e"; }
+      .blog-post .blog-post-header .blog-post-quote .fa-quote-left {
+        margin-right: .25em; }
+      .blog-post .blog-post-header .blog-post-quote .fa-quote-right {
+        margin-left: .25em; }
     .blog-post .blog-post-header .quote-author {
       font-style: italic; }
       .blog-post .blog-post-header .quote-author:before {
@@ -198,10 +231,7 @@ video.wp-video-shortcode {
       width: 1250px;
       max-width: 100%;
       height: auto;
-      box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5); }
-    .blog-post .featured-image hr {
-      box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
-      border: 1px solid #CF3A3A; }
+      box-shadow: 0 0 50px rgba(0, 0, 0, 0.3); }
   @media (max-width: 767px) {
     .blog-post .featured-image {
       margin-left: -2em;
@@ -209,39 +239,10 @@ video.wp-video-shortcode {
   .blog-post .blog-post-meta .meta-wrapper {
     font-size: 90%;
     display: flex;
-    flex-wrap: wrap; }
-    .blog-post .blog-post-meta .meta-wrapper .date,
-    .blog-post .blog-post-meta .meta-wrapper .tags,
-    .blog-post .blog-post-meta .meta-wrapper .edit {
-      margin-right: 1em;
-      white-space: nowrap;
-      margin-top: .3em; }
-    .blog-post .blog-post-meta .meta-wrapper .svg-inline--fa {
-      margin-right: .5em;
-      text-align: left; }
-  .blog-post .blog-post-content ul,
-  .blog-post .blog-post-content ol {
-    list-style: none; }
-    .blog-post .blog-post-content ul li,
-    .blog-post .blog-post-content ol li {
-      line-height: calc(1.5em + .2vw); }
-    .blog-post .blog-post-content ul li::before,
-    .blog-post .blog-post-content ol li::before {
-      color: #CF3A3A;
-      display: inline-block;
-      width: 1em;
-      margin-left: -1em; }
-  .blog-post .blog-post-content ul {
-    list-style: none; }
-    .blog-post .blog-post-content ul li::before {
-      font-family: sans-serif;
-      content: "•"; }
-  .blog-post .blog-post-content ol {
-    counter-reset: li; }
-    .blog-post .blog-post-content ol li {
-      counter-increment: li; }
-      .blog-post .blog-post-content ol li::before {
-        content: counter(li); }
+    flex-wrap: wrap;
+    margin-left: 1.5em; }
+    .blog-post .blog-post-meta .meta-wrapper > li {
+      padding-right: 3em; }
   @media (min-width: 768px) {
     .blog-post .blog-post-header,
     .blog-post .blog-post-meta,
@@ -256,40 +257,38 @@ video.wp-video-shortcode {
 .aligncenter,
 .alignnone {
   max-width: 100%;
-  height: auto; }
+  height: auto;
+  margin: .5em 0 1em 0; }
 
 .alignleft {
   float: left;
-  margin: .5em 1em 1em 0; }
+  margin-right: 1em; }
 
 .alignright {
   float: right;
-  margin: .5em 0 1em 1em; }
-
-.alignleft,
-.alignright {
-  width: 50%; }
-
-@media (max-width: 767px) {
-  .alignleft,
-  .alignright {
-    width: 100%;
-    float: none;
-    margin: 0; } }
+  margin-left: 1em; }
 
 .aligncenter,
 .alignnone {
   display: block; }
 
 .aligncenter {
-  margin: .5em auto 1em auto; }
+  margin-left: auto;
+  margin-right: auto; }
 
-figure.alignleft a, figure.alignright a, figure.aligncenter a, figure.alignnone a {
-  border-bottom: 0; }
-  figure.alignleft a img, figure.alignright a img, figure.aligncenter a img, figure.alignnone a img {
-    border: 1px solid #CF3A3A; }
-    figure.alignleft a img:hover, figure.alignleft a img:focus, figure.alignright a img:hover, figure.alignright a img:focus, figure.aligncenter a img:hover, figure.aligncenter a img:focus, figure.alignnone a img:hover, figure.alignnone a img:focus {
-      border-color: transparent; }
+@media (max-width: 767px) {
+  .alignleft,
+  .alignright {
+    max-width: 100%;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; } }
+
+figure.alignleft a img, figure.alignright a img, figure.aligncenter a img, figure.alignnone a img {
+  border: 1px solid #CF3A3A; }
+  figure.alignleft a img:hover, figure.alignleft a img:focus, figure.alignright a img:hover, figure.alignright a img:focus, figure.aligncenter a img:hover, figure.aligncenter a img:focus, figure.alignnone a img:hover, figure.alignnone a img:focus {
+    border-color: #d96363; }
 
 figure.alignleft img, figure.alignright img, figure.aligncenter img, figure.alignnone img {
   max-width: 100%;
@@ -298,6 +297,28 @@ figure.alignleft img, figure.alignright img, figure.aligncenter img, figure.alig
 figure .wp-caption-text {
   font-size: .8em;
   margin-top: -.3em; }
+
+.img-link img {
+  border: 1px solid #CF3A3A; }
+  .img-link img:hover, .img-link img:focus {
+    border-color: #d96363; }
+
+blockquote {
+  margin-left: 2em;
+  margin-right: 2em; }
+  blockquote p {
+    font-style: italic; }
+    blockquote p::before, blockquote p::after {
+      display: none;
+      font-family: "Font Awesome 5 Light"; }
+    blockquote p::before {
+      content: "\f10d"; }
+    blockquote p::after {
+      content: "\f10e"; }
+    blockquote p .fa-quote-left {
+      margin-right: .25em; }
+    blockquote p .fa-quote-right {
+      margin-left: .25em; }
 
 /*----------------------------------------------
 	Blog Post Navigation
@@ -318,7 +339,7 @@ figure .wp-caption-text {
     display: block;
     background: #CF3A3A;
     padding: .5em 1em;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
     color: #fff;
     font-size: calc(18px + .5vw); }
     .navigation .nav-links div a:focus, .navigation .nav-links div a:hover {
@@ -396,22 +417,20 @@ figure .wp-caption-text {
   text-align: center; }
 
 /*----------------------------------------------
-	Misc
+	Changelog
 ----------------------------------------------*/
-.error-page li,
-.log-file li {
-  line-height: calc(1.5em + .2vw); }
+.changelog h2 {
+  font-size: 1.17em;
+  margin-bottom: .5em; }
 
-.content-wrapper {
-  margin: 3em 0;
-  padding: 2em 0; }
-  @media (min-width: 768px) {
-    .content-wrapper .page-header,
-    .content-wrapper .page-content {
-      padding: 0 4em; } }
-  .content-wrapper hr {
-    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
-    border: 1px solid #CF3A3A; }
-  .content-wrapper .page-header h1.page-title {
-    font-size: calc(22px + 3vw);
-    text-align: center; }
+.changelog .fa-ul {
+  margin-bottom: 4em; }
+
+/*----------------------------------------------
+	Better way to harmonize this, maybe with
+	a padding class?
+----------------------------------------------*/
+@media (min-width: 768px) {
+  .content-wrapper .page-header,
+  .content-wrapper .page-content {
+    padding: 0 4em; } }

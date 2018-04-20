@@ -24,7 +24,7 @@ if ( ! function_exists( 'soapatrickfive_posted_on' ) ) :
 			'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
 		);
 		
-		echo '<span class="date"><i class="fal fa-calendar fa-fw"></i>' . $posted_on . '</span>';
+		echo '<li><span class="fa-li"><i class="fal fa-calendar fa-fw"></i></span>' . $posted_on . '</li>';
 
 	}
 endif;

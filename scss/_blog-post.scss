@@ -1,6 +1,5 @@
 .blog-post {
-	margin: 3em 0;
-	padding: 2em 0;												
+	margin: 5em 0;										
 	
 	.blog-post-header {	
 		text-align: center;
@@ -22,6 +21,7 @@
 		
 			
 		.blog-post-quote {	
+			font-style: italic;
 			
 			&::before,		
 			&::after {
@@ -87,12 +87,7 @@
 			width: 1250px;
 			max-width: 100%;
 			height: auto;
-			box-shadow: 0px 0px 50px rgba(0,0,0,.5);
-		}
-		
-		hr {
-			box-shadow: 0px 0px 50px rgba(0,0,0,.5);
-			border: 1px solid $soap-color;			
+			box-shadow: 0 0 50px rgba(0,0,0,.3);
 		}
 	}
 	
@@ -109,61 +104,13 @@
 			font-size: 90%;	
 			display: flex;
 			flex-wrap: wrap;
+			margin-left: 1.5em;
 			
-			.date,
-			.tags,
-			.edit {
-				margin-right: 1em;
-				white-space: nowrap;
-				margin-top: .3em;					
-			}
-			
-			.svg-inline--fa {
-				margin-right: .5em;
-				text-align: left;
-			}							
+			> li {
+				padding-right: 3em;
+			}						
 		}
 	}	
-	
-	.blog-post-content {
-		
-		ul,
-		ol {
-			list-style: none;
-			
-			li {
-				line-height: calc(1.5em + .2vw);	
-			}
-			
-			li::before {
-				color: $soap-color;
-				display: inline-block;
-				width: 1em;
-				margin-left: -1em
-			}
-		}		
-		
-		ul {
-			list-style: none;
-			
-			li::before {
-				font-family: sans-serif;
-				content: "•";
-			}
-		}
-
-		ol {
-			counter-reset: li;
-			
-			li {
-				counter-increment: li;
-				
-				&::before {
-					content: counter(li);
-				}
-			}					
-		}
-	}
 	
 	@media (min-width: 768px) {	
 		.blog-post-header,
@@ -184,30 +131,17 @@
 .alignnone {
 	max-width: 100%;
 	height: auto;
+	margin: .5em 0 1em 0;	
 }
 
 .alignleft {
 	float: left;
-	margin: .5em 1em 1em 0;
+	margin-right: 1em;
 }
 
 .alignright {
 	float: right;
-	margin: .5em 0 1em 1em;	
-}
-
-.alignleft,
-.alignright {
-	width: 50%;	
-}
-
-@media (max-width: 767px) {
-	.alignleft,
-	.alignright {
-		width: 100%;			
-		float: none;
-		margin: 0;
-	}
+	margin-left: 1em;	
 }
 
 .aligncenter,
@@ -216,7 +150,19 @@
 }
 
 .aligncenter {
-	margin: .5em auto 1em auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media (max-width: 767px) {
+	.alignleft,
+	.alignright {
+		max-width: 100%;			
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
 }
 
 figure {
@@ -224,22 +170,18 @@ figure {
 	&.alignright,
 	&.aligncenter,
 	&.alignnone {		
-		a {
-			border-bottom: 0;
+		a img {
+			border: 1px solid $soap-color;
 			
-			img {
-				border: 1px solid $soap-color;
-				
-				&:hover,
-				&:focus {
-					border-color: transparent;
-				}				
-			}
+			&:hover,
+			&:focus {
+				border-color: lighten($soap-color, 10%);;
+			}				
 		}
-		
+				
 		img {
 		    max-width: 100%;
-		    height: auto;			
+		    height: auto;		    		
 		}
 	}
 	
@@ -247,6 +189,49 @@ figure {
 		font-size: .8em;
 		margin-top: -.3em;
 	}
+}
+
+.img-link {
+	img {
+		border: 1px solid $soap-color;
+		
+		&:hover,
+		&:focus {
+			border-color: lighten($soap-color, 10%);;
+		}			
+	}
+}
+
+
+
+blockquote  {
+	margin-left: 2em;
+	margin-right: 2em;
+	p {	
+		font-style: italic;
+		
+		&::before,		
+		&::after {
+			display: none;
+			font-family: "Font Awesome 5 Light";
+		}				
+					
+		&::before {
+			content: "\f10d";
+		}			
+		
+		&::after {
+			content: "\f10e";
+		}			
+		
+		.fa-quote-left {
+		    margin-right: .25em;				
+		}
+		
+		.fa-quote-right {
+		    margin-left: .25em;				
+		}
+	}			
 }
 
 /*----------------------------------------------
@@ -275,7 +260,7 @@ figure {
 		    display: block;
 		    background: $soap-color;
 		    padding:.5em 1em;
-		    box-shadow: 0 0 20px rgba(0,0,0,.2);
+		    box-shadow: 0 0 30px rgba(0,0,0,.3);
 		    color: #fff;
 			font-size: calc(18px + .5vw);
 			

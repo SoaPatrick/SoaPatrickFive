@@ -45,11 +45,11 @@
 		?>				
 	</div>	
 	<div class="blog-post-meta">
-		<div class="meta-wrapper">
+		<ul class="meta-wrapper fa-ul">
 			<?php soapatrickfive_posted_on(); ?>
-			<?php the_tags('<span class="tags"><i class="fal fa-tags fa-fw"></i>',', ','</span>'); ?>
-			<?php edit_post_link('Edit', '<span class="edit"><i class="fal fa-pencil fa-fw"></i>','</span>'); ?>			
-		</div>
+			<?php the_tags('<li><span class="fa-li"><i class="fal fa-tags fa-fw"></i></span>',', ','</li>'); ?>
+			<?php edit_post_link('Edit', '<li><span class="fa-li"><i class="fal fa-pencil fa-fw"></i></span>','</li>'); ?>			
+		</ul>
 	</div>			
 	<?php if (!has_post_format('quote') && !has_post_format('link') && !has_post_format('status')) : ?>
 		<div class="blog-post-content">
