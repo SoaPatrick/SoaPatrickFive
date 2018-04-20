@@ -36,7 +36,8 @@ body {
 }
 
 .container {
-    width: 92vw;	
+    min-width: 750px;	
+    width: 70vw;    
     max-width: 1250px;
     margin: 0 auto;
 }
@@ -57,7 +58,8 @@ body {
 	.container,
 	.container-fluid {
 		padding: 0 2em;
-		width: auto;
+		width: calc(100% - 4em);
+		min-width: auto;		
 	}	
 }
 
