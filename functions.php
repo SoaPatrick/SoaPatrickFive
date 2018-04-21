@@ -480,6 +480,22 @@ if(function_exists("register_field_group"))
 
 
 
+add_filter( 'body_class', 'body_class_for_pages' );
+/**
+ * Adds a css class to the body element
+ *
+ * @param  array $classes the current body classes
+ * @return array $classes modified classes
+ */
+function body_class_for_pages( $classes ) {
+
+	if ( is_singular( 'page' ) ) {
+		global $post;
+		$classes[] = 'page-' . $post->post_name;
+	}
+	return $classes;
+}
+
 /**
  * Remove archive title prefixes.
  *
