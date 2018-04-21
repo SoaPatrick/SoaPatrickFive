@@ -9,22 +9,18 @@
 
 get_header(); ?>
 
-    <div class="site-content error-page">
+    <div class="site-content">
 	    <div class="container">
-			<div class="content-wrapper">
-				<header class="page-header">
-					<h1 class="page-title"><?php esc_html_e( 'This is not the Page you were looking for!', 'soapatrickfive' ); ?></h1>
+			<article>
+				<header class="page-header padding-indent">
+					<h1 class="title-large"><?php esc_html_e( 'This is not the Page you were looking for!', 'soapatrickfive' ); ?></h1>
 				</header>
-	
-				<hr>
-				
-				<div class="page-content">
+				<hr class="margin-extend">
+				<div class="page-content padding-indent">
 					<p><?php esc_html_e( 'It looks like nothing was found at this location.', 'soapatrickfive' ); ?></p>
-	
 					<?php the_widget( 'WP_Widget_Recent_Posts' ); ?>
-	
 				</div>				
-			</div>
+			</article>
 		</div>
 	</div>
 

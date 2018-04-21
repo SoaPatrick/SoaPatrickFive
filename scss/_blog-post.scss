@@ -1,128 +1,88 @@
-.blog-post {
-	margin: 5em 0;										
+.blog-post-quote {			
+	&::before,		
+	&::after {
+		display: none;
+		font-family: "Font Awesome 5 Light";
+	}				
+				
+	&::before {
+		content: "\f10d";
+	}			
 	
-	.blog-post-header {	
-		text-align: center;
-		
-		.blog-post-title {
-			font-size: calc(22px + 3vw);
-			margin-bottom: 0;
-		}		
-		
-		.blog-post-link,
-		.blog-post-quote,
-		.blog-post-status p {
-			margin: .5em 0;
-			font-size: calc(22px + 1.5vw);
-			font-weight: normal;
-			text-transform: initial;
-			line-height: 1.3;				
-		}
-		
-			
-		.blog-post-quote {	
-			font-style: italic;
-			
-			&::before,		
-			&::after {
-				display: none;
-				font-family: "Font Awesome 5 Light";
-			}				
-						
-			&::before {
-				content: "\f10d";
-			}			
-			
-			&::after {
-				content: "\f10e";
-			}			
-			
-			.fa-quote-left {
-			    margin-right: .25em;				
-			}
-			
-			.fa-quote-right {
-			    margin-left: .25em;				
-			}			
-		}
-		.quote-author {
-			font-style: italic;
-			
-			&:before {
-				content: "- ";
-			}			
-		}	
-		
-		.blog-post-link {	
-			&::before {
-				display: none;
-				font-family: "Font Awesome 5 Light";				
-				content: "\f0c1"; // fa-link
-			}			
-			
-			.svg-inline--fa {
-			    margin-right: .25em;						    
-			}		
-		}				
-		
+	&::after {
+		content: "\f10e";
+	}			
 	
-		.blog-post-status  {
-			.svg-inline--fa {
-			    margin-right: .25em;			
-				font-size: calc(22px + 1.5vw);			    
-			}
-			
-			p {	
-				font-family: $font-heading;
-				display: inline;
-			}
-		}		
+	.fa-quote-left {
+	    margin-right: .25em;				
 	}
 	
-	.featured-image {
-		margin: 1em 0;
-		
-		img,
-		.fluid-vids {
-			width: 1250px;
-			max-width: 100%;
-			height: auto;
-			box-shadow: 0 0 50px rgba(0,0,0,.3);
-		}
-	}
-	
-	@media (max-width: 767px) {
-		.featured-image {
-			margin-left: -2em;
-			margin-right: -2em;
-		}
-	}
-	
-	.blog-post-meta {
-		
-		.meta-wrapper {
-			font-size: 90%;	
-			display: flex;
-			flex-wrap: wrap;
-			margin-left: 1.5em;
-			
-			> li {
-				padding-right: 3em;
-			}						
-		}
-	}	
-	
-	@media (min-width: 768px) {	
-		.blog-post-header,
-		.blog-post-meta,
-		.blog-post-content {
-			padding: 0 4em;		
-		}
-	}
+	.fa-quote-right {
+	    margin-left: .25em;				
+	}			
 }
 
+.quote-author {
+	font-style: italic;				
+	
+	&:before {
+		content: "- ";
+	}			
+}	
+
+.blog-post-link {
+				
+	&::before {
+		display: none;
+		font-family: "Font Awesome 5 Light";				
+		content: "\f0c1"; // fa-link
+	}					
+	
+	.svg-inline--fa {
+	    margin-right: .25em;						    
+	}		
+}				
+
+.blog-post-status  {		
+	p {	
+		@extend .title-medium;
+		font-family: $font-heading;
+		display: inline;
+	}			
+				
+	.svg-inline--fa {
+	    margin-right: .25em;			
+		font-size: $font-size-title-medium;			    
+	}
+}		
+
+.featured-image {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	
+	img,
+	.fluid-vids {
+		width: 1250px;
+		max-width: 100%;
+		height: auto;
+		box-shadow: 0 0 50px rgba(0,0,0,.3);
+	}
+}
+	
+.meta-wrapper {
+	font-size: 90%;	
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 1.5em;
+	
+	> li {
+		padding-right: 3em;
+	}						
+}
+
+
 /*----------------------------------------------
-	Blog Post Single Images
+	Blog Post Images
 ----------------------------------------------*/
 
 .alignleft,
@@ -171,11 +131,11 @@ figure {
 	&.aligncenter,
 	&.alignnone {		
 		a img {
-			border: 1px solid $soap-color;
+			border: 1px solid inherit;
 			
 			&:hover,
 			&:focus {
-				border-color: lighten($soap-color, 10%);;
+				border-color: inherit;
 			}				
 		}
 				
@@ -193,49 +153,13 @@ figure {
 
 .img-link {
 	img {
-		border: 1px solid $soap-color;
-		
-		&:hover,
-		&:focus {
-			border-color: lighten($soap-color, 10%);;
-		}			
+		border-style: solid;
+		border-width: 1px;			
 	}
 }
 
-
-
-blockquote  {
-	margin-left: 2em;
-	margin-right: 2em;
-	p {	
-		font-style: italic;
-		
-		&::before,		
-		&::after {
-			display: none;
-			font-family: "Font Awesome 5 Light";
-		}				
-					
-		&::before {
-			content: "\f10d";
-		}			
-		
-		&::after {
-			content: "\f10e";
-		}			
-		
-		.fa-quote-left {
-		    margin-right: .25em;				
-		}
-		
-		.fa-quote-right {
-		    margin-left: .25em;				
-		}
-	}			
-}
-
 /*----------------------------------------------
-	Blog Post Navigation
+	Blog Navigation
 ----------------------------------------------*/
 
 .navigation {
@@ -257,17 +181,7 @@ blockquote  {
 		}
 		
 		div a {
-		    display: block;
-		    background: $soap-color;
-		    padding:.5em 1em;
-		    box-shadow: 0 0 30px rgba(0,0,0,.3);
-		    color: #fff;
-			font-size: calc(18px + .5vw);
-			
-			&:focus,
-			&:hover {
-				background: lighten($soap-color, 10%);
-			}
+		    @extend .btn;
 		}  
 	}
 }

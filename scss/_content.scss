@@ -1,0 +1,43 @@
+/*----------------------------------------------
+	Site Content
+----------------------------------------------*/
+
+.site-content {
+	padding: 4em 0;
+	
+	.container > article {
+		padding: 4em 0;
+		
+		&:first-child {
+			padding-top: 0;
+		}
+	}
+}
+
+.soapcolor-bg {	
+	a {
+		text-decoration: none;
+		font-weight: 700;
+		color: inherit;			
+		
+		&:hover,
+		&:focus {
+			text-decoration: underline;
+		}
+	}	
+}
+
+/*----------------------------------------------
+	Changelog
+----------------------------------------------*/
+
+.page-content--changelog {
+	h2 {
+		font-size: 1.17em; // make it the size of H3
+		margin-bottom: .5em;
+	}
+	
+	.fa-ul {
+		margin-bottom: 3em;
+	}
+}

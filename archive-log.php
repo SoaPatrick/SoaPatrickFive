@@ -5,14 +5,14 @@ Template Name: Archives Change Logs
 
 get_header(); ?>
 
-    <div class="site-content changelog">
+    <div class="site-content">
 	    <div class="container">
-			<div class="content-wrapper">		    
-				<header class="page-header">
-					<h1 class="page-title">Change Log</h1>
+			<article>	    
+				<header class="page-header padding-indent">
+					<h1 class="title-large">Change Log</h1>
 				</header>
-				<hr>
-				<div class="page-content">		    
+				<hr class="margin-extend">
+				<div class="page-content page-content--changelog padding-indent">		    
 		    
 					<?php
 					$args = array(
@@ -46,7 +46,7 @@ get_header(); ?>
 						get_template_part( 'template-parts/content', 'none' );
 					endif; ?>
 				</div>
-			</div>
+			</article>
 		</div>
 	</div>
 

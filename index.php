@@ -13,13 +13,18 @@
  */
 
 get_header(); ?>
-    <div class="site-content blog-post-list">
+    <div class="site-content">
 	    <div class="container">
 			<?php
 				while ( have_posts() ) : the_post();
 					get_template_part( 'template-parts/content', get_post_type() );
 				endwhile;
-			the_posts_navigation(); 
+				
+				if ( is_single() ) :
+					the_post_navigation();
+				else :
+					the_posts_navigation();
+				endif ;
 			?>			    	
 		</div>
 	</div>

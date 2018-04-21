@@ -1,0 +1,70 @@
+/*----------------------------------------------
+	Theme Mixin
+----------------------------------------------*/
+
+@mixin color-theme($bg-color, $soap-color, $text-color, $sp-text-color ) {
+	background: $bg-color;
+	color: $text-color;
+	
+	.logo--letter-s,
+	.logo--letter-p {
+		fill: $soap-color;							
+	}	
+	
+	a {
+		color: $soap-color;
+		
+		&:hover,
+		&:focus {
+			color: lighten($soap-color, 10%);
+		}
+	}
+	
+	ul,
+	ol {
+		li::before {
+			color: $soap-color;
+		}
+	}
+	
+	hr {
+		border-color:$soap-color;			
+	}
+	
+	.soapcolor-bg {
+		background: $soap-color;
+		color: $sp-text-color;
+		
+		a,
+		a:hover,
+		a:focus,
+		.svg-inline--fa {
+			color: inherit;
+		}
+	} 
+	
+	.img-link {
+		img {
+			border-color: $soap-color;
+			
+			&:hover,
+			&:focus {
+				border-color: lighten($soap-color, 10%);;
+			}			
+		}
+	}
+	
+	.btn {
+	    background: $soap-color;
+	    color: $sp-text-color;
+		
+		&:focus,
+		&:hover {
+			background: lighten($soap-color, 10%);
+		}	
+	}
+	
+	.svg-inline--fa {
+		color: $soap-color;
+	} 
+}

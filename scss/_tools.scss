@@ -6,8 +6,33 @@
 	display: none;
 }
 
+.text-center {
+	text-align: center;
+}
+
+/*----------------------------------------------
+	indent/extend classes
+----------------------------------------------*/
+
 @media (max-width: 767px) {
-	.hidden-xs {
-		display: none;
+	.margin-extend {
+		margin-left: -2em;
+		margin-right: -2em;
 	}
+}	
+
+@media (min-width: 768px) {	
+	.padding-indent {
+		padding-left: 4em;		
+		padding-right: 4em;
+	}
+}
+
+/*----------------------------------------------
+	Media Player Fix
+----------------------------------------------*/
+
+.wp-video-shortcode video, 
+video.wp-video-shortcode {
+	height: auto;
 }
