@@ -34,10 +34,10 @@
 	); 
 };
 
-.light-blue { 
+.blue-light { 
 	@include color-theme(
 		$dark-grey,
-		$light-blue,
+		$blue-light,
 		$white,
 		$white
 	); 
@@ -96,3 +96,14 @@
 		$dark-grey
 	)
 }
+
+#red { @extend .red; };
+#red-invert { @extend .red-invert; };
+#blue { @extend .blue; };
+#blue-light { @extend .blue-light; };
+#purple { @extend .purple; }
+#pink { @extend .pink; };
+#green { @extend .green; };
+#amber { @extend .amber; };
+#yellow { @extend .yellow; };
+#grey { @extend .grey; }

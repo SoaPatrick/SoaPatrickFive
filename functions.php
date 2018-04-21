@@ -478,24 +478,27 @@ if(function_exists("register_field_group"))
 	));	
 }	
 
-
-
-add_filter( 'body_class', 'body_class_for_pages' );
 /**
- * Adds a css class to the body element
+ * add Custom Field to Generel Settings Tab
  *
- * @param  array $classes the current body classes
- * @return array $classes modified classes
  */
-function body_class_for_pages( $classes ) {
 
-	if ( is_singular( 'page' ) ) {
-		global $post;
-		$classes[] = 'page-' . $post->post_name;
-	}
-	return $classes;
+$new_general_setting = new new_general_setting();
+
+class new_general_setting {
+    function new_general_setting( ) {
+        add_filter( 'admin_init' , array( &$this , 'register_fields' ) );
+    }
+    function register_fields() {
+        register_setting( 'general', 'body_id', 'esc_attr' );
+        add_settings_field('fav_color', '<label for="body_id">'.__('Body ID' , 'body_id' ).'</label>' , array(&$this, 'fields_html') , 'general' );
+    }
+    function fields_html() {
+        $value = get_option( 'body_id', '' );
+        echo '<input type="text" id="body_id" name="body_id" value="' . $value . '" />';
+    }
 }
-
+	
 /**
  * Remove archive title prefixes.
  *
