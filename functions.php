@@ -529,3 +529,11 @@ function change_tag_cloud_font_sizes( array $args ) {
 
     return $args;
 }
+
+
+function change_wp_post_size($query) {
+	if ( $query->is_search || $query->is_archive )
+		$query->query_vars['posts_per_page'] = 20;
+	return $query;
+}
+add_filter('pre_get_posts', 'change_wp_post_size');

@@ -92,6 +92,12 @@
 		}
 	}
 	
+	.list-title {
+		a {
+			color: $text-color;
+		}
+	}	
+	
 	.search-form input {
 		background: darken($bg-color, 2.5%);
 		color: $text-color;

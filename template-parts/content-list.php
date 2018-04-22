@@ -30,7 +30,7 @@
 		</div>
 		<div>
 			<header class="blog-post-header">
-				<?php the_title( '<h1 class="list-title">', '</h1>' );?>				
+				<?php the_title( '<h1 class="list-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h1>' ); ?>
 			</header>
 			<div class="blog-post-meta">
 				<ul class="meta-wrapper fa-ul">

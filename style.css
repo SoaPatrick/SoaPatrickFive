@@ -30,91 +30,62 @@ Version: 5.0.1
 /*----------------------------------------------
 	Color Themes
 ----------------------------------------------*/
-.red, #red, .home,
-.blog,
-.single,
-.archive {
+.red, #red {
   background: #222;
   color: #fff; }
-  .red .logo--letter-s, #red .logo--letter-s, .home .logo--letter-s, .blog .logo--letter-s, .single .logo--letter-s, .archive .logo--letter-s,
+  .red .logo--letter-s, #red .logo--letter-s,
   .red .logo--letter-p,
-  #red .logo--letter-p,
-  .home .logo--letter-p,
-  .blog .logo--letter-p,
-  .single .logo--letter-p,
-  .archive .logo--letter-p {
+  #red .logo--letter-p {
     fill: #CF3A3A; }
-  .red a, #red a, .home a, .blog a, .single a, .archive a {
+  .red a, #red a {
     color: #CF3A3A; }
-    .red a:hover, #red a:hover, .home a:hover, .blog a:hover, .single a:hover, .archive a:hover, .red a:focus, #red a:focus, .home a:focus, .blog a:focus, .single a:focus, .archive a:focus {
+    .red a:hover, #red a:hover, .red a:focus, #red a:focus {
       color: #d96363; }
-  .red ul li::before, #red ul li::before, .home ul li::before, .blog ul li::before, .single ul li::before, .archive ul li::before,
+  .red ul li::before, #red ul li::before,
   .red ol li::before,
-  #red ol li::before,
-  .home ol li::before,
-  .blog ol li::before,
-  .single ol li::before,
-  .archive ol li::before {
+  #red ol li::before {
     color: #CF3A3A; }
-  .red hr, #red hr, .home hr, .blog hr, .single hr, .archive hr {
+  .red hr, #red hr {
     border-color: #CF3A3A; }
-  .red .site-navigation a:hover, #red .site-navigation a:hover, .home .site-navigation a:hover, .blog .site-navigation a:hover, .single .site-navigation a:hover, .archive .site-navigation a:hover,
+  .red .site-navigation a:hover, #red .site-navigation a:hover,
   .red .site-navigation a:focus,
-  #red .site-navigation a:focus,
-  .home .site-navigation a:focus,
-  .blog .site-navigation a:focus,
-  .single .site-navigation a:focus,
-  .archive .site-navigation a:focus {
+  #red .site-navigation a:focus {
     background: #CF3A3A; }
-    .red .site-navigation a:hover .svg-inline--fa, #red .site-navigation a:hover .svg-inline--fa, .home .site-navigation a:hover .svg-inline--fa, .blog .site-navigation a:hover .svg-inline--fa, .single .site-navigation a:hover .svg-inline--fa, .archive .site-navigation a:hover .svg-inline--fa,
+    .red .site-navigation a:hover .svg-inline--fa, #red .site-navigation a:hover .svg-inline--fa,
     .red .site-navigation a:focus .svg-inline--fa,
-    #red .site-navigation a:focus .svg-inline--fa,
-    .home .site-navigation a:focus .svg-inline--fa,
-    .blog .site-navigation a:focus .svg-inline--fa,
-    .single .site-navigation a:focus .svg-inline--fa,
-    .archive .site-navigation a:focus .svg-inline--fa {
+    #red .site-navigation a:focus .svg-inline--fa {
       color: #fff; }
-  .red .soapcolor-bg, #red .soapcolor-bg, .home .soapcolor-bg, .blog .soapcolor-bg, .single .soapcolor-bg, .archive .soapcolor-bg {
+  .red .soapcolor-bg, #red .soapcolor-bg {
     background: #CF3A3A;
     color: #fff; }
-    .red .soapcolor-bg a, #red .soapcolor-bg a, .home .soapcolor-bg a, .blog .soapcolor-bg a, .single .soapcolor-bg a, .archive .soapcolor-bg a,
+    .red .soapcolor-bg a, #red .soapcolor-bg a,
     .red .soapcolor-bg a:hover,
     #red .soapcolor-bg a:hover,
-    .home .soapcolor-bg a:hover,
-    .blog .soapcolor-bg a:hover,
-    .single .soapcolor-bg a:hover,
-    .archive .soapcolor-bg a:hover,
     .red .soapcolor-bg a:focus,
     #red .soapcolor-bg a:focus,
-    .home .soapcolor-bg a:focus,
-    .blog .soapcolor-bg a:focus,
-    .single .soapcolor-bg a:focus,
-    .archive .soapcolor-bg a:focus,
     .red .soapcolor-bg .svg-inline--fa,
-    #red .soapcolor-bg .svg-inline--fa,
-    .home .soapcolor-bg .svg-inline--fa,
-    .blog .soapcolor-bg .svg-inline--fa,
-    .single .soapcolor-bg .svg-inline--fa,
-    .archive .soapcolor-bg .svg-inline--fa {
+    #red .soapcolor-bg .svg-inline--fa {
       color: inherit; }
-  .red .img-link img, #red .img-link img, .home .img-link img, .blog .img-link img, .single .img-link img, .archive .img-link img {
+  .red .img-link img, #red .img-link img {
     border-color: #CF3A3A; }
-    .red .img-link img:hover, #red .img-link img:hover, .home .img-link img:hover, .blog .img-link img:hover, .single .img-link img:hover, .archive .img-link img:hover, .red .img-link img:focus, #red .img-link img:focus, .home .img-link img:focus, .blog .img-link img:focus, .single .img-link img:focus, .archive .img-link img:focus {
+    .red .img-link img:hover, #red .img-link img:hover, .red .img-link img:focus, #red .img-link img:focus {
       border-color: #d96363; }
-  .red .btn, #red .btn, .home .btn, .blog .btn, .single .btn, .archive .btn, .red .navigation .nav-links div a, .navigation .nav-links div .red a, #red .navigation .nav-links div a, .navigation .nav-links div #red a, .home .navigation .nav-links div a, .navigation .nav-links div .home a, .blog .navigation .nav-links div a, .navigation .nav-links div .blog a, .single .navigation .nav-links div a, .navigation .nav-links div .single a, .archive .navigation .nav-links div a, .navigation .nav-links div .archive a {
+  .red .btn, #red .btn, .red .navigation .nav-links div a, .navigation .nav-links div .red a, #red .navigation .nav-links div a, .navigation .nav-links div #red a {
     background: #CF3A3A;
     color: #fff; }
-    .red .btn:focus, #red .btn:focus, .home .btn:focus, .blog .btn:focus, .single .btn:focus, .archive .btn:focus, .red .navigation .nav-links div a:focus, .navigation .nav-links div .red a:focus, #red .navigation .nav-links div a:focus, .navigation .nav-links div #red a:focus, .home .navigation .nav-links div a:focus, .navigation .nav-links div .home a:focus, .blog .navigation .nav-links div a:focus, .navigation .nav-links div .blog a:focus, .single .navigation .nav-links div a:focus, .navigation .nav-links div .single a:focus, .archive .navigation .nav-links div a:focus, .navigation .nav-links div .archive a:focus, .red .btn:hover, #red .btn:hover, .home .btn:hover, .blog .btn:hover, .single .btn:hover, .archive .btn:hover, .red .navigation .nav-links div a:hover, .navigation .nav-links div .red a:hover, #red .navigation .nav-links div a:hover, .navigation .nav-links div #red a:hover, .home .navigation .nav-links div a:hover, .navigation .nav-links div .home a:hover, .blog .navigation .nav-links div a:hover, .navigation .nav-links div .blog a:hover, .single .navigation .nav-links div a:hover, .navigation .nav-links div .single a:hover, .archive .navigation .nav-links div a:hover, .navigation .nav-links div .archive a:hover {
+    .red .btn:focus, #red .btn:focus, .red .navigation .nav-links div a:focus, .navigation .nav-links div .red a:focus, #red .navigation .nav-links div a:focus, .navigation .nav-links div #red a:focus, .red .btn:hover, #red .btn:hover, .red .navigation .nav-links div a:hover, .navigation .nav-links div .red a:hover, #red .navigation .nav-links div a:hover, .navigation .nav-links div #red a:hover {
       background: #d96363; }
-    .red .btn .svg-inline--fa, #red .btn .svg-inline--fa, .home .btn .svg-inline--fa, .blog .btn .svg-inline--fa, .single .btn .svg-inline--fa, .archive .btn .svg-inline--fa, .red .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .red a .svg-inline--fa, #red .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div #red a .svg-inline--fa, .home .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .home a .svg-inline--fa, .blog .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .blog a .svg-inline--fa, .single .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .single a .svg-inline--fa, .archive .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .archive a .svg-inline--fa {
+    .red .btn .svg-inline--fa, #red .btn .svg-inline--fa, .red .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .red a .svg-inline--fa, #red .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div #red a .svg-inline--fa {
       color: #fff; }
-  .red .svg-inline--fa, #red .svg-inline--fa, .home .svg-inline--fa, .blog .svg-inline--fa, .single .svg-inline--fa, .archive .svg-inline--fa {
+  .red .svg-inline--fa, #red .svg-inline--fa {
     color: #CF3A3A; }
-  .red .list-icon, #red .list-icon, .home .list-icon, .blog .list-icon, .single .list-icon, .archive .list-icon {
+  .red .list-icon, #red .list-icon {
     background: #CF3A3A; }
-    .red .list-icon .svg-inline--fa, #red .list-icon .svg-inline--fa, .home .list-icon .svg-inline--fa, .blog .list-icon .svg-inline--fa, .single .list-icon .svg-inline--fa, .archive .list-icon .svg-inline--fa {
+    .red .list-icon .svg-inline--fa, #red .list-icon .svg-inline--fa {
       color: #fff; }
-  .red .search-form input, #red .search-form input, .home .search-form input, .blog .search-form input, .single .search-form input, .archive .search-form input {
+  .red .list-title a, #red .list-title a {
+    color: #fff; }
+  .red .search-form input, #red .search-form input {
     background: #1c1c1c;
     color: #fff; }
 
@@ -171,79 +142,68 @@ Version: 5.0.1
     background: #222; }
     .red-invert .list-icon .svg-inline--fa, #red-invert .list-icon .svg-inline--fa {
       color: #fff; }
+  .red-invert .list-title a, #red-invert .list-title a {
+    color: #fff; }
   .red-invert .search-form input, #red-invert .search-form input {
     background: #cb3131;
     color: #fff; }
 
-.blue, #blue, .page-log,
-.post-type-archive-log {
+.blue, #blue {
   background: #222;
   color: #fff; }
-  .blue .logo--letter-s, #blue .logo--letter-s, .page-log .logo--letter-s, .post-type-archive-log .logo--letter-s,
+  .blue .logo--letter-s, #blue .logo--letter-s,
   .blue .logo--letter-p,
-  #blue .logo--letter-p,
-  .page-log .logo--letter-p,
-  .post-type-archive-log .logo--letter-p {
+  #blue .logo--letter-p {
     fill: #42A5F5; }
-  .blue a, #blue a, .page-log a, .post-type-archive-log a {
+  .blue a, #blue a {
     color: #42A5F5; }
-    .blue a:hover, #blue a:hover, .page-log a:hover, .post-type-archive-log a:hover, .blue a:focus, #blue a:focus, .page-log a:focus, .post-type-archive-log a:focus {
+    .blue a:hover, #blue a:hover, .blue a:focus, #blue a:focus {
       color: #72bcf8; }
-  .blue ul li::before, #blue ul li::before, .page-log ul li::before, .post-type-archive-log ul li::before,
+  .blue ul li::before, #blue ul li::before,
   .blue ol li::before,
-  #blue ol li::before,
-  .page-log ol li::before,
-  .post-type-archive-log ol li::before {
+  #blue ol li::before {
     color: #42A5F5; }
-  .blue hr, #blue hr, .page-log hr, .post-type-archive-log hr {
+  .blue hr, #blue hr {
     border-color: #42A5F5; }
-  .blue .site-navigation a:hover, #blue .site-navigation a:hover, .page-log .site-navigation a:hover, .post-type-archive-log .site-navigation a:hover,
+  .blue .site-navigation a:hover, #blue .site-navigation a:hover,
   .blue .site-navigation a:focus,
-  #blue .site-navigation a:focus,
-  .page-log .site-navigation a:focus,
-  .post-type-archive-log .site-navigation a:focus {
+  #blue .site-navigation a:focus {
     background: #42A5F5; }
-    .blue .site-navigation a:hover .svg-inline--fa, #blue .site-navigation a:hover .svg-inline--fa, .page-log .site-navigation a:hover .svg-inline--fa, .post-type-archive-log .site-navigation a:hover .svg-inline--fa,
+    .blue .site-navigation a:hover .svg-inline--fa, #blue .site-navigation a:hover .svg-inline--fa,
     .blue .site-navigation a:focus .svg-inline--fa,
-    #blue .site-navigation a:focus .svg-inline--fa,
-    .page-log .site-navigation a:focus .svg-inline--fa,
-    .post-type-archive-log .site-navigation a:focus .svg-inline--fa {
+    #blue .site-navigation a:focus .svg-inline--fa {
       color: #fff; }
-  .blue .soapcolor-bg, #blue .soapcolor-bg, .page-log .soapcolor-bg, .post-type-archive-log .soapcolor-bg {
+  .blue .soapcolor-bg, #blue .soapcolor-bg {
     background: #42A5F5;
     color: #fff; }
-    .blue .soapcolor-bg a, #blue .soapcolor-bg a, .page-log .soapcolor-bg a, .post-type-archive-log .soapcolor-bg a,
+    .blue .soapcolor-bg a, #blue .soapcolor-bg a,
     .blue .soapcolor-bg a:hover,
     #blue .soapcolor-bg a:hover,
-    .page-log .soapcolor-bg a:hover,
-    .post-type-archive-log .soapcolor-bg a:hover,
     .blue .soapcolor-bg a:focus,
     #blue .soapcolor-bg a:focus,
-    .page-log .soapcolor-bg a:focus,
-    .post-type-archive-log .soapcolor-bg a:focus,
     .blue .soapcolor-bg .svg-inline--fa,
-    #blue .soapcolor-bg .svg-inline--fa,
-    .page-log .soapcolor-bg .svg-inline--fa,
-    .post-type-archive-log .soapcolor-bg .svg-inline--fa {
+    #blue .soapcolor-bg .svg-inline--fa {
       color: inherit; }
-  .blue .img-link img, #blue .img-link img, .page-log .img-link img, .post-type-archive-log .img-link img {
+  .blue .img-link img, #blue .img-link img {
     border-color: #42A5F5; }
-    .blue .img-link img:hover, #blue .img-link img:hover, .page-log .img-link img:hover, .post-type-archive-log .img-link img:hover, .blue .img-link img:focus, #blue .img-link img:focus, .page-log .img-link img:focus, .post-type-archive-log .img-link img:focus {
+    .blue .img-link img:hover, #blue .img-link img:hover, .blue .img-link img:focus, #blue .img-link img:focus {
       border-color: #72bcf8; }
-  .blue .btn, #blue .btn, .page-log .btn, .post-type-archive-log .btn, .blue .navigation .nav-links div a, .navigation .nav-links div .blue a, #blue .navigation .nav-links div a, .navigation .nav-links div #blue a, .page-log .navigation .nav-links div a, .navigation .nav-links div .page-log a, .post-type-archive-log .navigation .nav-links div a, .navigation .nav-links div .post-type-archive-log a {
+  .blue .btn, #blue .btn, .blue .navigation .nav-links div a, .navigation .nav-links div .blue a, #blue .navigation .nav-links div a, .navigation .nav-links div #blue a {
     background: #42A5F5;
     color: #fff; }
-    .blue .btn:focus, #blue .btn:focus, .page-log .btn:focus, .post-type-archive-log .btn:focus, .blue .navigation .nav-links div a:focus, .navigation .nav-links div .blue a:focus, #blue .navigation .nav-links div a:focus, .navigation .nav-links div #blue a:focus, .page-log .navigation .nav-links div a:focus, .navigation .nav-links div .page-log a:focus, .post-type-archive-log .navigation .nav-links div a:focus, .navigation .nav-links div .post-type-archive-log a:focus, .blue .btn:hover, #blue .btn:hover, .page-log .btn:hover, .post-type-archive-log .btn:hover, .blue .navigation .nav-links div a:hover, .navigation .nav-links div .blue a:hover, #blue .navigation .nav-links div a:hover, .navigation .nav-links div #blue a:hover, .page-log .navigation .nav-links div a:hover, .navigation .nav-links div .page-log a:hover, .post-type-archive-log .navigation .nav-links div a:hover, .navigation .nav-links div .post-type-archive-log a:hover {
+    .blue .btn:focus, #blue .btn:focus, .blue .navigation .nav-links div a:focus, .navigation .nav-links div .blue a:focus, #blue .navigation .nav-links div a:focus, .navigation .nav-links div #blue a:focus, .blue .btn:hover, #blue .btn:hover, .blue .navigation .nav-links div a:hover, .navigation .nav-links div .blue a:hover, #blue .navigation .nav-links div a:hover, .navigation .nav-links div #blue a:hover {
       background: #72bcf8; }
-    .blue .btn .svg-inline--fa, #blue .btn .svg-inline--fa, .page-log .btn .svg-inline--fa, .post-type-archive-log .btn .svg-inline--fa, .blue .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .blue a .svg-inline--fa, #blue .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div #blue a .svg-inline--fa, .page-log .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .page-log a .svg-inline--fa, .post-type-archive-log .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .post-type-archive-log a .svg-inline--fa {
+    .blue .btn .svg-inline--fa, #blue .btn .svg-inline--fa, .blue .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .blue a .svg-inline--fa, #blue .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div #blue a .svg-inline--fa {
       color: #fff; }
-  .blue .svg-inline--fa, #blue .svg-inline--fa, .page-log .svg-inline--fa, .post-type-archive-log .svg-inline--fa {
+  .blue .svg-inline--fa, #blue .svg-inline--fa {
     color: #42A5F5; }
-  .blue .list-icon, #blue .list-icon, .page-log .list-icon, .post-type-archive-log .list-icon {
+  .blue .list-icon, #blue .list-icon {
     background: #42A5F5; }
-    .blue .list-icon .svg-inline--fa, #blue .list-icon .svg-inline--fa, .page-log .list-icon .svg-inline--fa, .post-type-archive-log .list-icon .svg-inline--fa {
+    .blue .list-icon .svg-inline--fa, #blue .list-icon .svg-inline--fa {
       color: #fff; }
-  .blue .search-form input, #blue .search-form input, .page-log .search-form input, .post-type-archive-log .search-form input {
+  .blue .list-title a, #blue .list-title a {
+    color: #fff; }
+  .blue .search-form input, #blue .search-form input {
     background: #1c1c1c;
     color: #fff; }
 
@@ -300,6 +260,8 @@ Version: 5.0.1
     background: #29B6F6; }
     .blue-light .list-icon .svg-inline--fa, #blue-light .list-icon .svg-inline--fa {
       color: #fff; }
+  .blue-light .list-title a, #blue-light .list-title a {
+    color: #fff; }
   .blue-light .search-form input, #blue-light .search-form input {
     background: #1c1c1c;
     color: #fff; }
@@ -357,71 +319,68 @@ Version: 5.0.1
     background: #EC407A; }
     .pink .list-icon .svg-inline--fa, #pink .list-icon .svg-inline--fa {
       color: #fff; }
+  .pink .list-title a, #pink .list-title a {
+    color: #fff; }
   .pink .search-form input, #pink .search-form input {
     background: #1c1c1c;
     color: #fff; }
 
-.purple, #purple, .error404 {
+.purple, #purple {
   background: #222;
   color: #fff; }
-  .purple .logo--letter-s, #purple .logo--letter-s, .error404 .logo--letter-s,
+  .purple .logo--letter-s, #purple .logo--letter-s,
   .purple .logo--letter-p,
-  #purple .logo--letter-p,
-  .error404 .logo--letter-p {
+  #purple .logo--letter-p {
     fill: #AB47BC; }
-  .purple a, #purple a, .error404 a {
+  .purple a, #purple a {
     color: #AB47BC; }
-    .purple a:hover, #purple a:hover, .error404 a:hover, .purple a:focus, #purple a:focus, .error404 a:focus {
+    .purple a:hover, #purple a:hover, .purple a:focus, #purple a:focus {
       color: #bc6cca; }
-  .purple ul li::before, #purple ul li::before, .error404 ul li::before,
+  .purple ul li::before, #purple ul li::before,
   .purple ol li::before,
-  #purple ol li::before,
-  .error404 ol li::before {
+  #purple ol li::before {
     color: #AB47BC; }
-  .purple hr, #purple hr, .error404 hr {
+  .purple hr, #purple hr {
     border-color: #AB47BC; }
-  .purple .site-navigation a:hover, #purple .site-navigation a:hover, .error404 .site-navigation a:hover,
+  .purple .site-navigation a:hover, #purple .site-navigation a:hover,
   .purple .site-navigation a:focus,
-  #purple .site-navigation a:focus,
-  .error404 .site-navigation a:focus {
+  #purple .site-navigation a:focus {
     background: #AB47BC; }
-    .purple .site-navigation a:hover .svg-inline--fa, #purple .site-navigation a:hover .svg-inline--fa, .error404 .site-navigation a:hover .svg-inline--fa,
+    .purple .site-navigation a:hover .svg-inline--fa, #purple .site-navigation a:hover .svg-inline--fa,
     .purple .site-navigation a:focus .svg-inline--fa,
-    #purple .site-navigation a:focus .svg-inline--fa,
-    .error404 .site-navigation a:focus .svg-inline--fa {
+    #purple .site-navigation a:focus .svg-inline--fa {
       color: #fff; }
-  .purple .soapcolor-bg, #purple .soapcolor-bg, .error404 .soapcolor-bg {
+  .purple .soapcolor-bg, #purple .soapcolor-bg {
     background: #AB47BC;
     color: #fff; }
-    .purple .soapcolor-bg a, #purple .soapcolor-bg a, .error404 .soapcolor-bg a,
+    .purple .soapcolor-bg a, #purple .soapcolor-bg a,
     .purple .soapcolor-bg a:hover,
     #purple .soapcolor-bg a:hover,
-    .error404 .soapcolor-bg a:hover,
     .purple .soapcolor-bg a:focus,
     #purple .soapcolor-bg a:focus,
-    .error404 .soapcolor-bg a:focus,
     .purple .soapcolor-bg .svg-inline--fa,
-    #purple .soapcolor-bg .svg-inline--fa,
-    .error404 .soapcolor-bg .svg-inline--fa {
+    #purple .soapcolor-bg .svg-inline--fa {
       color: inherit; }
-  .purple .img-link img, #purple .img-link img, .error404 .img-link img {
+  .purple .img-link img, #purple .img-link img {
     border-color: #AB47BC; }
-    .purple .img-link img:hover, #purple .img-link img:hover, .error404 .img-link img:hover, .purple .img-link img:focus, #purple .img-link img:focus, .error404 .img-link img:focus {
+    .purple .img-link img:hover, #purple .img-link img:hover, .purple .img-link img:focus, #purple .img-link img:focus {
       border-color: #bc6cca; }
-  .purple .btn, #purple .btn, .error404 .btn, .purple .navigation .nav-links div a, .navigation .nav-links div .purple a, #purple .navigation .nav-links div a, .navigation .nav-links div #purple a, .error404 .navigation .nav-links div a, .navigation .nav-links div .error404 a {
+  .purple .btn, #purple .btn, .purple .navigation .nav-links div a, .navigation .nav-links div .purple a, #purple .navigation .nav-links div a, .navigation .nav-links div #purple a {
     background: #AB47BC;
     color: #fff; }
-    .purple .btn:focus, #purple .btn:focus, .error404 .btn:focus, .purple .navigation .nav-links div a:focus, .navigation .nav-links div .purple a:focus, #purple .navigation .nav-links div a:focus, .navigation .nav-links div #purple a:focus, .error404 .navigation .nav-links div a:focus, .navigation .nav-links div .error404 a:focus, .purple .btn:hover, #purple .btn:hover, .error404 .btn:hover, .purple .navigation .nav-links div a:hover, .navigation .nav-links div .purple a:hover, #purple .navigation .nav-links div a:hover, .navigation .nav-links div #purple a:hover, .error404 .navigation .nav-links div a:hover, .navigation .nav-links div .error404 a:hover {
+    .purple .btn:focus, #purple .btn:focus, .purple .navigation .nav-links div a:focus, .navigation .nav-links div .purple a:focus, #purple .navigation .nav-links div a:focus, .navigation .nav-links div #purple a:focus, .purple .btn:hover, #purple .btn:hover, .purple .navigation .nav-links div a:hover, .navigation .nav-links div .purple a:hover, #purple .navigation .nav-links div a:hover, .navigation .nav-links div #purple a:hover {
       background: #bc6cca; }
-    .purple .btn .svg-inline--fa, #purple .btn .svg-inline--fa, .error404 .btn .svg-inline--fa, .purple .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .purple a .svg-inline--fa, #purple .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div #purple a .svg-inline--fa, .error404 .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .error404 a .svg-inline--fa {
+    .purple .btn .svg-inline--fa, #purple .btn .svg-inline--fa, .purple .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .purple a .svg-inline--fa, #purple .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div #purple a .svg-inline--fa {
       color: #fff; }
-  .purple .svg-inline--fa, #purple .svg-inline--fa, .error404 .svg-inline--fa {
+  .purple .svg-inline--fa, #purple .svg-inline--fa {
     color: #AB47BC; }
-  .purple .list-icon, #purple .list-icon, .error404 .list-icon {
+  .purple .list-icon, #purple .list-icon {
     background: #AB47BC; }
-    .purple .list-icon .svg-inline--fa, #purple .list-icon .svg-inline--fa, .error404 .list-icon .svg-inline--fa {
+    .purple .list-icon .svg-inline--fa, #purple .list-icon .svg-inline--fa {
       color: #fff; }
-  .purple .search-form input, #purple .search-form input, .error404 .search-form input {
+  .purple .list-title a, #purple .list-title a {
+    color: #fff; }
+  .purple .search-form input, #purple .search-form input {
     background: #1c1c1c;
     color: #fff; }
 
@@ -478,6 +437,8 @@ Version: 5.0.1
     background: #348236; }
     .green .list-icon .svg-inline--fa, #green .list-icon .svg-inline--fa {
       color: #fff; }
+  .green .list-title a, #green .list-title a {
+    color: #fff; }
   .green .search-form input, #green .search-form input {
     background: #1c1c1c;
     color: #fff; }
@@ -535,6 +496,8 @@ Version: 5.0.1
     background: #FFB300; }
     .amber .list-icon .svg-inline--fa, #amber .list-icon .svg-inline--fa {
       color: #222; }
+  .amber .list-title a, #amber .list-title a {
+    color: #fff; }
   .amber .search-form input, #amber .search-form input {
     background: #1c1c1c;
     color: #fff; }
@@ -592,6 +555,8 @@ Version: 5.0.1
     background: #FFEB3B; }
     .yellow .list-icon .svg-inline--fa, #yellow .list-icon .svg-inline--fa {
       color: #222; }
+  .yellow .list-title a, #yellow .list-title a {
+    color: #fff; }
   .yellow .search-form input, #yellow .search-form input {
     background: #1c1c1c;
     color: #fff; }
@@ -649,6 +614,8 @@ Version: 5.0.1
     background: #BDBDBD; }
     .grey .list-icon .svg-inline--fa, #grey .list-icon .svg-inline--fa {
       color: #222; }
+  .grey .list-title a, #grey .list-title a {
+    color: #fff; }
   .grey .search-form input, #grey .search-form input {
     background: #1c1c1c;
     color: #fff; }
@@ -658,7 +625,6 @@ Version: 5.0.1
 ----------------------------------------------*/
 html,
 body {
-  min-height: 100%;
   height: 100%;
   margin: 0;
   padding: 0; }
@@ -1242,6 +1208,8 @@ figure .wp-caption-text {
     background: #43B24D; }
     #earth-day .list-icon .svg-inline--fa {
       color: #fff; }
+  #earth-day .list-title a {
+    color: #222; }
   #earth-day .search-form input {
     background: #f9f9f9;
     color: #222; }
