@@ -58,6 +58,22 @@ Version: 5.0.1
     color: #CF3A3A; }
   .red hr, #red hr, .home hr, .blog hr, .single hr, .archive hr {
     border-color: #CF3A3A; }
+  .red .site-navigation a:hover, #red .site-navigation a:hover, .home .site-navigation a:hover, .blog .site-navigation a:hover, .single .site-navigation a:hover, .archive .site-navigation a:hover,
+  .red .site-navigation a:focus,
+  #red .site-navigation a:focus,
+  .home .site-navigation a:focus,
+  .blog .site-navigation a:focus,
+  .single .site-navigation a:focus,
+  .archive .site-navigation a:focus {
+    background: #CF3A3A; }
+    .red .site-navigation a:hover .svg-inline--fa, #red .site-navigation a:hover .svg-inline--fa, .home .site-navigation a:hover .svg-inline--fa, .blog .site-navigation a:hover .svg-inline--fa, .single .site-navigation a:hover .svg-inline--fa, .archive .site-navigation a:hover .svg-inline--fa,
+    .red .site-navigation a:focus .svg-inline--fa,
+    #red .site-navigation a:focus .svg-inline--fa,
+    .home .site-navigation a:focus .svg-inline--fa,
+    .blog .site-navigation a:focus .svg-inline--fa,
+    .single .site-navigation a:focus .svg-inline--fa,
+    .archive .site-navigation a:focus .svg-inline--fa {
+      color: #fff; }
   .red .soapcolor-bg, #red .soapcolor-bg, .home .soapcolor-bg, .blog .soapcolor-bg, .single .soapcolor-bg, .archive .soapcolor-bg {
     background: #CF3A3A;
     color: #fff; }
@@ -90,8 +106,17 @@ Version: 5.0.1
     color: #fff; }
     .red .btn:focus, #red .btn:focus, .home .btn:focus, .blog .btn:focus, .single .btn:focus, .archive .btn:focus, .red .navigation .nav-links div a:focus, .navigation .nav-links div .red a:focus, #red .navigation .nav-links div a:focus, .navigation .nav-links div #red a:focus, .home .navigation .nav-links div a:focus, .navigation .nav-links div .home a:focus, .blog .navigation .nav-links div a:focus, .navigation .nav-links div .blog a:focus, .single .navigation .nav-links div a:focus, .navigation .nav-links div .single a:focus, .archive .navigation .nav-links div a:focus, .navigation .nav-links div .archive a:focus, .red .btn:hover, #red .btn:hover, .home .btn:hover, .blog .btn:hover, .single .btn:hover, .archive .btn:hover, .red .navigation .nav-links div a:hover, .navigation .nav-links div .red a:hover, #red .navigation .nav-links div a:hover, .navigation .nav-links div #red a:hover, .home .navigation .nav-links div a:hover, .navigation .nav-links div .home a:hover, .blog .navigation .nav-links div a:hover, .navigation .nav-links div .blog a:hover, .single .navigation .nav-links div a:hover, .navigation .nav-links div .single a:hover, .archive .navigation .nav-links div a:hover, .navigation .nav-links div .archive a:hover {
       background: #d96363; }
+    .red .btn .svg-inline--fa, #red .btn .svg-inline--fa, .home .btn .svg-inline--fa, .blog .btn .svg-inline--fa, .single .btn .svg-inline--fa, .archive .btn .svg-inline--fa, .red .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .red a .svg-inline--fa, #red .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div #red a .svg-inline--fa, .home .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .home a .svg-inline--fa, .blog .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .blog a .svg-inline--fa, .single .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .single a .svg-inline--fa, .archive .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .archive a .svg-inline--fa {
+      color: #fff; }
   .red .svg-inline--fa, #red .svg-inline--fa, .home .svg-inline--fa, .blog .svg-inline--fa, .single .svg-inline--fa, .archive .svg-inline--fa {
     color: #CF3A3A; }
+  .red .list-icon, #red .list-icon, .home .list-icon, .blog .list-icon, .single .list-icon, .archive .list-icon {
+    background: #CF3A3A; }
+    .red .list-icon .svg-inline--fa, #red .list-icon .svg-inline--fa, .home .list-icon .svg-inline--fa, .blog .list-icon .svg-inline--fa, .single .list-icon .svg-inline--fa, .archive .list-icon .svg-inline--fa {
+      color: #fff; }
+  .red .search-form input, #red .search-form input, .home .search-form input, .blog .search-form input, .single .search-form input, .archive .search-form input {
+    background: #1c1c1c;
+    color: #fff; }
 
 .red-invert, #red-invert {
   background: #CF3A3A;
@@ -110,6 +135,14 @@ Version: 5.0.1
     color: #222; }
   .red-invert hr, #red-invert hr {
     border-color: #222; }
+  .red-invert .site-navigation a:hover, #red-invert .site-navigation a:hover,
+  .red-invert .site-navigation a:focus,
+  #red-invert .site-navigation a:focus {
+    background: #222; }
+    .red-invert .site-navigation a:hover .svg-inline--fa, #red-invert .site-navigation a:hover .svg-inline--fa,
+    .red-invert .site-navigation a:focus .svg-inline--fa,
+    #red-invert .site-navigation a:focus .svg-inline--fa {
+      color: #fff; }
   .red-invert .soapcolor-bg, #red-invert .soapcolor-bg {
     background: #222;
     color: #fff; }
@@ -130,8 +163,17 @@ Version: 5.0.1
     color: #fff; }
     .red-invert .btn:focus, #red-invert .btn:focus, .red-invert .navigation .nav-links div a:focus, .navigation .nav-links div .red-invert a:focus, #red-invert .navigation .nav-links div a:focus, .navigation .nav-links div #red-invert a:focus, .red-invert .btn:hover, #red-invert .btn:hover, .red-invert .navigation .nav-links div a:hover, .navigation .nav-links div .red-invert a:hover, #red-invert .navigation .nav-links div a:hover, .navigation .nav-links div #red-invert a:hover {
       background: #3c3b3b; }
+    .red-invert .btn .svg-inline--fa, #red-invert .btn .svg-inline--fa, .red-invert .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .red-invert a .svg-inline--fa, #red-invert .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div #red-invert a .svg-inline--fa {
+      color: #fff; }
   .red-invert .svg-inline--fa, #red-invert .svg-inline--fa {
     color: #222; }
+  .red-invert .list-icon, #red-invert .list-icon {
+    background: #222; }
+    .red-invert .list-icon .svg-inline--fa, #red-invert .list-icon .svg-inline--fa {
+      color: #fff; }
+  .red-invert .search-form input, #red-invert .search-form input {
+    background: #cb3131;
+    color: #fff; }
 
 .blue, #blue, .page-log,
 .post-type-archive-log {
@@ -155,6 +197,18 @@ Version: 5.0.1
     color: #42A5F5; }
   .blue hr, #blue hr, .page-log hr, .post-type-archive-log hr {
     border-color: #42A5F5; }
+  .blue .site-navigation a:hover, #blue .site-navigation a:hover, .page-log .site-navigation a:hover, .post-type-archive-log .site-navigation a:hover,
+  .blue .site-navigation a:focus,
+  #blue .site-navigation a:focus,
+  .page-log .site-navigation a:focus,
+  .post-type-archive-log .site-navigation a:focus {
+    background: #42A5F5; }
+    .blue .site-navigation a:hover .svg-inline--fa, #blue .site-navigation a:hover .svg-inline--fa, .page-log .site-navigation a:hover .svg-inline--fa, .post-type-archive-log .site-navigation a:hover .svg-inline--fa,
+    .blue .site-navigation a:focus .svg-inline--fa,
+    #blue .site-navigation a:focus .svg-inline--fa,
+    .page-log .site-navigation a:focus .svg-inline--fa,
+    .post-type-archive-log .site-navigation a:focus .svg-inline--fa {
+      color: #fff; }
   .blue .soapcolor-bg, #blue .soapcolor-bg, .page-log .soapcolor-bg, .post-type-archive-log .soapcolor-bg {
     background: #42A5F5;
     color: #fff; }
@@ -181,8 +235,17 @@ Version: 5.0.1
     color: #fff; }
     .blue .btn:focus, #blue .btn:focus, .page-log .btn:focus, .post-type-archive-log .btn:focus, .blue .navigation .nav-links div a:focus, .navigation .nav-links div .blue a:focus, #blue .navigation .nav-links div a:focus, .navigation .nav-links div #blue a:focus, .page-log .navigation .nav-links div a:focus, .navigation .nav-links div .page-log a:focus, .post-type-archive-log .navigation .nav-links div a:focus, .navigation .nav-links div .post-type-archive-log a:focus, .blue .btn:hover, #blue .btn:hover, .page-log .btn:hover, .post-type-archive-log .btn:hover, .blue .navigation .nav-links div a:hover, .navigation .nav-links div .blue a:hover, #blue .navigation .nav-links div a:hover, .navigation .nav-links div #blue a:hover, .page-log .navigation .nav-links div a:hover, .navigation .nav-links div .page-log a:hover, .post-type-archive-log .navigation .nav-links div a:hover, .navigation .nav-links div .post-type-archive-log a:hover {
       background: #72bcf8; }
+    .blue .btn .svg-inline--fa, #blue .btn .svg-inline--fa, .page-log .btn .svg-inline--fa, .post-type-archive-log .btn .svg-inline--fa, .blue .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .blue a .svg-inline--fa, #blue .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div #blue a .svg-inline--fa, .page-log .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .page-log a .svg-inline--fa, .post-type-archive-log .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .post-type-archive-log a .svg-inline--fa {
+      color: #fff; }
   .blue .svg-inline--fa, #blue .svg-inline--fa, .page-log .svg-inline--fa, .post-type-archive-log .svg-inline--fa {
     color: #42A5F5; }
+  .blue .list-icon, #blue .list-icon, .page-log .list-icon, .post-type-archive-log .list-icon {
+    background: #42A5F5; }
+    .blue .list-icon .svg-inline--fa, #blue .list-icon .svg-inline--fa, .page-log .list-icon .svg-inline--fa, .post-type-archive-log .list-icon .svg-inline--fa {
+      color: #fff; }
+  .blue .search-form input, #blue .search-form input, .page-log .search-form input, .post-type-archive-log .search-form input {
+    background: #1c1c1c;
+    color: #fff; }
 
 .blue-light, #blue-light {
   background: #222;
@@ -201,6 +264,14 @@ Version: 5.0.1
     color: #29B6F6; }
   .blue-light hr, #blue-light hr {
     border-color: #29B6F6; }
+  .blue-light .site-navigation a:hover, #blue-light .site-navigation a:hover,
+  .blue-light .site-navigation a:focus,
+  #blue-light .site-navigation a:focus {
+    background: #29B6F6; }
+    .blue-light .site-navigation a:hover .svg-inline--fa, #blue-light .site-navigation a:hover .svg-inline--fa,
+    .blue-light .site-navigation a:focus .svg-inline--fa,
+    #blue-light .site-navigation a:focus .svg-inline--fa {
+      color: #fff; }
   .blue-light .soapcolor-bg, #blue-light .soapcolor-bg {
     background: #29B6F6;
     color: #fff; }
@@ -221,8 +292,17 @@ Version: 5.0.1
     color: #fff; }
     .blue-light .btn:focus, #blue-light .btn:focus, .blue-light .navigation .nav-links div a:focus, .navigation .nav-links div .blue-light a:focus, #blue-light .navigation .nav-links div a:focus, .navigation .nav-links div #blue-light a:focus, .blue-light .btn:hover, #blue-light .btn:hover, .blue-light .navigation .nav-links div a:hover, .navigation .nav-links div .blue-light a:hover, #blue-light .navigation .nav-links div a:hover, .navigation .nav-links div #blue-light a:hover {
       background: #5ac7f8; }
+    .blue-light .btn .svg-inline--fa, #blue-light .btn .svg-inline--fa, .blue-light .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .blue-light a .svg-inline--fa, #blue-light .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div #blue-light a .svg-inline--fa {
+      color: #fff; }
   .blue-light .svg-inline--fa, #blue-light .svg-inline--fa {
     color: #29B6F6; }
+  .blue-light .list-icon, #blue-light .list-icon {
+    background: #29B6F6; }
+    .blue-light .list-icon .svg-inline--fa, #blue-light .list-icon .svg-inline--fa {
+      color: #fff; }
+  .blue-light .search-form input, #blue-light .search-form input {
+    background: #1c1c1c;
+    color: #fff; }
 
 .pink, #pink {
   background: #222;
@@ -241,6 +321,14 @@ Version: 5.0.1
     color: #EC407A; }
   .pink hr, #pink hr {
     border-color: #EC407A; }
+  .pink .site-navigation a:hover, #pink .site-navigation a:hover,
+  .pink .site-navigation a:focus,
+  #pink .site-navigation a:focus {
+    background: #EC407A; }
+    .pink .site-navigation a:hover .svg-inline--fa, #pink .site-navigation a:hover .svg-inline--fa,
+    .pink .site-navigation a:focus .svg-inline--fa,
+    #pink .site-navigation a:focus .svg-inline--fa {
+      color: #fff; }
   .pink .soapcolor-bg, #pink .soapcolor-bg {
     background: #EC407A;
     color: #fff; }
@@ -261,8 +349,17 @@ Version: 5.0.1
     color: #fff; }
     .pink .btn:focus, #pink .btn:focus, .pink .navigation .nav-links div a:focus, .navigation .nav-links div .pink a:focus, #pink .navigation .nav-links div a:focus, .navigation .nav-links div #pink a:focus, .pink .btn:hover, #pink .btn:hover, .pink .navigation .nav-links div a:hover, .navigation .nav-links div .pink a:hover, #pink .navigation .nav-links div a:hover, .navigation .nav-links div #pink a:hover {
       background: #f16e9a; }
+    .pink .btn .svg-inline--fa, #pink .btn .svg-inline--fa, .pink .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .pink a .svg-inline--fa, #pink .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div #pink a .svg-inline--fa {
+      color: #fff; }
   .pink .svg-inline--fa, #pink .svg-inline--fa {
     color: #EC407A; }
+  .pink .list-icon, #pink .list-icon {
+    background: #EC407A; }
+    .pink .list-icon .svg-inline--fa, #pink .list-icon .svg-inline--fa {
+      color: #fff; }
+  .pink .search-form input, #pink .search-form input {
+    background: #1c1c1c;
+    color: #fff; }
 
 .purple, #purple, .error404 {
   background: #222;
@@ -283,6 +380,16 @@ Version: 5.0.1
     color: #AB47BC; }
   .purple hr, #purple hr, .error404 hr {
     border-color: #AB47BC; }
+  .purple .site-navigation a:hover, #purple .site-navigation a:hover, .error404 .site-navigation a:hover,
+  .purple .site-navigation a:focus,
+  #purple .site-navigation a:focus,
+  .error404 .site-navigation a:focus {
+    background: #AB47BC; }
+    .purple .site-navigation a:hover .svg-inline--fa, #purple .site-navigation a:hover .svg-inline--fa, .error404 .site-navigation a:hover .svg-inline--fa,
+    .purple .site-navigation a:focus .svg-inline--fa,
+    #purple .site-navigation a:focus .svg-inline--fa,
+    .error404 .site-navigation a:focus .svg-inline--fa {
+      color: #fff; }
   .purple .soapcolor-bg, #purple .soapcolor-bg, .error404 .soapcolor-bg {
     background: #AB47BC;
     color: #fff; }
@@ -306,8 +413,17 @@ Version: 5.0.1
     color: #fff; }
     .purple .btn:focus, #purple .btn:focus, .error404 .btn:focus, .purple .navigation .nav-links div a:focus, .navigation .nav-links div .purple a:focus, #purple .navigation .nav-links div a:focus, .navigation .nav-links div #purple a:focus, .error404 .navigation .nav-links div a:focus, .navigation .nav-links div .error404 a:focus, .purple .btn:hover, #purple .btn:hover, .error404 .btn:hover, .purple .navigation .nav-links div a:hover, .navigation .nav-links div .purple a:hover, #purple .navigation .nav-links div a:hover, .navigation .nav-links div #purple a:hover, .error404 .navigation .nav-links div a:hover, .navigation .nav-links div .error404 a:hover {
       background: #bc6cca; }
+    .purple .btn .svg-inline--fa, #purple .btn .svg-inline--fa, .error404 .btn .svg-inline--fa, .purple .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .purple a .svg-inline--fa, #purple .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div #purple a .svg-inline--fa, .error404 .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .error404 a .svg-inline--fa {
+      color: #fff; }
   .purple .svg-inline--fa, #purple .svg-inline--fa, .error404 .svg-inline--fa {
     color: #AB47BC; }
+  .purple .list-icon, #purple .list-icon, .error404 .list-icon {
+    background: #AB47BC; }
+    .purple .list-icon .svg-inline--fa, #purple .list-icon .svg-inline--fa, .error404 .list-icon .svg-inline--fa {
+      color: #fff; }
+  .purple .search-form input, #purple .search-form input, .error404 .search-form input {
+    background: #1c1c1c;
+    color: #fff; }
 
 .green, #green {
   background: #222;
@@ -326,6 +442,14 @@ Version: 5.0.1
     color: #348236; }
   .green hr, #green hr {
     border-color: #348236; }
+  .green .site-navigation a:hover, #green .site-navigation a:hover,
+  .green .site-navigation a:focus,
+  #green .site-navigation a:focus {
+    background: #348236; }
+    .green .site-navigation a:hover .svg-inline--fa, #green .site-navigation a:hover .svg-inline--fa,
+    .green .site-navigation a:focus .svg-inline--fa,
+    #green .site-navigation a:focus .svg-inline--fa {
+      color: #fff; }
   .green .soapcolor-bg, #green .soapcolor-bg {
     background: #348236;
     color: #fff; }
@@ -346,8 +470,17 @@ Version: 5.0.1
     color: #fff; }
     .green .btn:focus, #green .btn:focus, .green .navigation .nav-links div a:focus, .navigation .nav-links div .green a:focus, #green .navigation .nav-links div a:focus, .navigation .nav-links div #green a:focus, .green .btn:hover, #green .btn:hover, .green .navigation .nav-links div a:hover, .navigation .nav-links div .green a:hover, #green .navigation .nav-links div a:hover, .navigation .nav-links div #green a:hover {
       background: #43a645; }
+    .green .btn .svg-inline--fa, #green .btn .svg-inline--fa, .green .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .green a .svg-inline--fa, #green .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div #green a .svg-inline--fa {
+      color: #fff; }
   .green .svg-inline--fa, #green .svg-inline--fa {
     color: #348236; }
+  .green .list-icon, #green .list-icon {
+    background: #348236; }
+    .green .list-icon .svg-inline--fa, #green .list-icon .svg-inline--fa {
+      color: #fff; }
+  .green .search-form input, #green .search-form input {
+    background: #1c1c1c;
+    color: #fff; }
 
 .amber, #amber {
   background: #222;
@@ -366,6 +499,14 @@ Version: 5.0.1
     color: #FFB300; }
   .amber hr, #amber hr {
     border-color: #FFB300; }
+  .amber .site-navigation a:hover, #amber .site-navigation a:hover,
+  .amber .site-navigation a:focus,
+  #amber .site-navigation a:focus {
+    background: #FFB300; }
+    .amber .site-navigation a:hover .svg-inline--fa, #amber .site-navigation a:hover .svg-inline--fa,
+    .amber .site-navigation a:focus .svg-inline--fa,
+    #amber .site-navigation a:focus .svg-inline--fa {
+      color: #222; }
   .amber .soapcolor-bg, #amber .soapcolor-bg {
     background: #FFB300;
     color: #222; }
@@ -386,8 +527,17 @@ Version: 5.0.1
     color: #222; }
     .amber .btn:focus, #amber .btn:focus, .amber .navigation .nav-links div a:focus, .navigation .nav-links div .amber a:focus, #amber .navigation .nav-links div a:focus, .navigation .nav-links div #amber a:focus, .amber .btn:hover, #amber .btn:hover, .amber .navigation .nav-links div a:hover, .navigation .nav-links div .amber a:hover, #amber .navigation .nav-links div a:hover, .navigation .nav-links div #amber a:hover {
       background: #ffc233; }
+    .amber .btn .svg-inline--fa, #amber .btn .svg-inline--fa, .amber .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .amber a .svg-inline--fa, #amber .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div #amber a .svg-inline--fa {
+      color: #222; }
   .amber .svg-inline--fa, #amber .svg-inline--fa {
     color: #FFB300; }
+  .amber .list-icon, #amber .list-icon {
+    background: #FFB300; }
+    .amber .list-icon .svg-inline--fa, #amber .list-icon .svg-inline--fa {
+      color: #222; }
+  .amber .search-form input, #amber .search-form input {
+    background: #1c1c1c;
+    color: #fff; }
 
 .yellow, #yellow {
   background: #222;
@@ -406,6 +556,14 @@ Version: 5.0.1
     color: #FFEB3B; }
   .yellow hr, #yellow hr {
     border-color: #FFEB3B; }
+  .yellow .site-navigation a:hover, #yellow .site-navigation a:hover,
+  .yellow .site-navigation a:focus,
+  #yellow .site-navigation a:focus {
+    background: #FFEB3B; }
+    .yellow .site-navigation a:hover .svg-inline--fa, #yellow .site-navigation a:hover .svg-inline--fa,
+    .yellow .site-navigation a:focus .svg-inline--fa,
+    #yellow .site-navigation a:focus .svg-inline--fa {
+      color: #222; }
   .yellow .soapcolor-bg, #yellow .soapcolor-bg {
     background: #FFEB3B;
     color: #222; }
@@ -426,8 +584,17 @@ Version: 5.0.1
     color: #222; }
     .yellow .btn:focus, #yellow .btn:focus, .yellow .navigation .nav-links div a:focus, .navigation .nav-links div .yellow a:focus, #yellow .navigation .nav-links div a:focus, .navigation .nav-links div #yellow a:focus, .yellow .btn:hover, #yellow .btn:hover, .yellow .navigation .nav-links div a:hover, .navigation .nav-links div .yellow a:hover, #yellow .navigation .nav-links div a:hover, .navigation .nav-links div #yellow a:hover {
       background: #fff06e; }
+    .yellow .btn .svg-inline--fa, #yellow .btn .svg-inline--fa, .yellow .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .yellow a .svg-inline--fa, #yellow .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div #yellow a .svg-inline--fa {
+      color: #222; }
   .yellow .svg-inline--fa, #yellow .svg-inline--fa {
     color: #FFEB3B; }
+  .yellow .list-icon, #yellow .list-icon {
+    background: #FFEB3B; }
+    .yellow .list-icon .svg-inline--fa, #yellow .list-icon .svg-inline--fa {
+      color: #222; }
+  .yellow .search-form input, #yellow .search-form input {
+    background: #1c1c1c;
+    color: #fff; }
 
 .grey, #grey {
   background: #222;
@@ -446,6 +613,14 @@ Version: 5.0.1
     color: #BDBDBD; }
   .grey hr, #grey hr {
     border-color: #BDBDBD; }
+  .grey .site-navigation a:hover, #grey .site-navigation a:hover,
+  .grey .site-navigation a:focus,
+  #grey .site-navigation a:focus {
+    background: #BDBDBD; }
+    .grey .site-navigation a:hover .svg-inline--fa, #grey .site-navigation a:hover .svg-inline--fa,
+    .grey .site-navigation a:focus .svg-inline--fa,
+    #grey .site-navigation a:focus .svg-inline--fa {
+      color: #222; }
   .grey .soapcolor-bg, #grey .soapcolor-bg {
     background: #BDBDBD;
     color: #222; }
@@ -466,14 +641,24 @@ Version: 5.0.1
     color: #222; }
     .grey .btn:focus, #grey .btn:focus, .grey .navigation .nav-links div a:focus, .navigation .nav-links div .grey a:focus, #grey .navigation .nav-links div a:focus, .navigation .nav-links div #grey a:focus, .grey .btn:hover, #grey .btn:hover, .grey .navigation .nav-links div a:hover, .navigation .nav-links div .grey a:hover, #grey .navigation .nav-links div a:hover, .navigation .nav-links div #grey a:hover {
       background: #d7d6d6; }
+    .grey .btn .svg-inline--fa, #grey .btn .svg-inline--fa, .grey .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .grey a .svg-inline--fa, #grey .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div #grey a .svg-inline--fa {
+      color: #222; }
   .grey .svg-inline--fa, #grey .svg-inline--fa {
     color: #BDBDBD; }
+  .grey .list-icon, #grey .list-icon {
+    background: #BDBDBD; }
+    .grey .list-icon .svg-inline--fa, #grey .list-icon .svg-inline--fa {
+      color: #222; }
+  .grey .search-form input, #grey .search-form input {
+    background: #1c1c1c;
+    color: #fff; }
 
 /*----------------------------------------------
 	Scaffolding
 ----------------------------------------------*/
 html,
 body {
+  min-height: 100%;
   height: 100%;
   margin: 0;
   padding: 0; }
@@ -566,10 +751,13 @@ ol {
     display: inline-block;
     width: 1em;
     margin-left: -1em; }
+  ul.list-style-none,
+  ol.list-style-none {
+    padding-left: 0; }
 
 ul {
   list-style: none; }
-  ul:not(.fa-ul) li::before {
+  ul:not(.fa-ul)li::before, ul:not(.list-style-none)li::before {
     font-family: sans-serif;
     content: "•"; }
 
@@ -650,6 +838,40 @@ video.wp-video-shortcode {
   filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.1)); }
 
 /*----------------------------------------------
+	Navigation
+----------------------------------------------*/
+.site-navigation {
+  position: fixed;
+  width: 3em;
+  top: 3em;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  background: #1c1c1c; }
+  .site-navigation a {
+    height: 3em;
+    width: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .site-navigation .svg-inline--fa {
+    color: #fff !important;
+    font-size: calc(18px + .5vw); }
+
+@media (max-width: 767px) {
+  .site-footer {
+    margin-bottom: 3em; }
+  .site-navigation {
+    top: auto;
+    bottom: 0;
+    height: 3em;
+    width: 100%;
+    display: flex; }
+    .site-navigation a {
+      flex-grow: 1;
+      width: auto; } }
+
+/*----------------------------------------------
 	Site Content
 ----------------------------------------------*/
 .site-content {
@@ -658,6 +880,8 @@ video.wp-video-shortcode {
     padding: 4em 0; }
     .site-content .container > article:first-child {
       padding-top: 0; }
+    .site-content .container > article.condensed {
+      padding: 2em 0; }
 
 .soapcolor-bg a {
   text-decoration: none;
@@ -677,6 +901,67 @@ video.wp-video-shortcode {
   margin-bottom: 3em;
   margin-left: 1.5em; }
 
+/*----------------------------------------------
+	Tag Archive
+----------------------------------------------*/
+.page-content--tag-archive h2 {
+  display: none; }
+
+.page-content--tag-archive .tagcloud {
+  text-align: center; }
+  .page-content--tag-archive .tagcloud a {
+    padding: .25em .5em; }
+
+/*----------------------------------------------
+	Month Archive
+----------------------------------------------*/
+.page-content--month-archive {
+  display: flex;
+  flex-wrap: wrap; }
+  .page-content--month-archive .month-archive {
+    flex-grow: 0;
+    flex-shrink: 0; }
+    .page-content--month-archive .month-archive h2 {
+      margin-bottom: 0; }
+    .page-content--month-archive .month-archive ul {
+      margin-top: 0; }
+  @media (max-width: 370px) {
+    .page-content--month-archive .month-archive {
+      width: calc(100%/2); } }
+  @media (min-width: 371px) {
+    .page-content--month-archive .month-archive {
+      width: calc(100%/3); } }
+  @media (min-width: 768px) {
+    .page-content--month-archive .month-archive {
+      width: calc(100%/5); } }
+  @media (min-width: 1200px) {
+    .page-content--month-archive .month-archive {
+      width: calc(100%/6); } }
+
+/*----------------------------------------------
+	Search
+----------------------------------------------*/
+.search-form {
+  margin: 4em 0; }
+  .search-form input {
+    padding: .5em;
+    width: calc(100% - 1em);
+    font-size: calc(18px + 1vw);
+    border: 0; }
+    .search-form input:focus {
+      outline: none; }
+
+#search-collapse {
+  max-height: 0;
+  transition: max-height 0.25s ease-out;
+  overflow: hidden; }
+  #search-collapse.open {
+    max-height: 800px;
+    transition: max-height 0.25s ease-in; }
+
+/*----------------------------------------------
+	Blog Post
+----------------------------------------------*/
 .blog-post-quote::before, .blog-post-quote::after {
   display: none;
   font-family: "Font Awesome 5 Light"; }
@@ -731,6 +1016,40 @@ video.wp-video-shortcode {
   margin-left: 1.5em; }
   .meta-wrapper > li {
     padding-right: 3em; }
+
+/*----------------------------------------------
+	Blog Post List
+----------------------------------------------*/
+.list-wrapper {
+  display: flex; }
+  .list-wrapper .list-icon {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.5em;
+    height: 3.5em;
+    flex: 0 0 3.5em;
+    margin-right: 2em; }
+    .list-wrapper .list-icon .svg-inline--fa {
+      font-size: 1.5em; }
+    .list-wrapper .list-icon img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%; }
+  .list-wrapper .list-title {
+    margin: 0; }
+  .list-wrapper .meta-wrapper {
+    margin-top: 0; }
+
+@media (max-width: 767px) {
+  .list-wrapper .list-icon {
+    width: 2em;
+    height: 2em;
+    flex: 0 0 2em;
+    margin-right: 1em; }
+    .list-wrapper .list-icon .svg-inline--fa {
+      font-size: 1em; } }
 
 /*----------------------------------------------
 	Blog Post Images
@@ -796,10 +1115,25 @@ figure .wp-caption-text {
   justify-content: space-between; }
   .navigation .nav-links .nav-previous {
     margin-right: 1em;
-    text-align: left; }
+    text-align: left;
+    width: 30vw; }
   .navigation .nav-links .nav-next {
     margin-left: 1em;
-    text-align: right; }
+    text-align: right;
+    width: 30vw; }
+
+@media (max-width: 767px) {
+  .navigation .nav-links {
+    flex-direction: column; }
+    .navigation .nav-links .nav-previous {
+      margin-right: 2em;
+      width: auto;
+      order: 1; }
+    .navigation .nav-links .nav-next {
+      margin-left: 2em;
+      margin-bottom: 1em;
+      width: auto;
+      order: 0; } }
 
 /*----------------------------------------------
 	Instagram Feed
@@ -877,6 +1211,12 @@ figure .wp-caption-text {
     color: #43B24D; }
   #earth-day hr {
     border-color: #43B24D; }
+  #earth-day .site-navigation a:hover,
+  #earth-day .site-navigation a:focus {
+    background: #43B24D; }
+    #earth-day .site-navigation a:hover .svg-inline--fa,
+    #earth-day .site-navigation a:focus .svg-inline--fa {
+      color: #fff; }
   #earth-day .soapcolor-bg {
     background: #43B24D;
     color: #fff; }
@@ -894,5 +1234,14 @@ figure .wp-caption-text {
     color: #fff; }
     #earth-day .btn:focus, #earth-day .navigation .nav-links div a:focus, .navigation .nav-links div #earth-day a:focus, #earth-day .btn:hover, #earth-day .navigation .nav-links div a:hover, .navigation .nav-links div #earth-day a:hover {
       background: #64c46c; }
+    #earth-day .btn .svg-inline--fa, #earth-day .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div #earth-day a .svg-inline--fa {
+      color: #fff; }
   #earth-day .svg-inline--fa {
     color: #43B24D; }
+  #earth-day .list-icon {
+    background: #43B24D; }
+    #earth-day .list-icon .svg-inline--fa {
+      color: #fff; }
+  #earth-day .search-form input {
+    background: #f9f9f9;
+    color: #222; }

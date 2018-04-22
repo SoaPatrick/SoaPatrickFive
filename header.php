@@ -60,11 +60,25 @@
 	endif; 
 ?>
 
-
-
-<body <?php echo $body_id ?> <?php body_class(); ?>>
+<body <?php echo $body_id ?> <?php body_class('red'); ?>>
 	<h1 class="hidden"><?php bloginfo('name'); ?></h1>
 	<h2 class="hidden"><?php bloginfo('description'); ?></h2>
+	
+	<div id="search-collapse">
+		<div class="container">
+			<form class="search-form" action="<?php echo home_url( '/' ); ?>" method="get">
+				<input type="text" name="s" id="search-collapse--input" value="<?php the_search_query(); ?>" placeholder="Find stuff..." />
+			</form>	
+		</div>
+	</div>
+		
+	<nav class="site-navigation">
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><i class="fal fa-home"></i></a>
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>storage"><i class="fal fa-box-full"></i></a>
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>tags"><i class="fal fa-tags"></i></a>
+		<a href="#" id="toggle-search-collapse"><i class="fal fa-search"></i></a>
+		<a id="scroll-to-top" title="Back to top"><i class="fal fa-arrow-to-top"></i></a>			
+	</nav>	
 	<div class="wrapper">
 	    <header class="site-header">	    
 		    <div class="container">		

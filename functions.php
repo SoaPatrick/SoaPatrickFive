@@ -147,6 +147,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
  */
 if ( function_exists( 'add_image_size' ) ) { 
 	add_image_size( 'large-featured-image', 1250 );    
+	add_image_size( 'list-featured-image', 100, 100, array( 'center', 'center' ) );    	
 }
 
 /**
@@ -408,8 +409,8 @@ if(function_exists("register_field_group"))
 				'label' => 'Font-Awesome Icon',
 				'name' => 'font-awesome_icon',
 				'type' => 'text',
-				'default_value' => 'fal fa-newspaper',
-				'placeholder' => 'fal fa-newspaper',
+				'default_value' => '',
+				'placeholder' => '',
 				'prepend' => '',
 				'append' => '',
 				'formatting' => 'none',
@@ -510,3 +511,21 @@ function grd_custom_archive_title( $title ) {
 	return preg_replace( '#^[\w\d\s]+:\s*#', '', strip_tags( $title ) );
 }
 add_filter( 'get_the_archive_title', 'grd_custom_archive_title' );
+
+
+add_filter( 'widget_tag_cloud_args', 'change_tag_cloud_font_sizes');
+/**
+ * Change the Tag Cloud's Font Sizes.
+ *
+ * @since 1.0.0
+ *
+ * @param array $args
+ *
+ * @return array
+ */
+function change_tag_cloud_font_sizes( array $args ) {
+    $args['smallest'] = '16';
+    $args['largest'] = '32';
+
+    return $args;
+}

@@ -28,8 +28,19 @@
 	}
 	
 	hr {
-		border-color:$soap-color;			
+		border-color: $soap-color;			
 	}
+	
+	.site-navigation {
+		a:hover,
+		a:focus {
+			background: $soap-color;
+			
+			.svg-inline--fa {
+				color: $sp-text-color;
+			}				
+		}	
+	}	
 	
 	.soapcolor-bg {
 		background: $soap-color;
@@ -61,10 +72,28 @@
 		&:focus,
 		&:hover {
 			background: lighten($soap-color, 10%);
-		}	
+		}
+		
+		.svg-inline--fa {
+			color: $sp-text-color;
+		} 		
+			
 	}
 	
 	.svg-inline--fa {
 		color: $soap-color;
 	} 
+	
+	.list-icon {
+		background: $soap-color;
+	
+		.svg-inline--fa {
+			color: $sp-text-color;
+		}
+	}
+	
+	.search-form input {
+		background: darken($bg-color, 2.5%);
+		color: $text-color;
+	}		
 }

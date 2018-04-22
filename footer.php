@@ -23,7 +23,7 @@
 		<script>var flkty=new Flickity(".main-carousel",{setGallerySize:!0,pageDots:!1,resize:!0,groupCells:1});</script>			    	        	    
 	    <footer class="site-footer">
 		    <div class="container">
-				<p>Stuff from 2000 to <?php echo date('Y'); ?> by SoaPatrick<a href="/log">Five</a></p>			    
+				<p>Stuff from 2000 to <?php echo date('Y'); ?> by SoaPatrick<a href="<?php echo esc_url( home_url( '/' ) ); ?>log">Five</a></p>			    
 		    </div>	    	    
 	    </footer>
 	</div>

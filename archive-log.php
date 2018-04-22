@@ -4,7 +4,6 @@ Template Name: Archives Change Logs
  */
 
 get_header(); ?>
-
     <div class="site-content">
 	    <div class="container">
 			<article>	    
@@ -12,8 +11,7 @@ get_header(); ?>
 					<h1 class="title-large">Change Log</h1>
 				</header>
 				<hr class="margin-extend">
-				<div class="page-content page-content--changelog padding-indent">		    
-		    
+				<div class="page-content page-content--changelog padding-indent">
 					<?php
 					$args = array(
 						'post_type' => 'log',
@@ -39,16 +37,11 @@ get_header(); ?>
 							<li><span class="fa-li"><i class="<?php echo $value ?>"></i></span><strong><?php echo $label ?></strong> <?php the_title(); ?></li>
 							<?php $day_check = $day;
 						endwhile; ?>
-						
 						<?php the_posts_navigation();			
-							
-					else :
-						get_template_part( 'template-parts/content', 'none' );
 					endif; ?>
 				</div>
 			</article>
 		</div>
 	</div>
-
 <?php
 get_footer();

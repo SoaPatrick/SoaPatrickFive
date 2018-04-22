@@ -8,12 +8,11 @@
  */
 
 get_header(); ?>
-
     <div class="site-content">
 	    <div class="container">
 			<article>
 				<header class="page-header padding-indent">
-					<h1 class="title-large"><?php esc_html_e( 'This is not the Page you were looking for!', 'soapatrickfive' ); ?></h1>
+					<h1 class="title-large"><?php esc_html_e( 'Not the Page you were looking for!', 'soapatrickfive' ); ?></h1>
 				</header>
 				<hr class="margin-extend">
 				<div class="page-content padding-indent">
@@ -23,6 +22,5 @@ get_header(); ?>
 			</article>
 		</div>
 	</div>
-
 <?php
 get_footer();
