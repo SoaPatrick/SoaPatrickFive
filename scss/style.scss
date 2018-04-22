@@ -82,22 +82,6 @@ $text-color: #fff;
 	Theme based on body class or id
 ----------------------------------------------*/
 
-.home,
-.blog,
-.single,
-.archive {
-	@extend .red;
-}
-
-.page-log,
-.post-type-archive-log {
-	@extend .blue;
-}
-
-.error404 {
-	@extend .purple;
-}
-
 #earth-day { 
 	@include color-theme(
 		$white,
