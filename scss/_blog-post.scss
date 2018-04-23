@@ -217,14 +217,36 @@ figure {
 	Blog Navigation
 ----------------------------------------------*/
 
-.navigation {
+.navigation.posts-navigation,
+.navigation.post-navigation {
+	.nav-links {
+		justify-content: space-between;	
+	}
+}
+.navigation.pagination {
+	.nav-links {
+		justify-content: center;
+		
+		.page-numbers {
+			margin: 0 .5em;
+		}
+		
+		.current {
+			box-shadow: none;
+			opacity: .5;
+		}
+	}
+}
+
+.navigation.posts-navigation,
+.navigation.post-navigation,
+.navigation.pagination {
 	h2 {
 		display: none;
 	}
 	
 	.nav-links {
 		display: flex;
-		justify-content: space-between;
 		
 		.nav-previous {
 		    margin-right: 1em;
@@ -238,29 +260,42 @@ figure {
 		    width: 30vw;		    				    		
 		}
 		
+		.page-numbers,
 		div a {
 		    @extend .btn;
-		}  
+		} 
 	}
-	
+}
+
+.navigation.posts-navigation,
+.navigation.post-navigation {	
 	@media (max-width: 767px) {
 		.nav-links {
-			flex-direction: column;
+			flex-direction: column-reverse;
 			
 			.nav-previous {
 			    margin-right: 2em;
-				width: auto;
-				order: 1;			    	
+				width: auto;			    	
 			}
 			
 			.nav-next {
 			    margin-left: 2em;
 			    margin-bottom: 1em;				    	
 				width: auto;				    			    		
-				order: 0;
-			}
+			}		
 		}		
 	}
+}
 	
-	
+.navigation.pagination {	
+	@media (max-width: 767px) {
+		.nav-links {
+			flex-direction: column;
+				
+			.page-numbers {
+			    margin: 0 0 1em 0;				    	
+				text-align: center;					
+			}		
+		}
+	}
 }

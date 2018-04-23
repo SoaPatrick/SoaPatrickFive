@@ -70,12 +70,42 @@ Version: 5.0.1
     border-color: #CF3A3A; }
     .red .img-link img:hover, #red .img-link img:hover, .red .img-link img:focus, #red .img-link img:focus {
       border-color: #d96363; }
-  .red .btn, #red .btn, .red .navigation .nav-links div a, .navigation .nav-links div .red a, #red .navigation .nav-links div a, .navigation .nav-links div #red a {
+  .red .btn, #red .btn, .red .navigation.posts-navigation .nav-links .page-numbers, .navigation.posts-navigation .nav-links .red .page-numbers, #red .navigation.posts-navigation .nav-links .page-numbers, .navigation.posts-navigation .nav-links #red .page-numbers,
+  .red .navigation.posts-navigation .nav-links div a, .navigation.posts-navigation .nav-links div .red a,
+  #red .navigation.posts-navigation .nav-links div a, .navigation.posts-navigation .nav-links div #red a,
+  .red .navigation.post-navigation .nav-links .page-numbers, .navigation.post-navigation .nav-links .red .page-numbers,
+  #red .navigation.post-navigation .nav-links .page-numbers, .navigation.post-navigation .nav-links #red .page-numbers,
+  .red .navigation.post-navigation .nav-links div a, .navigation.post-navigation .nav-links div .red a,
+  #red .navigation.post-navigation .nav-links div a, .navigation.post-navigation .nav-links div #red a,
+  .red .navigation.pagination .nav-links .page-numbers, .navigation.pagination .nav-links .red .page-numbers,
+  #red .navigation.pagination .nav-links .page-numbers, .navigation.pagination .nav-links #red .page-numbers,
+  .red .navigation.pagination .nav-links div a, .navigation.pagination .nav-links div .red a,
+  #red .navigation.pagination .nav-links div a, .navigation.pagination .nav-links div #red a {
     background: #CF3A3A;
     color: #fff; }
-    .red .btn:focus, #red .btn:focus, .red .navigation .nav-links div a:focus, .navigation .nav-links div .red a:focus, #red .navigation .nav-links div a:focus, .navigation .nav-links div #red a:focus, .red .btn:hover, #red .btn:hover, .red .navigation .nav-links div a:hover, .navigation .nav-links div .red a:hover, #red .navigation .nav-links div a:hover, .navigation .nav-links div #red a:hover {
+    .red .btn:focus, #red .btn:focus, .red .navigation.posts-navigation .nav-links .page-numbers:focus, .navigation.posts-navigation .nav-links .red .page-numbers:focus, #red .navigation.posts-navigation .nav-links .page-numbers:focus, .navigation.posts-navigation .nav-links #red .page-numbers:focus,
+    .red .navigation.posts-navigation .nav-links div a:focus, .navigation.posts-navigation .nav-links div .red a:focus,
+    #red .navigation.posts-navigation .nav-links div a:focus, .navigation.posts-navigation .nav-links div #red a:focus,
+    .red .navigation.post-navigation .nav-links .page-numbers:focus, .navigation.post-navigation .nav-links .red .page-numbers:focus,
+    #red .navigation.post-navigation .nav-links .page-numbers:focus, .navigation.post-navigation .nav-links #red .page-numbers:focus,
+    .red .navigation.post-navigation .nav-links div a:focus, .navigation.post-navigation .nav-links div .red a:focus,
+    #red .navigation.post-navigation .nav-links div a:focus, .navigation.post-navigation .nav-links div #red a:focus,
+    .red .navigation.pagination .nav-links .page-numbers:focus, .navigation.pagination .nav-links .red .page-numbers:focus,
+    #red .navigation.pagination .nav-links .page-numbers:focus, .navigation.pagination .nav-links #red .page-numbers:focus,
+    .red .navigation.pagination .nav-links div a:focus, .navigation.pagination .nav-links div .red a:focus,
+    #red .navigation.pagination .nav-links div a:focus, .navigation.pagination .nav-links div #red a:focus, .red .btn:hover, #red .btn:hover, .red .navigation.posts-navigation .nav-links .page-numbers:hover, .navigation.posts-navigation .nav-links .red .page-numbers:hover, #red .navigation.posts-navigation .nav-links .page-numbers:hover, .navigation.posts-navigation .nav-links #red .page-numbers:hover,
+    .red .navigation.posts-navigation .nav-links div a:hover, .navigation.posts-navigation .nav-links div .red a:hover,
+    #red .navigation.posts-navigation .nav-links div a:hover, .navigation.posts-navigation .nav-links div #red a:hover,
+    .red .navigation.post-navigation .nav-links .page-numbers:hover, .navigation.post-navigation .nav-links .red .page-numbers:hover,
+    #red .navigation.post-navigation .nav-links .page-numbers:hover, .navigation.post-navigation .nav-links #red .page-numbers:hover,
+    .red .navigation.post-navigation .nav-links div a:hover, .navigation.post-navigation .nav-links div .red a:hover,
+    #red .navigation.post-navigation .nav-links div a:hover, .navigation.post-navigation .nav-links div #red a:hover,
+    .red .navigation.pagination .nav-links .page-numbers:hover, .navigation.pagination .nav-links .red .page-numbers:hover,
+    #red .navigation.pagination .nav-links .page-numbers:hover, .navigation.pagination .nav-links #red .page-numbers:hover,
+    .red .navigation.pagination .nav-links div a:hover, .navigation.pagination .nav-links div .red a:hover,
+    #red .navigation.pagination .nav-links div a:hover, .navigation.pagination .nav-links div #red a:hover {
       background: #d96363; }
-    .red .btn .svg-inline--fa, #red .btn .svg-inline--fa, .red .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .red a .svg-inline--fa, #red .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div #red a .svg-inline--fa {
+    .red .btn .svg-inline--fa, #red .btn .svg-inline--fa, .red .navigation.posts-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.posts-navigation .nav-links .red .page-numbers .svg-inline--fa, #red .navigation.posts-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.posts-navigation .nav-links #red .page-numbers .svg-inline--fa, .red .navigation.posts-navigation .nav-links div a .svg-inline--fa, .navigation.posts-navigation .nav-links div .red a .svg-inline--fa, #red .navigation.posts-navigation .nav-links div a .svg-inline--fa, .navigation.posts-navigation .nav-links div #red a .svg-inline--fa, .red .navigation.post-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.post-navigation .nav-links .red .page-numbers .svg-inline--fa, #red .navigation.post-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.post-navigation .nav-links #red .page-numbers .svg-inline--fa, .red .navigation.post-navigation .nav-links div a .svg-inline--fa, .navigation.post-navigation .nav-links div .red a .svg-inline--fa, #red .navigation.post-navigation .nav-links div a .svg-inline--fa, .navigation.post-navigation .nav-links div #red a .svg-inline--fa, .red .navigation.pagination .nav-links .page-numbers .svg-inline--fa, .navigation.pagination .nav-links .red .page-numbers .svg-inline--fa, #red .navigation.pagination .nav-links .page-numbers .svg-inline--fa, .navigation.pagination .nav-links #red .page-numbers .svg-inline--fa, .red .navigation.pagination .nav-links div a .svg-inline--fa, .navigation.pagination .nav-links div .red a .svg-inline--fa, #red .navigation.pagination .nav-links div a .svg-inline--fa, .navigation.pagination .nav-links div #red a .svg-inline--fa {
       color: #fff; }
   .red .svg-inline--fa, #red .svg-inline--fa {
     color: #CF3A3A; }
@@ -129,12 +159,42 @@ Version: 5.0.1
     border-color: #222; }
     .red-invert .img-link img:hover, #red-invert .img-link img:hover, .red-invert .img-link img:focus, #red-invert .img-link img:focus {
       border-color: #3c3b3b; }
-  .red-invert .btn, #red-invert .btn, .red-invert .navigation .nav-links div a, .navigation .nav-links div .red-invert a, #red-invert .navigation .nav-links div a, .navigation .nav-links div #red-invert a {
+  .red-invert .btn, #red-invert .btn, .red-invert .navigation.posts-navigation .nav-links .page-numbers, .navigation.posts-navigation .nav-links .red-invert .page-numbers, #red-invert .navigation.posts-navigation .nav-links .page-numbers, .navigation.posts-navigation .nav-links #red-invert .page-numbers,
+  .red-invert .navigation.posts-navigation .nav-links div a, .navigation.posts-navigation .nav-links div .red-invert a,
+  #red-invert .navigation.posts-navigation .nav-links div a, .navigation.posts-navigation .nav-links div #red-invert a,
+  .red-invert .navigation.post-navigation .nav-links .page-numbers, .navigation.post-navigation .nav-links .red-invert .page-numbers,
+  #red-invert .navigation.post-navigation .nav-links .page-numbers, .navigation.post-navigation .nav-links #red-invert .page-numbers,
+  .red-invert .navigation.post-navigation .nav-links div a, .navigation.post-navigation .nav-links div .red-invert a,
+  #red-invert .navigation.post-navigation .nav-links div a, .navigation.post-navigation .nav-links div #red-invert a,
+  .red-invert .navigation.pagination .nav-links .page-numbers, .navigation.pagination .nav-links .red-invert .page-numbers,
+  #red-invert .navigation.pagination .nav-links .page-numbers, .navigation.pagination .nav-links #red-invert .page-numbers,
+  .red-invert .navigation.pagination .nav-links div a, .navigation.pagination .nav-links div .red-invert a,
+  #red-invert .navigation.pagination .nav-links div a, .navigation.pagination .nav-links div #red-invert a {
     background: #222;
     color: #fff; }
-    .red-invert .btn:focus, #red-invert .btn:focus, .red-invert .navigation .nav-links div a:focus, .navigation .nav-links div .red-invert a:focus, #red-invert .navigation .nav-links div a:focus, .navigation .nav-links div #red-invert a:focus, .red-invert .btn:hover, #red-invert .btn:hover, .red-invert .navigation .nav-links div a:hover, .navigation .nav-links div .red-invert a:hover, #red-invert .navigation .nav-links div a:hover, .navigation .nav-links div #red-invert a:hover {
+    .red-invert .btn:focus, #red-invert .btn:focus, .red-invert .navigation.posts-navigation .nav-links .page-numbers:focus, .navigation.posts-navigation .nav-links .red-invert .page-numbers:focus, #red-invert .navigation.posts-navigation .nav-links .page-numbers:focus, .navigation.posts-navigation .nav-links #red-invert .page-numbers:focus,
+    .red-invert .navigation.posts-navigation .nav-links div a:focus, .navigation.posts-navigation .nav-links div .red-invert a:focus,
+    #red-invert .navigation.posts-navigation .nav-links div a:focus, .navigation.posts-navigation .nav-links div #red-invert a:focus,
+    .red-invert .navigation.post-navigation .nav-links .page-numbers:focus, .navigation.post-navigation .nav-links .red-invert .page-numbers:focus,
+    #red-invert .navigation.post-navigation .nav-links .page-numbers:focus, .navigation.post-navigation .nav-links #red-invert .page-numbers:focus,
+    .red-invert .navigation.post-navigation .nav-links div a:focus, .navigation.post-navigation .nav-links div .red-invert a:focus,
+    #red-invert .navigation.post-navigation .nav-links div a:focus, .navigation.post-navigation .nav-links div #red-invert a:focus,
+    .red-invert .navigation.pagination .nav-links .page-numbers:focus, .navigation.pagination .nav-links .red-invert .page-numbers:focus,
+    #red-invert .navigation.pagination .nav-links .page-numbers:focus, .navigation.pagination .nav-links #red-invert .page-numbers:focus,
+    .red-invert .navigation.pagination .nav-links div a:focus, .navigation.pagination .nav-links div .red-invert a:focus,
+    #red-invert .navigation.pagination .nav-links div a:focus, .navigation.pagination .nav-links div #red-invert a:focus, .red-invert .btn:hover, #red-invert .btn:hover, .red-invert .navigation.posts-navigation .nav-links .page-numbers:hover, .navigation.posts-navigation .nav-links .red-invert .page-numbers:hover, #red-invert .navigation.posts-navigation .nav-links .page-numbers:hover, .navigation.posts-navigation .nav-links #red-invert .page-numbers:hover,
+    .red-invert .navigation.posts-navigation .nav-links div a:hover, .navigation.posts-navigation .nav-links div .red-invert a:hover,
+    #red-invert .navigation.posts-navigation .nav-links div a:hover, .navigation.posts-navigation .nav-links div #red-invert a:hover,
+    .red-invert .navigation.post-navigation .nav-links .page-numbers:hover, .navigation.post-navigation .nav-links .red-invert .page-numbers:hover,
+    #red-invert .navigation.post-navigation .nav-links .page-numbers:hover, .navigation.post-navigation .nav-links #red-invert .page-numbers:hover,
+    .red-invert .navigation.post-navigation .nav-links div a:hover, .navigation.post-navigation .nav-links div .red-invert a:hover,
+    #red-invert .navigation.post-navigation .nav-links div a:hover, .navigation.post-navigation .nav-links div #red-invert a:hover,
+    .red-invert .navigation.pagination .nav-links .page-numbers:hover, .navigation.pagination .nav-links .red-invert .page-numbers:hover,
+    #red-invert .navigation.pagination .nav-links .page-numbers:hover, .navigation.pagination .nav-links #red-invert .page-numbers:hover,
+    .red-invert .navigation.pagination .nav-links div a:hover, .navigation.pagination .nav-links div .red-invert a:hover,
+    #red-invert .navigation.pagination .nav-links div a:hover, .navigation.pagination .nav-links div #red-invert a:hover {
       background: #3c3b3b; }
-    .red-invert .btn .svg-inline--fa, #red-invert .btn .svg-inline--fa, .red-invert .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .red-invert a .svg-inline--fa, #red-invert .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div #red-invert a .svg-inline--fa {
+    .red-invert .btn .svg-inline--fa, #red-invert .btn .svg-inline--fa, .red-invert .navigation.posts-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.posts-navigation .nav-links .red-invert .page-numbers .svg-inline--fa, #red-invert .navigation.posts-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.posts-navigation .nav-links #red-invert .page-numbers .svg-inline--fa, .red-invert .navigation.posts-navigation .nav-links div a .svg-inline--fa, .navigation.posts-navigation .nav-links div .red-invert a .svg-inline--fa, #red-invert .navigation.posts-navigation .nav-links div a .svg-inline--fa, .navigation.posts-navigation .nav-links div #red-invert a .svg-inline--fa, .red-invert .navigation.post-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.post-navigation .nav-links .red-invert .page-numbers .svg-inline--fa, #red-invert .navigation.post-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.post-navigation .nav-links #red-invert .page-numbers .svg-inline--fa, .red-invert .navigation.post-navigation .nav-links div a .svg-inline--fa, .navigation.post-navigation .nav-links div .red-invert a .svg-inline--fa, #red-invert .navigation.post-navigation .nav-links div a .svg-inline--fa, .navigation.post-navigation .nav-links div #red-invert a .svg-inline--fa, .red-invert .navigation.pagination .nav-links .page-numbers .svg-inline--fa, .navigation.pagination .nav-links .red-invert .page-numbers .svg-inline--fa, #red-invert .navigation.pagination .nav-links .page-numbers .svg-inline--fa, .navigation.pagination .nav-links #red-invert .page-numbers .svg-inline--fa, .red-invert .navigation.pagination .nav-links div a .svg-inline--fa, .navigation.pagination .nav-links div .red-invert a .svg-inline--fa, #red-invert .navigation.pagination .nav-links div a .svg-inline--fa, .navigation.pagination .nav-links div #red-invert a .svg-inline--fa {
       color: #fff; }
   .red-invert .svg-inline--fa, #red-invert .svg-inline--fa {
     color: #222; }
@@ -188,12 +248,42 @@ Version: 5.0.1
     border-color: #42A5F5; }
     .blue .img-link img:hover, #blue .img-link img:hover, .blue .img-link img:focus, #blue .img-link img:focus {
       border-color: #72bcf8; }
-  .blue .btn, #blue .btn, .blue .navigation .nav-links div a, .navigation .nav-links div .blue a, #blue .navigation .nav-links div a, .navigation .nav-links div #blue a {
+  .blue .btn, #blue .btn, .blue .navigation.posts-navigation .nav-links .page-numbers, .navigation.posts-navigation .nav-links .blue .page-numbers, #blue .navigation.posts-navigation .nav-links .page-numbers, .navigation.posts-navigation .nav-links #blue .page-numbers,
+  .blue .navigation.posts-navigation .nav-links div a, .navigation.posts-navigation .nav-links div .blue a,
+  #blue .navigation.posts-navigation .nav-links div a, .navigation.posts-navigation .nav-links div #blue a,
+  .blue .navigation.post-navigation .nav-links .page-numbers, .navigation.post-navigation .nav-links .blue .page-numbers,
+  #blue .navigation.post-navigation .nav-links .page-numbers, .navigation.post-navigation .nav-links #blue .page-numbers,
+  .blue .navigation.post-navigation .nav-links div a, .navigation.post-navigation .nav-links div .blue a,
+  #blue .navigation.post-navigation .nav-links div a, .navigation.post-navigation .nav-links div #blue a,
+  .blue .navigation.pagination .nav-links .page-numbers, .navigation.pagination .nav-links .blue .page-numbers,
+  #blue .navigation.pagination .nav-links .page-numbers, .navigation.pagination .nav-links #blue .page-numbers,
+  .blue .navigation.pagination .nav-links div a, .navigation.pagination .nav-links div .blue a,
+  #blue .navigation.pagination .nav-links div a, .navigation.pagination .nav-links div #blue a {
     background: #42A5F5;
     color: #fff; }
-    .blue .btn:focus, #blue .btn:focus, .blue .navigation .nav-links div a:focus, .navigation .nav-links div .blue a:focus, #blue .navigation .nav-links div a:focus, .navigation .nav-links div #blue a:focus, .blue .btn:hover, #blue .btn:hover, .blue .navigation .nav-links div a:hover, .navigation .nav-links div .blue a:hover, #blue .navigation .nav-links div a:hover, .navigation .nav-links div #blue a:hover {
+    .blue .btn:focus, #blue .btn:focus, .blue .navigation.posts-navigation .nav-links .page-numbers:focus, .navigation.posts-navigation .nav-links .blue .page-numbers:focus, #blue .navigation.posts-navigation .nav-links .page-numbers:focus, .navigation.posts-navigation .nav-links #blue .page-numbers:focus,
+    .blue .navigation.posts-navigation .nav-links div a:focus, .navigation.posts-navigation .nav-links div .blue a:focus,
+    #blue .navigation.posts-navigation .nav-links div a:focus, .navigation.posts-navigation .nav-links div #blue a:focus,
+    .blue .navigation.post-navigation .nav-links .page-numbers:focus, .navigation.post-navigation .nav-links .blue .page-numbers:focus,
+    #blue .navigation.post-navigation .nav-links .page-numbers:focus, .navigation.post-navigation .nav-links #blue .page-numbers:focus,
+    .blue .navigation.post-navigation .nav-links div a:focus, .navigation.post-navigation .nav-links div .blue a:focus,
+    #blue .navigation.post-navigation .nav-links div a:focus, .navigation.post-navigation .nav-links div #blue a:focus,
+    .blue .navigation.pagination .nav-links .page-numbers:focus, .navigation.pagination .nav-links .blue .page-numbers:focus,
+    #blue .navigation.pagination .nav-links .page-numbers:focus, .navigation.pagination .nav-links #blue .page-numbers:focus,
+    .blue .navigation.pagination .nav-links div a:focus, .navigation.pagination .nav-links div .blue a:focus,
+    #blue .navigation.pagination .nav-links div a:focus, .navigation.pagination .nav-links div #blue a:focus, .blue .btn:hover, #blue .btn:hover, .blue .navigation.posts-navigation .nav-links .page-numbers:hover, .navigation.posts-navigation .nav-links .blue .page-numbers:hover, #blue .navigation.posts-navigation .nav-links .page-numbers:hover, .navigation.posts-navigation .nav-links #blue .page-numbers:hover,
+    .blue .navigation.posts-navigation .nav-links div a:hover, .navigation.posts-navigation .nav-links div .blue a:hover,
+    #blue .navigation.posts-navigation .nav-links div a:hover, .navigation.posts-navigation .nav-links div #blue a:hover,
+    .blue .navigation.post-navigation .nav-links .page-numbers:hover, .navigation.post-navigation .nav-links .blue .page-numbers:hover,
+    #blue .navigation.post-navigation .nav-links .page-numbers:hover, .navigation.post-navigation .nav-links #blue .page-numbers:hover,
+    .blue .navigation.post-navigation .nav-links div a:hover, .navigation.post-navigation .nav-links div .blue a:hover,
+    #blue .navigation.post-navigation .nav-links div a:hover, .navigation.post-navigation .nav-links div #blue a:hover,
+    .blue .navigation.pagination .nav-links .page-numbers:hover, .navigation.pagination .nav-links .blue .page-numbers:hover,
+    #blue .navigation.pagination .nav-links .page-numbers:hover, .navigation.pagination .nav-links #blue .page-numbers:hover,
+    .blue .navigation.pagination .nav-links div a:hover, .navigation.pagination .nav-links div .blue a:hover,
+    #blue .navigation.pagination .nav-links div a:hover, .navigation.pagination .nav-links div #blue a:hover {
       background: #72bcf8; }
-    .blue .btn .svg-inline--fa, #blue .btn .svg-inline--fa, .blue .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .blue a .svg-inline--fa, #blue .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div #blue a .svg-inline--fa {
+    .blue .btn .svg-inline--fa, #blue .btn .svg-inline--fa, .blue .navigation.posts-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.posts-navigation .nav-links .blue .page-numbers .svg-inline--fa, #blue .navigation.posts-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.posts-navigation .nav-links #blue .page-numbers .svg-inline--fa, .blue .navigation.posts-navigation .nav-links div a .svg-inline--fa, .navigation.posts-navigation .nav-links div .blue a .svg-inline--fa, #blue .navigation.posts-navigation .nav-links div a .svg-inline--fa, .navigation.posts-navigation .nav-links div #blue a .svg-inline--fa, .blue .navigation.post-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.post-navigation .nav-links .blue .page-numbers .svg-inline--fa, #blue .navigation.post-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.post-navigation .nav-links #blue .page-numbers .svg-inline--fa, .blue .navigation.post-navigation .nav-links div a .svg-inline--fa, .navigation.post-navigation .nav-links div .blue a .svg-inline--fa, #blue .navigation.post-navigation .nav-links div a .svg-inline--fa, .navigation.post-navigation .nav-links div #blue a .svg-inline--fa, .blue .navigation.pagination .nav-links .page-numbers .svg-inline--fa, .navigation.pagination .nav-links .blue .page-numbers .svg-inline--fa, #blue .navigation.pagination .nav-links .page-numbers .svg-inline--fa, .navigation.pagination .nav-links #blue .page-numbers .svg-inline--fa, .blue .navigation.pagination .nav-links div a .svg-inline--fa, .navigation.pagination .nav-links div .blue a .svg-inline--fa, #blue .navigation.pagination .nav-links div a .svg-inline--fa, .navigation.pagination .nav-links div #blue a .svg-inline--fa {
       color: #fff; }
   .blue .svg-inline--fa, #blue .svg-inline--fa {
     color: #42A5F5; }
@@ -247,12 +337,42 @@ Version: 5.0.1
     border-color: #29B6F6; }
     .blue-light .img-link img:hover, #blue-light .img-link img:hover, .blue-light .img-link img:focus, #blue-light .img-link img:focus {
       border-color: #5ac7f8; }
-  .blue-light .btn, #blue-light .btn, .blue-light .navigation .nav-links div a, .navigation .nav-links div .blue-light a, #blue-light .navigation .nav-links div a, .navigation .nav-links div #blue-light a {
+  .blue-light .btn, #blue-light .btn, .blue-light .navigation.posts-navigation .nav-links .page-numbers, .navigation.posts-navigation .nav-links .blue-light .page-numbers, #blue-light .navigation.posts-navigation .nav-links .page-numbers, .navigation.posts-navigation .nav-links #blue-light .page-numbers,
+  .blue-light .navigation.posts-navigation .nav-links div a, .navigation.posts-navigation .nav-links div .blue-light a,
+  #blue-light .navigation.posts-navigation .nav-links div a, .navigation.posts-navigation .nav-links div #blue-light a,
+  .blue-light .navigation.post-navigation .nav-links .page-numbers, .navigation.post-navigation .nav-links .blue-light .page-numbers,
+  #blue-light .navigation.post-navigation .nav-links .page-numbers, .navigation.post-navigation .nav-links #blue-light .page-numbers,
+  .blue-light .navigation.post-navigation .nav-links div a, .navigation.post-navigation .nav-links div .blue-light a,
+  #blue-light .navigation.post-navigation .nav-links div a, .navigation.post-navigation .nav-links div #blue-light a,
+  .blue-light .navigation.pagination .nav-links .page-numbers, .navigation.pagination .nav-links .blue-light .page-numbers,
+  #blue-light .navigation.pagination .nav-links .page-numbers, .navigation.pagination .nav-links #blue-light .page-numbers,
+  .blue-light .navigation.pagination .nav-links div a, .navigation.pagination .nav-links div .blue-light a,
+  #blue-light .navigation.pagination .nav-links div a, .navigation.pagination .nav-links div #blue-light a {
     background: #29B6F6;
     color: #fff; }
-    .blue-light .btn:focus, #blue-light .btn:focus, .blue-light .navigation .nav-links div a:focus, .navigation .nav-links div .blue-light a:focus, #blue-light .navigation .nav-links div a:focus, .navigation .nav-links div #blue-light a:focus, .blue-light .btn:hover, #blue-light .btn:hover, .blue-light .navigation .nav-links div a:hover, .navigation .nav-links div .blue-light a:hover, #blue-light .navigation .nav-links div a:hover, .navigation .nav-links div #blue-light a:hover {
+    .blue-light .btn:focus, #blue-light .btn:focus, .blue-light .navigation.posts-navigation .nav-links .page-numbers:focus, .navigation.posts-navigation .nav-links .blue-light .page-numbers:focus, #blue-light .navigation.posts-navigation .nav-links .page-numbers:focus, .navigation.posts-navigation .nav-links #blue-light .page-numbers:focus,
+    .blue-light .navigation.posts-navigation .nav-links div a:focus, .navigation.posts-navigation .nav-links div .blue-light a:focus,
+    #blue-light .navigation.posts-navigation .nav-links div a:focus, .navigation.posts-navigation .nav-links div #blue-light a:focus,
+    .blue-light .navigation.post-navigation .nav-links .page-numbers:focus, .navigation.post-navigation .nav-links .blue-light .page-numbers:focus,
+    #blue-light .navigation.post-navigation .nav-links .page-numbers:focus, .navigation.post-navigation .nav-links #blue-light .page-numbers:focus,
+    .blue-light .navigation.post-navigation .nav-links div a:focus, .navigation.post-navigation .nav-links div .blue-light a:focus,
+    #blue-light .navigation.post-navigation .nav-links div a:focus, .navigation.post-navigation .nav-links div #blue-light a:focus,
+    .blue-light .navigation.pagination .nav-links .page-numbers:focus, .navigation.pagination .nav-links .blue-light .page-numbers:focus,
+    #blue-light .navigation.pagination .nav-links .page-numbers:focus, .navigation.pagination .nav-links #blue-light .page-numbers:focus,
+    .blue-light .navigation.pagination .nav-links div a:focus, .navigation.pagination .nav-links div .blue-light a:focus,
+    #blue-light .navigation.pagination .nav-links div a:focus, .navigation.pagination .nav-links div #blue-light a:focus, .blue-light .btn:hover, #blue-light .btn:hover, .blue-light .navigation.posts-navigation .nav-links .page-numbers:hover, .navigation.posts-navigation .nav-links .blue-light .page-numbers:hover, #blue-light .navigation.posts-navigation .nav-links .page-numbers:hover, .navigation.posts-navigation .nav-links #blue-light .page-numbers:hover,
+    .blue-light .navigation.posts-navigation .nav-links div a:hover, .navigation.posts-navigation .nav-links div .blue-light a:hover,
+    #blue-light .navigation.posts-navigation .nav-links div a:hover, .navigation.posts-navigation .nav-links div #blue-light a:hover,
+    .blue-light .navigation.post-navigation .nav-links .page-numbers:hover, .navigation.post-navigation .nav-links .blue-light .page-numbers:hover,
+    #blue-light .navigation.post-navigation .nav-links .page-numbers:hover, .navigation.post-navigation .nav-links #blue-light .page-numbers:hover,
+    .blue-light .navigation.post-navigation .nav-links div a:hover, .navigation.post-navigation .nav-links div .blue-light a:hover,
+    #blue-light .navigation.post-navigation .nav-links div a:hover, .navigation.post-navigation .nav-links div #blue-light a:hover,
+    .blue-light .navigation.pagination .nav-links .page-numbers:hover, .navigation.pagination .nav-links .blue-light .page-numbers:hover,
+    #blue-light .navigation.pagination .nav-links .page-numbers:hover, .navigation.pagination .nav-links #blue-light .page-numbers:hover,
+    .blue-light .navigation.pagination .nav-links div a:hover, .navigation.pagination .nav-links div .blue-light a:hover,
+    #blue-light .navigation.pagination .nav-links div a:hover, .navigation.pagination .nav-links div #blue-light a:hover {
       background: #5ac7f8; }
-    .blue-light .btn .svg-inline--fa, #blue-light .btn .svg-inline--fa, .blue-light .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .blue-light a .svg-inline--fa, #blue-light .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div #blue-light a .svg-inline--fa {
+    .blue-light .btn .svg-inline--fa, #blue-light .btn .svg-inline--fa, .blue-light .navigation.posts-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.posts-navigation .nav-links .blue-light .page-numbers .svg-inline--fa, #blue-light .navigation.posts-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.posts-navigation .nav-links #blue-light .page-numbers .svg-inline--fa, .blue-light .navigation.posts-navigation .nav-links div a .svg-inline--fa, .navigation.posts-navigation .nav-links div .blue-light a .svg-inline--fa, #blue-light .navigation.posts-navigation .nav-links div a .svg-inline--fa, .navigation.posts-navigation .nav-links div #blue-light a .svg-inline--fa, .blue-light .navigation.post-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.post-navigation .nav-links .blue-light .page-numbers .svg-inline--fa, #blue-light .navigation.post-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.post-navigation .nav-links #blue-light .page-numbers .svg-inline--fa, .blue-light .navigation.post-navigation .nav-links div a .svg-inline--fa, .navigation.post-navigation .nav-links div .blue-light a .svg-inline--fa, #blue-light .navigation.post-navigation .nav-links div a .svg-inline--fa, .navigation.post-navigation .nav-links div #blue-light a .svg-inline--fa, .blue-light .navigation.pagination .nav-links .page-numbers .svg-inline--fa, .navigation.pagination .nav-links .blue-light .page-numbers .svg-inline--fa, #blue-light .navigation.pagination .nav-links .page-numbers .svg-inline--fa, .navigation.pagination .nav-links #blue-light .page-numbers .svg-inline--fa, .blue-light .navigation.pagination .nav-links div a .svg-inline--fa, .navigation.pagination .nav-links div .blue-light a .svg-inline--fa, #blue-light .navigation.pagination .nav-links div a .svg-inline--fa, .navigation.pagination .nav-links div #blue-light a .svg-inline--fa {
       color: #fff; }
   .blue-light .svg-inline--fa, #blue-light .svg-inline--fa {
     color: #29B6F6; }
@@ -306,12 +426,42 @@ Version: 5.0.1
     border-color: #EC407A; }
     .pink .img-link img:hover, #pink .img-link img:hover, .pink .img-link img:focus, #pink .img-link img:focus {
       border-color: #f16e9a; }
-  .pink .btn, #pink .btn, .pink .navigation .nav-links div a, .navigation .nav-links div .pink a, #pink .navigation .nav-links div a, .navigation .nav-links div #pink a {
+  .pink .btn, #pink .btn, .pink .navigation.posts-navigation .nav-links .page-numbers, .navigation.posts-navigation .nav-links .pink .page-numbers, #pink .navigation.posts-navigation .nav-links .page-numbers, .navigation.posts-navigation .nav-links #pink .page-numbers,
+  .pink .navigation.posts-navigation .nav-links div a, .navigation.posts-navigation .nav-links div .pink a,
+  #pink .navigation.posts-navigation .nav-links div a, .navigation.posts-navigation .nav-links div #pink a,
+  .pink .navigation.post-navigation .nav-links .page-numbers, .navigation.post-navigation .nav-links .pink .page-numbers,
+  #pink .navigation.post-navigation .nav-links .page-numbers, .navigation.post-navigation .nav-links #pink .page-numbers,
+  .pink .navigation.post-navigation .nav-links div a, .navigation.post-navigation .nav-links div .pink a,
+  #pink .navigation.post-navigation .nav-links div a, .navigation.post-navigation .nav-links div #pink a,
+  .pink .navigation.pagination .nav-links .page-numbers, .navigation.pagination .nav-links .pink .page-numbers,
+  #pink .navigation.pagination .nav-links .page-numbers, .navigation.pagination .nav-links #pink .page-numbers,
+  .pink .navigation.pagination .nav-links div a, .navigation.pagination .nav-links div .pink a,
+  #pink .navigation.pagination .nav-links div a, .navigation.pagination .nav-links div #pink a {
     background: #EC407A;
     color: #fff; }
-    .pink .btn:focus, #pink .btn:focus, .pink .navigation .nav-links div a:focus, .navigation .nav-links div .pink a:focus, #pink .navigation .nav-links div a:focus, .navigation .nav-links div #pink a:focus, .pink .btn:hover, #pink .btn:hover, .pink .navigation .nav-links div a:hover, .navigation .nav-links div .pink a:hover, #pink .navigation .nav-links div a:hover, .navigation .nav-links div #pink a:hover {
+    .pink .btn:focus, #pink .btn:focus, .pink .navigation.posts-navigation .nav-links .page-numbers:focus, .navigation.posts-navigation .nav-links .pink .page-numbers:focus, #pink .navigation.posts-navigation .nav-links .page-numbers:focus, .navigation.posts-navigation .nav-links #pink .page-numbers:focus,
+    .pink .navigation.posts-navigation .nav-links div a:focus, .navigation.posts-navigation .nav-links div .pink a:focus,
+    #pink .navigation.posts-navigation .nav-links div a:focus, .navigation.posts-navigation .nav-links div #pink a:focus,
+    .pink .navigation.post-navigation .nav-links .page-numbers:focus, .navigation.post-navigation .nav-links .pink .page-numbers:focus,
+    #pink .navigation.post-navigation .nav-links .page-numbers:focus, .navigation.post-navigation .nav-links #pink .page-numbers:focus,
+    .pink .navigation.post-navigation .nav-links div a:focus, .navigation.post-navigation .nav-links div .pink a:focus,
+    #pink .navigation.post-navigation .nav-links div a:focus, .navigation.post-navigation .nav-links div #pink a:focus,
+    .pink .navigation.pagination .nav-links .page-numbers:focus, .navigation.pagination .nav-links .pink .page-numbers:focus,
+    #pink .navigation.pagination .nav-links .page-numbers:focus, .navigation.pagination .nav-links #pink .page-numbers:focus,
+    .pink .navigation.pagination .nav-links div a:focus, .navigation.pagination .nav-links div .pink a:focus,
+    #pink .navigation.pagination .nav-links div a:focus, .navigation.pagination .nav-links div #pink a:focus, .pink .btn:hover, #pink .btn:hover, .pink .navigation.posts-navigation .nav-links .page-numbers:hover, .navigation.posts-navigation .nav-links .pink .page-numbers:hover, #pink .navigation.posts-navigation .nav-links .page-numbers:hover, .navigation.posts-navigation .nav-links #pink .page-numbers:hover,
+    .pink .navigation.posts-navigation .nav-links div a:hover, .navigation.posts-navigation .nav-links div .pink a:hover,
+    #pink .navigation.posts-navigation .nav-links div a:hover, .navigation.posts-navigation .nav-links div #pink a:hover,
+    .pink .navigation.post-navigation .nav-links .page-numbers:hover, .navigation.post-navigation .nav-links .pink .page-numbers:hover,
+    #pink .navigation.post-navigation .nav-links .page-numbers:hover, .navigation.post-navigation .nav-links #pink .page-numbers:hover,
+    .pink .navigation.post-navigation .nav-links div a:hover, .navigation.post-navigation .nav-links div .pink a:hover,
+    #pink .navigation.post-navigation .nav-links div a:hover, .navigation.post-navigation .nav-links div #pink a:hover,
+    .pink .navigation.pagination .nav-links .page-numbers:hover, .navigation.pagination .nav-links .pink .page-numbers:hover,
+    #pink .navigation.pagination .nav-links .page-numbers:hover, .navigation.pagination .nav-links #pink .page-numbers:hover,
+    .pink .navigation.pagination .nav-links div a:hover, .navigation.pagination .nav-links div .pink a:hover,
+    #pink .navigation.pagination .nav-links div a:hover, .navigation.pagination .nav-links div #pink a:hover {
       background: #f16e9a; }
-    .pink .btn .svg-inline--fa, #pink .btn .svg-inline--fa, .pink .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .pink a .svg-inline--fa, #pink .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div #pink a .svg-inline--fa {
+    .pink .btn .svg-inline--fa, #pink .btn .svg-inline--fa, .pink .navigation.posts-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.posts-navigation .nav-links .pink .page-numbers .svg-inline--fa, #pink .navigation.posts-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.posts-navigation .nav-links #pink .page-numbers .svg-inline--fa, .pink .navigation.posts-navigation .nav-links div a .svg-inline--fa, .navigation.posts-navigation .nav-links div .pink a .svg-inline--fa, #pink .navigation.posts-navigation .nav-links div a .svg-inline--fa, .navigation.posts-navigation .nav-links div #pink a .svg-inline--fa, .pink .navigation.post-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.post-navigation .nav-links .pink .page-numbers .svg-inline--fa, #pink .navigation.post-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.post-navigation .nav-links #pink .page-numbers .svg-inline--fa, .pink .navigation.post-navigation .nav-links div a .svg-inline--fa, .navigation.post-navigation .nav-links div .pink a .svg-inline--fa, #pink .navigation.post-navigation .nav-links div a .svg-inline--fa, .navigation.post-navigation .nav-links div #pink a .svg-inline--fa, .pink .navigation.pagination .nav-links .page-numbers .svg-inline--fa, .navigation.pagination .nav-links .pink .page-numbers .svg-inline--fa, #pink .navigation.pagination .nav-links .page-numbers .svg-inline--fa, .navigation.pagination .nav-links #pink .page-numbers .svg-inline--fa, .pink .navigation.pagination .nav-links div a .svg-inline--fa, .navigation.pagination .nav-links div .pink a .svg-inline--fa, #pink .navigation.pagination .nav-links div a .svg-inline--fa, .navigation.pagination .nav-links div #pink a .svg-inline--fa {
       color: #fff; }
   .pink .svg-inline--fa, #pink .svg-inline--fa {
     color: #EC407A; }
@@ -365,12 +515,42 @@ Version: 5.0.1
     border-color: #AB47BC; }
     .purple .img-link img:hover, #purple .img-link img:hover, .purple .img-link img:focus, #purple .img-link img:focus {
       border-color: #bc6cca; }
-  .purple .btn, #purple .btn, .purple .navigation .nav-links div a, .navigation .nav-links div .purple a, #purple .navigation .nav-links div a, .navigation .nav-links div #purple a {
+  .purple .btn, #purple .btn, .purple .navigation.posts-navigation .nav-links .page-numbers, .navigation.posts-navigation .nav-links .purple .page-numbers, #purple .navigation.posts-navigation .nav-links .page-numbers, .navigation.posts-navigation .nav-links #purple .page-numbers,
+  .purple .navigation.posts-navigation .nav-links div a, .navigation.posts-navigation .nav-links div .purple a,
+  #purple .navigation.posts-navigation .nav-links div a, .navigation.posts-navigation .nav-links div #purple a,
+  .purple .navigation.post-navigation .nav-links .page-numbers, .navigation.post-navigation .nav-links .purple .page-numbers,
+  #purple .navigation.post-navigation .nav-links .page-numbers, .navigation.post-navigation .nav-links #purple .page-numbers,
+  .purple .navigation.post-navigation .nav-links div a, .navigation.post-navigation .nav-links div .purple a,
+  #purple .navigation.post-navigation .nav-links div a, .navigation.post-navigation .nav-links div #purple a,
+  .purple .navigation.pagination .nav-links .page-numbers, .navigation.pagination .nav-links .purple .page-numbers,
+  #purple .navigation.pagination .nav-links .page-numbers, .navigation.pagination .nav-links #purple .page-numbers,
+  .purple .navigation.pagination .nav-links div a, .navigation.pagination .nav-links div .purple a,
+  #purple .navigation.pagination .nav-links div a, .navigation.pagination .nav-links div #purple a {
     background: #AB47BC;
     color: #fff; }
-    .purple .btn:focus, #purple .btn:focus, .purple .navigation .nav-links div a:focus, .navigation .nav-links div .purple a:focus, #purple .navigation .nav-links div a:focus, .navigation .nav-links div #purple a:focus, .purple .btn:hover, #purple .btn:hover, .purple .navigation .nav-links div a:hover, .navigation .nav-links div .purple a:hover, #purple .navigation .nav-links div a:hover, .navigation .nav-links div #purple a:hover {
+    .purple .btn:focus, #purple .btn:focus, .purple .navigation.posts-navigation .nav-links .page-numbers:focus, .navigation.posts-navigation .nav-links .purple .page-numbers:focus, #purple .navigation.posts-navigation .nav-links .page-numbers:focus, .navigation.posts-navigation .nav-links #purple .page-numbers:focus,
+    .purple .navigation.posts-navigation .nav-links div a:focus, .navigation.posts-navigation .nav-links div .purple a:focus,
+    #purple .navigation.posts-navigation .nav-links div a:focus, .navigation.posts-navigation .nav-links div #purple a:focus,
+    .purple .navigation.post-navigation .nav-links .page-numbers:focus, .navigation.post-navigation .nav-links .purple .page-numbers:focus,
+    #purple .navigation.post-navigation .nav-links .page-numbers:focus, .navigation.post-navigation .nav-links #purple .page-numbers:focus,
+    .purple .navigation.post-navigation .nav-links div a:focus, .navigation.post-navigation .nav-links div .purple a:focus,
+    #purple .navigation.post-navigation .nav-links div a:focus, .navigation.post-navigation .nav-links div #purple a:focus,
+    .purple .navigation.pagination .nav-links .page-numbers:focus, .navigation.pagination .nav-links .purple .page-numbers:focus,
+    #purple .navigation.pagination .nav-links .page-numbers:focus, .navigation.pagination .nav-links #purple .page-numbers:focus,
+    .purple .navigation.pagination .nav-links div a:focus, .navigation.pagination .nav-links div .purple a:focus,
+    #purple .navigation.pagination .nav-links div a:focus, .navigation.pagination .nav-links div #purple a:focus, .purple .btn:hover, #purple .btn:hover, .purple .navigation.posts-navigation .nav-links .page-numbers:hover, .navigation.posts-navigation .nav-links .purple .page-numbers:hover, #purple .navigation.posts-navigation .nav-links .page-numbers:hover, .navigation.posts-navigation .nav-links #purple .page-numbers:hover,
+    .purple .navigation.posts-navigation .nav-links div a:hover, .navigation.posts-navigation .nav-links div .purple a:hover,
+    #purple .navigation.posts-navigation .nav-links div a:hover, .navigation.posts-navigation .nav-links div #purple a:hover,
+    .purple .navigation.post-navigation .nav-links .page-numbers:hover, .navigation.post-navigation .nav-links .purple .page-numbers:hover,
+    #purple .navigation.post-navigation .nav-links .page-numbers:hover, .navigation.post-navigation .nav-links #purple .page-numbers:hover,
+    .purple .navigation.post-navigation .nav-links div a:hover, .navigation.post-navigation .nav-links div .purple a:hover,
+    #purple .navigation.post-navigation .nav-links div a:hover, .navigation.post-navigation .nav-links div #purple a:hover,
+    .purple .navigation.pagination .nav-links .page-numbers:hover, .navigation.pagination .nav-links .purple .page-numbers:hover,
+    #purple .navigation.pagination .nav-links .page-numbers:hover, .navigation.pagination .nav-links #purple .page-numbers:hover,
+    .purple .navigation.pagination .nav-links div a:hover, .navigation.pagination .nav-links div .purple a:hover,
+    #purple .navigation.pagination .nav-links div a:hover, .navigation.pagination .nav-links div #purple a:hover {
       background: #bc6cca; }
-    .purple .btn .svg-inline--fa, #purple .btn .svg-inline--fa, .purple .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .purple a .svg-inline--fa, #purple .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div #purple a .svg-inline--fa {
+    .purple .btn .svg-inline--fa, #purple .btn .svg-inline--fa, .purple .navigation.posts-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.posts-navigation .nav-links .purple .page-numbers .svg-inline--fa, #purple .navigation.posts-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.posts-navigation .nav-links #purple .page-numbers .svg-inline--fa, .purple .navigation.posts-navigation .nav-links div a .svg-inline--fa, .navigation.posts-navigation .nav-links div .purple a .svg-inline--fa, #purple .navigation.posts-navigation .nav-links div a .svg-inline--fa, .navigation.posts-navigation .nav-links div #purple a .svg-inline--fa, .purple .navigation.post-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.post-navigation .nav-links .purple .page-numbers .svg-inline--fa, #purple .navigation.post-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.post-navigation .nav-links #purple .page-numbers .svg-inline--fa, .purple .navigation.post-navigation .nav-links div a .svg-inline--fa, .navigation.post-navigation .nav-links div .purple a .svg-inline--fa, #purple .navigation.post-navigation .nav-links div a .svg-inline--fa, .navigation.post-navigation .nav-links div #purple a .svg-inline--fa, .purple .navigation.pagination .nav-links .page-numbers .svg-inline--fa, .navigation.pagination .nav-links .purple .page-numbers .svg-inline--fa, #purple .navigation.pagination .nav-links .page-numbers .svg-inline--fa, .navigation.pagination .nav-links #purple .page-numbers .svg-inline--fa, .purple .navigation.pagination .nav-links div a .svg-inline--fa, .navigation.pagination .nav-links div .purple a .svg-inline--fa, #purple .navigation.pagination .nav-links div a .svg-inline--fa, .navigation.pagination .nav-links div #purple a .svg-inline--fa {
       color: #fff; }
   .purple .svg-inline--fa, #purple .svg-inline--fa {
     color: #AB47BC; }
@@ -424,12 +604,42 @@ Version: 5.0.1
     border-color: #348236; }
     .green .img-link img:hover, #green .img-link img:hover, .green .img-link img:focus, #green .img-link img:focus {
       border-color: #43a645; }
-  .green .btn, #green .btn, .green .navigation .nav-links div a, .navigation .nav-links div .green a, #green .navigation .nav-links div a, .navigation .nav-links div #green a {
+  .green .btn, #green .btn, .green .navigation.posts-navigation .nav-links .page-numbers, .navigation.posts-navigation .nav-links .green .page-numbers, #green .navigation.posts-navigation .nav-links .page-numbers, .navigation.posts-navigation .nav-links #green .page-numbers,
+  .green .navigation.posts-navigation .nav-links div a, .navigation.posts-navigation .nav-links div .green a,
+  #green .navigation.posts-navigation .nav-links div a, .navigation.posts-navigation .nav-links div #green a,
+  .green .navigation.post-navigation .nav-links .page-numbers, .navigation.post-navigation .nav-links .green .page-numbers,
+  #green .navigation.post-navigation .nav-links .page-numbers, .navigation.post-navigation .nav-links #green .page-numbers,
+  .green .navigation.post-navigation .nav-links div a, .navigation.post-navigation .nav-links div .green a,
+  #green .navigation.post-navigation .nav-links div a, .navigation.post-navigation .nav-links div #green a,
+  .green .navigation.pagination .nav-links .page-numbers, .navigation.pagination .nav-links .green .page-numbers,
+  #green .navigation.pagination .nav-links .page-numbers, .navigation.pagination .nav-links #green .page-numbers,
+  .green .navigation.pagination .nav-links div a, .navigation.pagination .nav-links div .green a,
+  #green .navigation.pagination .nav-links div a, .navigation.pagination .nav-links div #green a {
     background: #348236;
     color: #fff; }
-    .green .btn:focus, #green .btn:focus, .green .navigation .nav-links div a:focus, .navigation .nav-links div .green a:focus, #green .navigation .nav-links div a:focus, .navigation .nav-links div #green a:focus, .green .btn:hover, #green .btn:hover, .green .navigation .nav-links div a:hover, .navigation .nav-links div .green a:hover, #green .navigation .nav-links div a:hover, .navigation .nav-links div #green a:hover {
+    .green .btn:focus, #green .btn:focus, .green .navigation.posts-navigation .nav-links .page-numbers:focus, .navigation.posts-navigation .nav-links .green .page-numbers:focus, #green .navigation.posts-navigation .nav-links .page-numbers:focus, .navigation.posts-navigation .nav-links #green .page-numbers:focus,
+    .green .navigation.posts-navigation .nav-links div a:focus, .navigation.posts-navigation .nav-links div .green a:focus,
+    #green .navigation.posts-navigation .nav-links div a:focus, .navigation.posts-navigation .nav-links div #green a:focus,
+    .green .navigation.post-navigation .nav-links .page-numbers:focus, .navigation.post-navigation .nav-links .green .page-numbers:focus,
+    #green .navigation.post-navigation .nav-links .page-numbers:focus, .navigation.post-navigation .nav-links #green .page-numbers:focus,
+    .green .navigation.post-navigation .nav-links div a:focus, .navigation.post-navigation .nav-links div .green a:focus,
+    #green .navigation.post-navigation .nav-links div a:focus, .navigation.post-navigation .nav-links div #green a:focus,
+    .green .navigation.pagination .nav-links .page-numbers:focus, .navigation.pagination .nav-links .green .page-numbers:focus,
+    #green .navigation.pagination .nav-links .page-numbers:focus, .navigation.pagination .nav-links #green .page-numbers:focus,
+    .green .navigation.pagination .nav-links div a:focus, .navigation.pagination .nav-links div .green a:focus,
+    #green .navigation.pagination .nav-links div a:focus, .navigation.pagination .nav-links div #green a:focus, .green .btn:hover, #green .btn:hover, .green .navigation.posts-navigation .nav-links .page-numbers:hover, .navigation.posts-navigation .nav-links .green .page-numbers:hover, #green .navigation.posts-navigation .nav-links .page-numbers:hover, .navigation.posts-navigation .nav-links #green .page-numbers:hover,
+    .green .navigation.posts-navigation .nav-links div a:hover, .navigation.posts-navigation .nav-links div .green a:hover,
+    #green .navigation.posts-navigation .nav-links div a:hover, .navigation.posts-navigation .nav-links div #green a:hover,
+    .green .navigation.post-navigation .nav-links .page-numbers:hover, .navigation.post-navigation .nav-links .green .page-numbers:hover,
+    #green .navigation.post-navigation .nav-links .page-numbers:hover, .navigation.post-navigation .nav-links #green .page-numbers:hover,
+    .green .navigation.post-navigation .nav-links div a:hover, .navigation.post-navigation .nav-links div .green a:hover,
+    #green .navigation.post-navigation .nav-links div a:hover, .navigation.post-navigation .nav-links div #green a:hover,
+    .green .navigation.pagination .nav-links .page-numbers:hover, .navigation.pagination .nav-links .green .page-numbers:hover,
+    #green .navigation.pagination .nav-links .page-numbers:hover, .navigation.pagination .nav-links #green .page-numbers:hover,
+    .green .navigation.pagination .nav-links div a:hover, .navigation.pagination .nav-links div .green a:hover,
+    #green .navigation.pagination .nav-links div a:hover, .navigation.pagination .nav-links div #green a:hover {
       background: #43a645; }
-    .green .btn .svg-inline--fa, #green .btn .svg-inline--fa, .green .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .green a .svg-inline--fa, #green .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div #green a .svg-inline--fa {
+    .green .btn .svg-inline--fa, #green .btn .svg-inline--fa, .green .navigation.posts-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.posts-navigation .nav-links .green .page-numbers .svg-inline--fa, #green .navigation.posts-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.posts-navigation .nav-links #green .page-numbers .svg-inline--fa, .green .navigation.posts-navigation .nav-links div a .svg-inline--fa, .navigation.posts-navigation .nav-links div .green a .svg-inline--fa, #green .navigation.posts-navigation .nav-links div a .svg-inline--fa, .navigation.posts-navigation .nav-links div #green a .svg-inline--fa, .green .navigation.post-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.post-navigation .nav-links .green .page-numbers .svg-inline--fa, #green .navigation.post-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.post-navigation .nav-links #green .page-numbers .svg-inline--fa, .green .navigation.post-navigation .nav-links div a .svg-inline--fa, .navigation.post-navigation .nav-links div .green a .svg-inline--fa, #green .navigation.post-navigation .nav-links div a .svg-inline--fa, .navigation.post-navigation .nav-links div #green a .svg-inline--fa, .green .navigation.pagination .nav-links .page-numbers .svg-inline--fa, .navigation.pagination .nav-links .green .page-numbers .svg-inline--fa, #green .navigation.pagination .nav-links .page-numbers .svg-inline--fa, .navigation.pagination .nav-links #green .page-numbers .svg-inline--fa, .green .navigation.pagination .nav-links div a .svg-inline--fa, .navigation.pagination .nav-links div .green a .svg-inline--fa, #green .navigation.pagination .nav-links div a .svg-inline--fa, .navigation.pagination .nav-links div #green a .svg-inline--fa {
       color: #fff; }
   .green .svg-inline--fa, #green .svg-inline--fa {
     color: #348236; }
@@ -483,12 +693,42 @@ Version: 5.0.1
     border-color: #FFB300; }
     .amber .img-link img:hover, #amber .img-link img:hover, .amber .img-link img:focus, #amber .img-link img:focus {
       border-color: #ffc233; }
-  .amber .btn, #amber .btn, .amber .navigation .nav-links div a, .navigation .nav-links div .amber a, #amber .navigation .nav-links div a, .navigation .nav-links div #amber a {
+  .amber .btn, #amber .btn, .amber .navigation.posts-navigation .nav-links .page-numbers, .navigation.posts-navigation .nav-links .amber .page-numbers, #amber .navigation.posts-navigation .nav-links .page-numbers, .navigation.posts-navigation .nav-links #amber .page-numbers,
+  .amber .navigation.posts-navigation .nav-links div a, .navigation.posts-navigation .nav-links div .amber a,
+  #amber .navigation.posts-navigation .nav-links div a, .navigation.posts-navigation .nav-links div #amber a,
+  .amber .navigation.post-navigation .nav-links .page-numbers, .navigation.post-navigation .nav-links .amber .page-numbers,
+  #amber .navigation.post-navigation .nav-links .page-numbers, .navigation.post-navigation .nav-links #amber .page-numbers,
+  .amber .navigation.post-navigation .nav-links div a, .navigation.post-navigation .nav-links div .amber a,
+  #amber .navigation.post-navigation .nav-links div a, .navigation.post-navigation .nav-links div #amber a,
+  .amber .navigation.pagination .nav-links .page-numbers, .navigation.pagination .nav-links .amber .page-numbers,
+  #amber .navigation.pagination .nav-links .page-numbers, .navigation.pagination .nav-links #amber .page-numbers,
+  .amber .navigation.pagination .nav-links div a, .navigation.pagination .nav-links div .amber a,
+  #amber .navigation.pagination .nav-links div a, .navigation.pagination .nav-links div #amber a {
     background: #FFB300;
     color: #222; }
-    .amber .btn:focus, #amber .btn:focus, .amber .navigation .nav-links div a:focus, .navigation .nav-links div .amber a:focus, #amber .navigation .nav-links div a:focus, .navigation .nav-links div #amber a:focus, .amber .btn:hover, #amber .btn:hover, .amber .navigation .nav-links div a:hover, .navigation .nav-links div .amber a:hover, #amber .navigation .nav-links div a:hover, .navigation .nav-links div #amber a:hover {
+    .amber .btn:focus, #amber .btn:focus, .amber .navigation.posts-navigation .nav-links .page-numbers:focus, .navigation.posts-navigation .nav-links .amber .page-numbers:focus, #amber .navigation.posts-navigation .nav-links .page-numbers:focus, .navigation.posts-navigation .nav-links #amber .page-numbers:focus,
+    .amber .navigation.posts-navigation .nav-links div a:focus, .navigation.posts-navigation .nav-links div .amber a:focus,
+    #amber .navigation.posts-navigation .nav-links div a:focus, .navigation.posts-navigation .nav-links div #amber a:focus,
+    .amber .navigation.post-navigation .nav-links .page-numbers:focus, .navigation.post-navigation .nav-links .amber .page-numbers:focus,
+    #amber .navigation.post-navigation .nav-links .page-numbers:focus, .navigation.post-navigation .nav-links #amber .page-numbers:focus,
+    .amber .navigation.post-navigation .nav-links div a:focus, .navigation.post-navigation .nav-links div .amber a:focus,
+    #amber .navigation.post-navigation .nav-links div a:focus, .navigation.post-navigation .nav-links div #amber a:focus,
+    .amber .navigation.pagination .nav-links .page-numbers:focus, .navigation.pagination .nav-links .amber .page-numbers:focus,
+    #amber .navigation.pagination .nav-links .page-numbers:focus, .navigation.pagination .nav-links #amber .page-numbers:focus,
+    .amber .navigation.pagination .nav-links div a:focus, .navigation.pagination .nav-links div .amber a:focus,
+    #amber .navigation.pagination .nav-links div a:focus, .navigation.pagination .nav-links div #amber a:focus, .amber .btn:hover, #amber .btn:hover, .amber .navigation.posts-navigation .nav-links .page-numbers:hover, .navigation.posts-navigation .nav-links .amber .page-numbers:hover, #amber .navigation.posts-navigation .nav-links .page-numbers:hover, .navigation.posts-navigation .nav-links #amber .page-numbers:hover,
+    .amber .navigation.posts-navigation .nav-links div a:hover, .navigation.posts-navigation .nav-links div .amber a:hover,
+    #amber .navigation.posts-navigation .nav-links div a:hover, .navigation.posts-navigation .nav-links div #amber a:hover,
+    .amber .navigation.post-navigation .nav-links .page-numbers:hover, .navigation.post-navigation .nav-links .amber .page-numbers:hover,
+    #amber .navigation.post-navigation .nav-links .page-numbers:hover, .navigation.post-navigation .nav-links #amber .page-numbers:hover,
+    .amber .navigation.post-navigation .nav-links div a:hover, .navigation.post-navigation .nav-links div .amber a:hover,
+    #amber .navigation.post-navigation .nav-links div a:hover, .navigation.post-navigation .nav-links div #amber a:hover,
+    .amber .navigation.pagination .nav-links .page-numbers:hover, .navigation.pagination .nav-links .amber .page-numbers:hover,
+    #amber .navigation.pagination .nav-links .page-numbers:hover, .navigation.pagination .nav-links #amber .page-numbers:hover,
+    .amber .navigation.pagination .nav-links div a:hover, .navigation.pagination .nav-links div .amber a:hover,
+    #amber .navigation.pagination .nav-links div a:hover, .navigation.pagination .nav-links div #amber a:hover {
       background: #ffc233; }
-    .amber .btn .svg-inline--fa, #amber .btn .svg-inline--fa, .amber .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .amber a .svg-inline--fa, #amber .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div #amber a .svg-inline--fa {
+    .amber .btn .svg-inline--fa, #amber .btn .svg-inline--fa, .amber .navigation.posts-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.posts-navigation .nav-links .amber .page-numbers .svg-inline--fa, #amber .navigation.posts-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.posts-navigation .nav-links #amber .page-numbers .svg-inline--fa, .amber .navigation.posts-navigation .nav-links div a .svg-inline--fa, .navigation.posts-navigation .nav-links div .amber a .svg-inline--fa, #amber .navigation.posts-navigation .nav-links div a .svg-inline--fa, .navigation.posts-navigation .nav-links div #amber a .svg-inline--fa, .amber .navigation.post-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.post-navigation .nav-links .amber .page-numbers .svg-inline--fa, #amber .navigation.post-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.post-navigation .nav-links #amber .page-numbers .svg-inline--fa, .amber .navigation.post-navigation .nav-links div a .svg-inline--fa, .navigation.post-navigation .nav-links div .amber a .svg-inline--fa, #amber .navigation.post-navigation .nav-links div a .svg-inline--fa, .navigation.post-navigation .nav-links div #amber a .svg-inline--fa, .amber .navigation.pagination .nav-links .page-numbers .svg-inline--fa, .navigation.pagination .nav-links .amber .page-numbers .svg-inline--fa, #amber .navigation.pagination .nav-links .page-numbers .svg-inline--fa, .navigation.pagination .nav-links #amber .page-numbers .svg-inline--fa, .amber .navigation.pagination .nav-links div a .svg-inline--fa, .navigation.pagination .nav-links div .amber a .svg-inline--fa, #amber .navigation.pagination .nav-links div a .svg-inline--fa, .navigation.pagination .nav-links div #amber a .svg-inline--fa {
       color: #222; }
   .amber .svg-inline--fa, #amber .svg-inline--fa {
     color: #FFB300; }
@@ -542,12 +782,42 @@ Version: 5.0.1
     border-color: #FFEB3B; }
     .yellow .img-link img:hover, #yellow .img-link img:hover, .yellow .img-link img:focus, #yellow .img-link img:focus {
       border-color: #fff06e; }
-  .yellow .btn, #yellow .btn, .yellow .navigation .nav-links div a, .navigation .nav-links div .yellow a, #yellow .navigation .nav-links div a, .navigation .nav-links div #yellow a {
+  .yellow .btn, #yellow .btn, .yellow .navigation.posts-navigation .nav-links .page-numbers, .navigation.posts-navigation .nav-links .yellow .page-numbers, #yellow .navigation.posts-navigation .nav-links .page-numbers, .navigation.posts-navigation .nav-links #yellow .page-numbers,
+  .yellow .navigation.posts-navigation .nav-links div a, .navigation.posts-navigation .nav-links div .yellow a,
+  #yellow .navigation.posts-navigation .nav-links div a, .navigation.posts-navigation .nav-links div #yellow a,
+  .yellow .navigation.post-navigation .nav-links .page-numbers, .navigation.post-navigation .nav-links .yellow .page-numbers,
+  #yellow .navigation.post-navigation .nav-links .page-numbers, .navigation.post-navigation .nav-links #yellow .page-numbers,
+  .yellow .navigation.post-navigation .nav-links div a, .navigation.post-navigation .nav-links div .yellow a,
+  #yellow .navigation.post-navigation .nav-links div a, .navigation.post-navigation .nav-links div #yellow a,
+  .yellow .navigation.pagination .nav-links .page-numbers, .navigation.pagination .nav-links .yellow .page-numbers,
+  #yellow .navigation.pagination .nav-links .page-numbers, .navigation.pagination .nav-links #yellow .page-numbers,
+  .yellow .navigation.pagination .nav-links div a, .navigation.pagination .nav-links div .yellow a,
+  #yellow .navigation.pagination .nav-links div a, .navigation.pagination .nav-links div #yellow a {
     background: #FFEB3B;
     color: #222; }
-    .yellow .btn:focus, #yellow .btn:focus, .yellow .navigation .nav-links div a:focus, .navigation .nav-links div .yellow a:focus, #yellow .navigation .nav-links div a:focus, .navigation .nav-links div #yellow a:focus, .yellow .btn:hover, #yellow .btn:hover, .yellow .navigation .nav-links div a:hover, .navigation .nav-links div .yellow a:hover, #yellow .navigation .nav-links div a:hover, .navigation .nav-links div #yellow a:hover {
+    .yellow .btn:focus, #yellow .btn:focus, .yellow .navigation.posts-navigation .nav-links .page-numbers:focus, .navigation.posts-navigation .nav-links .yellow .page-numbers:focus, #yellow .navigation.posts-navigation .nav-links .page-numbers:focus, .navigation.posts-navigation .nav-links #yellow .page-numbers:focus,
+    .yellow .navigation.posts-navigation .nav-links div a:focus, .navigation.posts-navigation .nav-links div .yellow a:focus,
+    #yellow .navigation.posts-navigation .nav-links div a:focus, .navigation.posts-navigation .nav-links div #yellow a:focus,
+    .yellow .navigation.post-navigation .nav-links .page-numbers:focus, .navigation.post-navigation .nav-links .yellow .page-numbers:focus,
+    #yellow .navigation.post-navigation .nav-links .page-numbers:focus, .navigation.post-navigation .nav-links #yellow .page-numbers:focus,
+    .yellow .navigation.post-navigation .nav-links div a:focus, .navigation.post-navigation .nav-links div .yellow a:focus,
+    #yellow .navigation.post-navigation .nav-links div a:focus, .navigation.post-navigation .nav-links div #yellow a:focus,
+    .yellow .navigation.pagination .nav-links .page-numbers:focus, .navigation.pagination .nav-links .yellow .page-numbers:focus,
+    #yellow .navigation.pagination .nav-links .page-numbers:focus, .navigation.pagination .nav-links #yellow .page-numbers:focus,
+    .yellow .navigation.pagination .nav-links div a:focus, .navigation.pagination .nav-links div .yellow a:focus,
+    #yellow .navigation.pagination .nav-links div a:focus, .navigation.pagination .nav-links div #yellow a:focus, .yellow .btn:hover, #yellow .btn:hover, .yellow .navigation.posts-navigation .nav-links .page-numbers:hover, .navigation.posts-navigation .nav-links .yellow .page-numbers:hover, #yellow .navigation.posts-navigation .nav-links .page-numbers:hover, .navigation.posts-navigation .nav-links #yellow .page-numbers:hover,
+    .yellow .navigation.posts-navigation .nav-links div a:hover, .navigation.posts-navigation .nav-links div .yellow a:hover,
+    #yellow .navigation.posts-navigation .nav-links div a:hover, .navigation.posts-navigation .nav-links div #yellow a:hover,
+    .yellow .navigation.post-navigation .nav-links .page-numbers:hover, .navigation.post-navigation .nav-links .yellow .page-numbers:hover,
+    #yellow .navigation.post-navigation .nav-links .page-numbers:hover, .navigation.post-navigation .nav-links #yellow .page-numbers:hover,
+    .yellow .navigation.post-navigation .nav-links div a:hover, .navigation.post-navigation .nav-links div .yellow a:hover,
+    #yellow .navigation.post-navigation .nav-links div a:hover, .navigation.post-navigation .nav-links div #yellow a:hover,
+    .yellow .navigation.pagination .nav-links .page-numbers:hover, .navigation.pagination .nav-links .yellow .page-numbers:hover,
+    #yellow .navigation.pagination .nav-links .page-numbers:hover, .navigation.pagination .nav-links #yellow .page-numbers:hover,
+    .yellow .navigation.pagination .nav-links div a:hover, .navigation.pagination .nav-links div .yellow a:hover,
+    #yellow .navigation.pagination .nav-links div a:hover, .navigation.pagination .nav-links div #yellow a:hover {
       background: #fff06e; }
-    .yellow .btn .svg-inline--fa, #yellow .btn .svg-inline--fa, .yellow .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .yellow a .svg-inline--fa, #yellow .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div #yellow a .svg-inline--fa {
+    .yellow .btn .svg-inline--fa, #yellow .btn .svg-inline--fa, .yellow .navigation.posts-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.posts-navigation .nav-links .yellow .page-numbers .svg-inline--fa, #yellow .navigation.posts-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.posts-navigation .nav-links #yellow .page-numbers .svg-inline--fa, .yellow .navigation.posts-navigation .nav-links div a .svg-inline--fa, .navigation.posts-navigation .nav-links div .yellow a .svg-inline--fa, #yellow .navigation.posts-navigation .nav-links div a .svg-inline--fa, .navigation.posts-navigation .nav-links div #yellow a .svg-inline--fa, .yellow .navigation.post-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.post-navigation .nav-links .yellow .page-numbers .svg-inline--fa, #yellow .navigation.post-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.post-navigation .nav-links #yellow .page-numbers .svg-inline--fa, .yellow .navigation.post-navigation .nav-links div a .svg-inline--fa, .navigation.post-navigation .nav-links div .yellow a .svg-inline--fa, #yellow .navigation.post-navigation .nav-links div a .svg-inline--fa, .navigation.post-navigation .nav-links div #yellow a .svg-inline--fa, .yellow .navigation.pagination .nav-links .page-numbers .svg-inline--fa, .navigation.pagination .nav-links .yellow .page-numbers .svg-inline--fa, #yellow .navigation.pagination .nav-links .page-numbers .svg-inline--fa, .navigation.pagination .nav-links #yellow .page-numbers .svg-inline--fa, .yellow .navigation.pagination .nav-links div a .svg-inline--fa, .navigation.pagination .nav-links div .yellow a .svg-inline--fa, #yellow .navigation.pagination .nav-links div a .svg-inline--fa, .navigation.pagination .nav-links div #yellow a .svg-inline--fa {
       color: #222; }
   .yellow .svg-inline--fa, #yellow .svg-inline--fa {
     color: #FFEB3B; }
@@ -601,12 +871,42 @@ Version: 5.0.1
     border-color: #BDBDBD; }
     .grey .img-link img:hover, #grey .img-link img:hover, .grey .img-link img:focus, #grey .img-link img:focus {
       border-color: #d7d6d6; }
-  .grey .btn, #grey .btn, .grey .navigation .nav-links div a, .navigation .nav-links div .grey a, #grey .navigation .nav-links div a, .navigation .nav-links div #grey a {
+  .grey .btn, #grey .btn, .grey .navigation.posts-navigation .nav-links .page-numbers, .navigation.posts-navigation .nav-links .grey .page-numbers, #grey .navigation.posts-navigation .nav-links .page-numbers, .navigation.posts-navigation .nav-links #grey .page-numbers,
+  .grey .navigation.posts-navigation .nav-links div a, .navigation.posts-navigation .nav-links div .grey a,
+  #grey .navigation.posts-navigation .nav-links div a, .navigation.posts-navigation .nav-links div #grey a,
+  .grey .navigation.post-navigation .nav-links .page-numbers, .navigation.post-navigation .nav-links .grey .page-numbers,
+  #grey .navigation.post-navigation .nav-links .page-numbers, .navigation.post-navigation .nav-links #grey .page-numbers,
+  .grey .navigation.post-navigation .nav-links div a, .navigation.post-navigation .nav-links div .grey a,
+  #grey .navigation.post-navigation .nav-links div a, .navigation.post-navigation .nav-links div #grey a,
+  .grey .navigation.pagination .nav-links .page-numbers, .navigation.pagination .nav-links .grey .page-numbers,
+  #grey .navigation.pagination .nav-links .page-numbers, .navigation.pagination .nav-links #grey .page-numbers,
+  .grey .navigation.pagination .nav-links div a, .navigation.pagination .nav-links div .grey a,
+  #grey .navigation.pagination .nav-links div a, .navigation.pagination .nav-links div #grey a {
     background: #BDBDBD;
     color: #222; }
-    .grey .btn:focus, #grey .btn:focus, .grey .navigation .nav-links div a:focus, .navigation .nav-links div .grey a:focus, #grey .navigation .nav-links div a:focus, .navigation .nav-links div #grey a:focus, .grey .btn:hover, #grey .btn:hover, .grey .navigation .nav-links div a:hover, .navigation .nav-links div .grey a:hover, #grey .navigation .nav-links div a:hover, .navigation .nav-links div #grey a:hover {
+    .grey .btn:focus, #grey .btn:focus, .grey .navigation.posts-navigation .nav-links .page-numbers:focus, .navigation.posts-navigation .nav-links .grey .page-numbers:focus, #grey .navigation.posts-navigation .nav-links .page-numbers:focus, .navigation.posts-navigation .nav-links #grey .page-numbers:focus,
+    .grey .navigation.posts-navigation .nav-links div a:focus, .navigation.posts-navigation .nav-links div .grey a:focus,
+    #grey .navigation.posts-navigation .nav-links div a:focus, .navigation.posts-navigation .nav-links div #grey a:focus,
+    .grey .navigation.post-navigation .nav-links .page-numbers:focus, .navigation.post-navigation .nav-links .grey .page-numbers:focus,
+    #grey .navigation.post-navigation .nav-links .page-numbers:focus, .navigation.post-navigation .nav-links #grey .page-numbers:focus,
+    .grey .navigation.post-navigation .nav-links div a:focus, .navigation.post-navigation .nav-links div .grey a:focus,
+    #grey .navigation.post-navigation .nav-links div a:focus, .navigation.post-navigation .nav-links div #grey a:focus,
+    .grey .navigation.pagination .nav-links .page-numbers:focus, .navigation.pagination .nav-links .grey .page-numbers:focus,
+    #grey .navigation.pagination .nav-links .page-numbers:focus, .navigation.pagination .nav-links #grey .page-numbers:focus,
+    .grey .navigation.pagination .nav-links div a:focus, .navigation.pagination .nav-links div .grey a:focus,
+    #grey .navigation.pagination .nav-links div a:focus, .navigation.pagination .nav-links div #grey a:focus, .grey .btn:hover, #grey .btn:hover, .grey .navigation.posts-navigation .nav-links .page-numbers:hover, .navigation.posts-navigation .nav-links .grey .page-numbers:hover, #grey .navigation.posts-navigation .nav-links .page-numbers:hover, .navigation.posts-navigation .nav-links #grey .page-numbers:hover,
+    .grey .navigation.posts-navigation .nav-links div a:hover, .navigation.posts-navigation .nav-links div .grey a:hover,
+    #grey .navigation.posts-navigation .nav-links div a:hover, .navigation.posts-navigation .nav-links div #grey a:hover,
+    .grey .navigation.post-navigation .nav-links .page-numbers:hover, .navigation.post-navigation .nav-links .grey .page-numbers:hover,
+    #grey .navigation.post-navigation .nav-links .page-numbers:hover, .navigation.post-navigation .nav-links #grey .page-numbers:hover,
+    .grey .navigation.post-navigation .nav-links div a:hover, .navigation.post-navigation .nav-links div .grey a:hover,
+    #grey .navigation.post-navigation .nav-links div a:hover, .navigation.post-navigation .nav-links div #grey a:hover,
+    .grey .navigation.pagination .nav-links .page-numbers:hover, .navigation.pagination .nav-links .grey .page-numbers:hover,
+    #grey .navigation.pagination .nav-links .page-numbers:hover, .navigation.pagination .nav-links #grey .page-numbers:hover,
+    .grey .navigation.pagination .nav-links div a:hover, .navigation.pagination .nav-links div .grey a:hover,
+    #grey .navigation.pagination .nav-links div a:hover, .navigation.pagination .nav-links div #grey a:hover {
       background: #d7d6d6; }
-    .grey .btn .svg-inline--fa, #grey .btn .svg-inline--fa, .grey .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div .grey a .svg-inline--fa, #grey .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div #grey a .svg-inline--fa {
+    .grey .btn .svg-inline--fa, #grey .btn .svg-inline--fa, .grey .navigation.posts-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.posts-navigation .nav-links .grey .page-numbers .svg-inline--fa, #grey .navigation.posts-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.posts-navigation .nav-links #grey .page-numbers .svg-inline--fa, .grey .navigation.posts-navigation .nav-links div a .svg-inline--fa, .navigation.posts-navigation .nav-links div .grey a .svg-inline--fa, #grey .navigation.posts-navigation .nav-links div a .svg-inline--fa, .navigation.posts-navigation .nav-links div #grey a .svg-inline--fa, .grey .navigation.post-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.post-navigation .nav-links .grey .page-numbers .svg-inline--fa, #grey .navigation.post-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.post-navigation .nav-links #grey .page-numbers .svg-inline--fa, .grey .navigation.post-navigation .nav-links div a .svg-inline--fa, .navigation.post-navigation .nav-links div .grey a .svg-inline--fa, #grey .navigation.post-navigation .nav-links div a .svg-inline--fa, .navigation.post-navigation .nav-links div #grey a .svg-inline--fa, .grey .navigation.pagination .nav-links .page-numbers .svg-inline--fa, .navigation.pagination .nav-links .grey .page-numbers .svg-inline--fa, #grey .navigation.pagination .nav-links .page-numbers .svg-inline--fa, .navigation.pagination .nav-links #grey .page-numbers .svg-inline--fa, .grey .navigation.pagination .nav-links div a .svg-inline--fa, .navigation.pagination .nav-links div .grey a .svg-inline--fa, #grey .navigation.pagination .nav-links div a .svg-inline--fa, .navigation.pagination .nav-links div #grey a .svg-inline--fa {
       color: #222; }
   .grey .svg-inline--fa, #grey .svg-inline--fa {
     color: #BDBDBD; }
@@ -723,9 +1023,10 @@ ol {
 
 ul {
   list-style: none; }
-  ul:not(.fa-ul)li::before, ul:not(.list-style-none)li::before {
-    font-family: sans-serif;
-    content: "•"; }
+
+ul:not(.fa-ul):not(.list-style-none) li::before {
+  font-family: sans-serif;
+  content: "•"; }
 
 ol {
   counter-reset: li; }
@@ -756,7 +1057,12 @@ blockquote {
 /*----------------------------------------------
 	Button
 ----------------------------------------------*/
-.btn, .navigation .nav-links div a {
+.btn, .navigation.posts-navigation .nav-links .page-numbers,
+.navigation.posts-navigation .nav-links div a,
+.navigation.post-navigation .nav-links .page-numbers,
+.navigation.post-navigation .nav-links div a,
+.navigation.pagination .nav-links .page-numbers,
+.navigation.pagination .nav-links div a {
   display: block;
   padding: .5em 1em;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
@@ -1073,33 +1379,60 @@ figure .wp-caption-text {
 /*----------------------------------------------
 	Blog Navigation
 ----------------------------------------------*/
-.navigation h2 {
+.navigation.posts-navigation .nav-links,
+.navigation.post-navigation .nav-links {
+  justify-content: space-between; }
+
+.navigation.pagination .nav-links {
+  justify-content: center; }
+  .navigation.pagination .nav-links .page-numbers {
+    margin: 0 .5em; }
+  .navigation.pagination .nav-links .current {
+    box-shadow: none;
+    opacity: .5; }
+
+.navigation.posts-navigation h2,
+.navigation.post-navigation h2,
+.navigation.pagination h2 {
   display: none; }
 
-.navigation .nav-links {
-  display: flex;
-  justify-content: space-between; }
-  .navigation .nav-links .nav-previous {
+.navigation.posts-navigation .nav-links,
+.navigation.post-navigation .nav-links,
+.navigation.pagination .nav-links {
+  display: flex; }
+  .navigation.posts-navigation .nav-links .nav-previous,
+  .navigation.post-navigation .nav-links .nav-previous,
+  .navigation.pagination .nav-links .nav-previous {
     margin-right: 1em;
     text-align: left;
     width: 30vw; }
-  .navigation .nav-links .nav-next {
+  .navigation.posts-navigation .nav-links .nav-next,
+  .navigation.post-navigation .nav-links .nav-next,
+  .navigation.pagination .nav-links .nav-next {
     margin-left: 1em;
     text-align: right;
     width: 30vw; }
 
 @media (max-width: 767px) {
-  .navigation .nav-links {
-    flex-direction: column; }
-    .navigation .nav-links .nav-previous {
+  .navigation.posts-navigation .nav-links,
+  .navigation.post-navigation .nav-links {
+    flex-direction: column-reverse; }
+    .navigation.posts-navigation .nav-links .nav-previous,
+    .navigation.post-navigation .nav-links .nav-previous {
       margin-right: 2em;
-      width: auto;
-      order: 1; }
-    .navigation .nav-links .nav-next {
+      width: auto; }
+    .navigation.posts-navigation .nav-links .nav-next,
+    .navigation.post-navigation .nav-links .nav-next {
       margin-left: 2em;
       margin-bottom: 1em;
-      width: auto;
-      order: 0; } }
+      width: auto; } }
+
+@media (max-width: 767px) {
+  .navigation.pagination .nav-links {
+    flex-direction: column; }
+    .navigation.pagination .nav-links .page-numbers {
+      margin: 0 0 1em 0;
+      text-align: center; } }
 
 /*----------------------------------------------
 	Instagram Feed
@@ -1195,12 +1528,27 @@ figure .wp-caption-text {
     border-color: #43B24D; }
     #earth-day .img-link img:hover, #earth-day .img-link img:focus {
       border-color: #64c46c; }
-  #earth-day .btn, #earth-day .navigation .nav-links div a, .navigation .nav-links div #earth-day a {
+  #earth-day .btn, #earth-day .navigation.posts-navigation .nav-links .page-numbers, .navigation.posts-navigation .nav-links #earth-day .page-numbers,
+  #earth-day .navigation.posts-navigation .nav-links div a, .navigation.posts-navigation .nav-links div #earth-day a,
+  #earth-day .navigation.post-navigation .nav-links .page-numbers, .navigation.post-navigation .nav-links #earth-day .page-numbers,
+  #earth-day .navigation.post-navigation .nav-links div a, .navigation.post-navigation .nav-links div #earth-day a,
+  #earth-day .navigation.pagination .nav-links .page-numbers, .navigation.pagination .nav-links #earth-day .page-numbers,
+  #earth-day .navigation.pagination .nav-links div a, .navigation.pagination .nav-links div #earth-day a {
     background: #43B24D;
     color: #fff; }
-    #earth-day .btn:focus, #earth-day .navigation .nav-links div a:focus, .navigation .nav-links div #earth-day a:focus, #earth-day .btn:hover, #earth-day .navigation .nav-links div a:hover, .navigation .nav-links div #earth-day a:hover {
+    #earth-day .btn:focus, #earth-day .navigation.posts-navigation .nav-links .page-numbers:focus, .navigation.posts-navigation .nav-links #earth-day .page-numbers:focus,
+    #earth-day .navigation.posts-navigation .nav-links div a:focus, .navigation.posts-navigation .nav-links div #earth-day a:focus,
+    #earth-day .navigation.post-navigation .nav-links .page-numbers:focus, .navigation.post-navigation .nav-links #earth-day .page-numbers:focus,
+    #earth-day .navigation.post-navigation .nav-links div a:focus, .navigation.post-navigation .nav-links div #earth-day a:focus,
+    #earth-day .navigation.pagination .nav-links .page-numbers:focus, .navigation.pagination .nav-links #earth-day .page-numbers:focus,
+    #earth-day .navigation.pagination .nav-links div a:focus, .navigation.pagination .nav-links div #earth-day a:focus, #earth-day .btn:hover, #earth-day .navigation.posts-navigation .nav-links .page-numbers:hover, .navigation.posts-navigation .nav-links #earth-day .page-numbers:hover,
+    #earth-day .navigation.posts-navigation .nav-links div a:hover, .navigation.posts-navigation .nav-links div #earth-day a:hover,
+    #earth-day .navigation.post-navigation .nav-links .page-numbers:hover, .navigation.post-navigation .nav-links #earth-day .page-numbers:hover,
+    #earth-day .navigation.post-navigation .nav-links div a:hover, .navigation.post-navigation .nav-links div #earth-day a:hover,
+    #earth-day .navigation.pagination .nav-links .page-numbers:hover, .navigation.pagination .nav-links #earth-day .page-numbers:hover,
+    #earth-day .navigation.pagination .nav-links div a:hover, .navigation.pagination .nav-links div #earth-day a:hover {
       background: #64c46c; }
-    #earth-day .btn .svg-inline--fa, #earth-day .navigation .nav-links div a .svg-inline--fa, .navigation .nav-links div #earth-day a .svg-inline--fa {
+    #earth-day .btn .svg-inline--fa, #earth-day .navigation.posts-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.posts-navigation .nav-links #earth-day .page-numbers .svg-inline--fa, #earth-day .navigation.posts-navigation .nav-links div a .svg-inline--fa, .navigation.posts-navigation .nav-links div #earth-day a .svg-inline--fa, #earth-day .navigation.post-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.post-navigation .nav-links #earth-day .page-numbers .svg-inline--fa, #earth-day .navigation.post-navigation .nav-links div a .svg-inline--fa, .navigation.post-navigation .nav-links div #earth-day a .svg-inline--fa, #earth-day .navigation.pagination .nav-links .page-numbers .svg-inline--fa, .navigation.pagination .nav-links #earth-day .page-numbers .svg-inline--fa, #earth-day .navigation.pagination .nav-links div a .svg-inline--fa, .navigation.pagination .nav-links div #earth-day a .svg-inline--fa {
       color: #fff; }
   #earth-day .svg-inline--fa {
     color: #43B24D; }

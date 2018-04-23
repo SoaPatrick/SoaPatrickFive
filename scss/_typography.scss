@@ -64,13 +64,12 @@ ol {
 
 ul {
 	list-style: none;
-	
-	&:not(.fa-ul),
-	&:not(.list-style-none) {
-		&li::before {
-			font-family: sans-serif;
-			content: "•";
-		}
+}
+
+ul:not(.fa-ul):not(.list-style-none){
+	li::before {
+		font-family: sans-serif;
+		content: "•";
 	}
 }
 

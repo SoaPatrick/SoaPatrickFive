@@ -36,11 +36,11 @@ get_header(); ?>
 							$label = $field['choices'][ $value ];?>
 							<li><span class="fa-li"><i class="<?php echo $value ?>"></i></span><strong><?php echo $label ?></strong> <?php the_title(); ?></li>
 							<?php $day_check = $day;
-						endwhile; ?>
-						<?php the_posts_navigation();			
+						endwhile;		
 					endif; ?>
 				</div>
 			</article>
+			<?php the_posts_pagination( ); ?> 
 		</div>
 	</div>
 <?php
