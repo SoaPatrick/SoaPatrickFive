@@ -1561,3 +1561,17 @@ figure .wp-caption-text {
   #earth-day .search-form input {
     background: #f9f9f9;
     color: #222; }
+
+/*----------------------------------------------
+	Counter
+----------------------------------------------*/
+#clockdiv {
+  margin: 4em auto 2em auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: calc(22px + 1.5vw); }
+  #clockdiv div {
+    display: inline-block; }
+  #clockdiv span {
+    font-weight: bold;
+    padding-left: .25em; }
