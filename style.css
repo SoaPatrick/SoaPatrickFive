@@ -1434,6 +1434,26 @@ figure .wp-caption-text {
       margin: 0 0 1em 0;
       text-align: center; } }
 
+.page-content--factory {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -0.5em; }
+  .page-content--factory article {
+    margin: 0.5em; }
+    .page-content--factory article img {
+      width: 100%;
+      height: auto;
+      display: block; }
+  @media (min-width: 1200px) {
+    .page-content--factory article {
+      flex: 0 1 calc(33.3333% - 1em); } }
+  @media (max-width: 1199px) {
+    .page-content--factory article {
+      flex: 0 1 calc(50% - 1em); } }
+  @media (max-width: 767px) {
+    .page-content--factory article {
+      flex: 0 1 calc(100% - 1em); } }
+
 /*----------------------------------------------
 	Instagram Feed
 ----------------------------------------------*/

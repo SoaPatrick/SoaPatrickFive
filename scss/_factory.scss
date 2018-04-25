@@ -1,0 +1,35 @@
+$factory-item-gutter: 1em;
+
+.page-content--factory {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 (-($factory-item-gutter/2));
+	
+	article {
+    	margin: $factory-item-gutter/2;
+    	
+    	img {
+	    	width: 100%;
+	    	height: auto;
+			display: block;
+    	}
+	}
+	
+	@media (min-width: 1200px) {
+		article {
+			flex: 0 1 calc(33.3333% - #{$factory-item-gutter});		
+		}
+	}
+	
+	@media (max-width: 1199px) {
+		article {
+			flex: 0 1 calc(50% - #{$factory-item-gutter});		
+		}
+	}		
+	
+	@media (max-width: 767px) {
+		article {
+			flex: 0 1 calc(100% - #{$factory-item-gutter});		
+		}
+	}						
+}
