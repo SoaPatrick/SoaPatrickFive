@@ -12,7 +12,7 @@ get_header(); ?>
 				</header>
 				<hr class="margin-extend">
 				<div class="page-content page-content--factory">
-					<?php
+					<?php						
 					$args = array(
 						'post_type' => 'factory',
 						'posts_per_page' => 12,

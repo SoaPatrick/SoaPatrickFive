@@ -12,15 +12,13 @@ get_header(); ?>
 				</header>
 				<hr class="margin-extend">
 				<div class="page-content page-content--changelog padding-indent">
-					<?php
+					<?php				
 					$args = array(
 						'post_type' => 'log',
 						'posts_per_page' => 20,
 						'paged' => $paged, 
 					);	
-			
 					$wp_query   = new WP_Query( $args );	
-					
 					if ( have_posts() ) :					
 						$day_check = '';
 						while (have_posts()) : the_post();
@@ -37,7 +35,9 @@ get_header(); ?>
 							<li><span class="fa-li"><i class="<?php echo $value ?>"></i></span><strong><?php echo $label ?></strong> <?php the_title(); ?></li>
 							<?php $day_check = $day;
 						endwhile;		
-					endif; ?>
+					endif; 
+	
+					?>
 				</div>
 			</article>
 			<?php the_posts_pagination( ); ?> 

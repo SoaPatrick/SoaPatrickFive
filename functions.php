@@ -517,10 +517,7 @@ add_filter( 'widget_tag_cloud_args', 'change_tag_cloud_font_sizes');
 /**
  * Change the Tag Cloud's Font Sizes.
  *
- * @since 1.0.0
- *
  * @param array $args
- *
  * @return array
  */
 function change_tag_cloud_font_sizes( array $args ) {
@@ -530,9 +527,13 @@ function change_tag_cloud_font_sizes( array $args ) {
     return $args;
 }
 
+/**
+ * change posts per page for search
+ *
+ */
 
 function change_wp_post_size($query) {
-	if ( $query->is_search || $query->is_archive )
+	if ( $query->is_search )
 		$query->query_vars['posts_per_page'] = 20;
 	return $query;
 }
