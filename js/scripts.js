@@ -86,7 +86,11 @@ function initializeClock(id, endtime) {
 
     if (t.total <= 0) {
       document.getElementById("clockdiv").innerText = "Avengers Infinity War Starts Now";
-    }     
+    }  
+    
+    if (t.days <= 0) {
+      document.getElementById("clock-days").innerText = "";
+    }           
   }
 
   updateClock();

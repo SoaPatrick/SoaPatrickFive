@@ -87,24 +87,6 @@ function soapatrickfive_content_width() {
 add_action( 'after_setup_theme', 'soapatrickfive_content_width', 0 );
 
 /**
- * Register widget area.
- *
- * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
- */
-function soapatrickfive_widgets_init() {
-	register_sidebar( array(
-		'name'          => esc_html__( 'Sidebar', 'soapatrickfive' ),
-		'id'            => 'sidebar-1',
-		'description'   => esc_html__( 'Add widgets here.', 'soapatrickfive' ),
-		'before_widget' => '<section id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
-	) );
-}
-add_action( 'widgets_init', 'soapatrickfive_widgets_init' );
-
-/**
  * Enqueue scripts and styles.
  */
 function soapatrickfive_scripts() {
@@ -116,21 +98,62 @@ function soapatrickfive_scripts() {
 add_action( 'wp_enqueue_scripts', 'soapatrickfive_scripts' );
 
 
+/**
+ * Custom template tags for this theme
+ *
+ * Eventually, some of the functionality here could be replaced by core features.
+ *
+ * @package soapatrickfive
+ */
+
+if ( ! function_exists( 'soapatrickfive_posted_on' ) ) :
+	/**
+	 * Prints HTML with meta information for the current post-date/time and author.
+	 */
+	function soapatrickfive_posted_on() {
+		$time_string = '<time class="entry-date published updated" datetime="%1$s">%2$s</time>';
+
+		$time_string = sprintf( $time_string,
+			esc_attr( get_the_date( 'c' ) ),
+			esc_html( get_the_date() )
+		);
+
+		$posted_on = sprintf(
+			esc_html_x( '%s', 'post date', 'soapatrickfive' ),
+			'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
+		);
+		
+		echo '<li><span class="fa-li"><i class="fal fa-calendar fa-fw"></i></span>' . $posted_on . '</li>';
+
+	}
+endif;
+
 
 /**
- * Implement the Custom Header feature.
+ * Adds custom classes to the array of body classes.
+ *
+ * @param array $classes Classes for the body element.
+ * @return array
  */
-require get_template_directory() . '/inc/custom-header.php';
+function soapatrickfive_body_classes( $classes ) {
+	// Adds a class of hfeed to non-singular pages.
+	if ( ! is_singular() ) {
+		$classes[] = 'hfeed';
+	}
+
+	return $classes;
+}
+add_filter( 'body_class', 'soapatrickfive_body_classes' );
 
 /**
- * Custom template tags for this theme.
+ * Add a pingback url auto-discovery header for singularly identifiable articles.
  */
-require get_template_directory() . '/inc/template-tags.php';
-
-/**
- * Functions which enhance the theme by hooking into WordPress.
- */
-require get_template_directory() . '/inc/template-functions.php';
+function soapatrickfive_pingback_header() {
+	if ( is_singular() && pings_open() ) {
+		echo '<link rel="pingback" href="', esc_url( get_bloginfo( 'pingback_url' ) ), '">';
+	}
+}
+add_action( 'wp_head', 'soapatrickfive_pingback_header' );
 
 
 /**
