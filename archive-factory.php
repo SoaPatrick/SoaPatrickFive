@@ -13,12 +13,6 @@ get_header(); ?>
 				<hr class="margin-extend">
 				<div class="page-content page-content--factory">
 					<?php						
-					$args = array(
-						'post_type' => 'factory',
-						'posts_per_page' => 12,
-						'paged' => $paged, 
-					);	
-					$wp_query   = new WP_Query( $args );	
 					if ( have_posts() ) : 
 						while ( have_posts() ) : the_post();	
 							get_template_part( 'template-parts/content', 'factory' );

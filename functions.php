@@ -536,7 +536,6 @@ function grd_custom_archive_title( $title ) {
 add_filter( 'get_the_archive_title', 'grd_custom_archive_title' );
 
 
-add_filter( 'widget_tag_cloud_args', 'change_tag_cloud_font_sizes');
 /**
  * Change the Tag Cloud's Font Sizes.
  *
@@ -549,15 +548,26 @@ function change_tag_cloud_font_sizes( array $args ) {
 
     return $args;
 }
+add_filter( 'widget_tag_cloud_args', 'change_tag_cloud_font_sizes');
+
 
 /**
- * change posts per page for search
+ * wrap all iframes within content with a div and class
  *
  */
+function div_wrapper($content) {
+    // match any iframes
+    $pattern = '~<iframe.*</iframe>|<embed.*</embed>~';
+    preg_match_all($pattern, $content, $matches);
 
-function change_wp_post_size($query) {
-	if ( $query->is_search )
-		$query->query_vars['posts_per_page'] = 20;
-	return $query;
+    foreach ($matches[0] as $match) {
+        // wrap matched iframe with div
+        $wrappedframe = '<div class="responsive-container">' . $match . '</div>';
+
+        //replace original iframe with new in content
+        $content = str_replace($match, $wrappedframe, $content);
+    }
+
+    return $content;    
 }
-add_filter('pre_get_posts', 'change_wp_post_size');
+add_filter('the_content', 'div_wrapper');

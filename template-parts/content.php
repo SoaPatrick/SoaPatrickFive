@@ -35,9 +35,11 @@
 	</header>		
 	<div class="featured-image margin-extend">
 		<?php 
-			if (has_post_format('video')) :
-				echo get_post_meta($post->ID, '_format_video_embed', true);
-			elseif (has_post_thumbnail()) :	
+			if (has_post_format('video')) : ?>
+				<div class="responsive-container">
+					<?php echo get_post_meta($post->ID, '_format_video_embed', true); ?>
+				</div> 
+			<?php elseif (has_post_thumbnail()) :	
 				the_post_thumbnail( 'large-featured-image' );						
 			else :
 				?><hr><?php

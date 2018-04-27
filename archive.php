@@ -10,13 +10,7 @@
 get_header(); ?>
     <div class="site-content">
 	    <div class="container">		
-			<?php			
-			$args = array(
-				'post_type' => 'factory',
-				'posts_per_page' => 20,
-				'paged' => $paged, 
-			);			       
-			$wp_query   = new WP_Query( $args );		        
+			<?php				        
 			if ( have_posts() ) : ?>
 				<header class="page-header padding-indent">
 					<h1 class="title-large"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/storage/">Storage:</a> <span class="no-wrap"><?php the_archive_title();?></span></h1>

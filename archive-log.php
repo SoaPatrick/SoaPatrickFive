@@ -13,12 +13,6 @@ get_header(); ?>
 				<hr class="margin-extend">
 				<div class="page-content page-content--changelog padding-indent">
 					<?php				
-					$args = array(
-						'post_type' => 'log',
-						'posts_per_page' => 20,
-						'paged' => $paged, 
-					);	
-					$wp_query   = new WP_Query( $args );	
 					if ( have_posts() ) :					
 						$day_check = '';
 						while (have_posts()) : the_post();
