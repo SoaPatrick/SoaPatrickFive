@@ -18,13 +18,12 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<script>
 		FontAwesomeConfig = { searchPseudoElements: true };
-	</script>	
-	
-	<link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory(); ?>/favicon/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory(); ?>/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory(); ?>/favicon/favicon-16x16.png">
-	<link rel="manifest" href="<?php echo get_template_directory(); ?>/favicon/site.webmanifest">
-	<link rel="mask-icon" href="<?php echo get_template_directory(); ?>/favicon/safari-pinned-tab.svg" color="#cf3a3a">
+	</script>
+	<link rel="apple-touch-icon" sizes="180x180" href="/wp-content/themes/soapatrickfive/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/wp-content/themes/soapatrickfive/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/wp-content/themes/soapatrickfive/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/wp-content/themes/soapatrickfive/favicon/site.webmanifest">
+	<link rel="mask-icon" href="/wp-content/themes/soapatrickfive/favicon/safari-pinned-tab.svg" color="#cf3a3a">
 	<meta name="msapplication-TileColor" content="#222222">
 	<meta name="theme-color" content="#222222">	
 	<!--
