@@ -109,5 +109,29 @@
 	.search-form input {
 		background: darken($bg-color, 2.5%);
 		color: $text-color;
-	}		
+	}
+	
+	#search-collapse {
+		background: $soap-color;
+		
+		.search-form input {
+			background: rgba($bg-color, .5);
+			
+			&::-webkit-input-placeholder {
+				  color: $bg-color;
+				  opacity: .7;
+			}
+			
+			&::-moz-placeholder {
+				  color: $bg-color;
+				  opacity: .7;
+			}
+			
+			&:-ms-input-placeholder {
+				  color: $bg-color;
+				  opacity: .7;
+			}
+		}				
+	}
+	
 }

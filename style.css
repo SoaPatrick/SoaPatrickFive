@@ -122,6 +122,19 @@ Version: 5.0.1
   .red .search-form input, #red .search-form input {
     background: #1c1c1c;
     color: #fff; }
+  .red #search-collapse, #red #search-collapse {
+    background: #CF3A3A; }
+    .red #search-collapse .search-form input, #red #search-collapse .search-form input {
+      background: rgba(34, 34, 34, 0.5); }
+      .red #search-collapse .search-form input::-webkit-input-placeholder, #red #search-collapse .search-form input::-webkit-input-placeholder {
+        color: #222;
+        opacity: .7; }
+      .red #search-collapse .search-form input::-moz-placeholder, #red #search-collapse .search-form input::-moz-placeholder {
+        color: #222;
+        opacity: .7; }
+      .red #search-collapse .search-form input:-ms-input-placeholder, #red #search-collapse .search-form input:-ms-input-placeholder {
+        color: #222;
+        opacity: .7; }
 
 /*
 .red-invert { 
@@ -225,6 +238,19 @@ Version: 5.0.1
   .blue .search-form input, #blue .search-form input {
     background: #1c1c1c;
     color: #fff; }
+  .blue #search-collapse, #blue #search-collapse {
+    background: #42A5F5; }
+    .blue #search-collapse .search-form input, #blue #search-collapse .search-form input {
+      background: rgba(34, 34, 34, 0.5); }
+      .blue #search-collapse .search-form input::-webkit-input-placeholder, #blue #search-collapse .search-form input::-webkit-input-placeholder {
+        color: #222;
+        opacity: .7; }
+      .blue #search-collapse .search-form input::-moz-placeholder, #blue #search-collapse .search-form input::-moz-placeholder {
+        color: #222;
+        opacity: .7; }
+      .blue #search-collapse .search-form input:-ms-input-placeholder, #blue #search-collapse .search-form input:-ms-input-placeholder {
+        color: #222;
+        opacity: .7; }
 
 .blue-light, #blue-light {
   background: #222;
@@ -318,6 +344,19 @@ Version: 5.0.1
   .blue-light .search-form input, #blue-light .search-form input {
     background: #1c1c1c;
     color: #fff; }
+  .blue-light #search-collapse, #blue-light #search-collapse {
+    background: #29B6F6; }
+    .blue-light #search-collapse .search-form input, #blue-light #search-collapse .search-form input {
+      background: rgba(34, 34, 34, 0.5); }
+      .blue-light #search-collapse .search-form input::-webkit-input-placeholder, #blue-light #search-collapse .search-form input::-webkit-input-placeholder {
+        color: #222;
+        opacity: .7; }
+      .blue-light #search-collapse .search-form input::-moz-placeholder, #blue-light #search-collapse .search-form input::-moz-placeholder {
+        color: #222;
+        opacity: .7; }
+      .blue-light #search-collapse .search-form input:-ms-input-placeholder, #blue-light #search-collapse .search-form input:-ms-input-placeholder {
+        color: #222;
+        opacity: .7; }
 
 .pink, #pink {
   background: #222;
@@ -411,6 +450,19 @@ Version: 5.0.1
   .pink .search-form input, #pink .search-form input {
     background: #1c1c1c;
     color: #fff; }
+  .pink #search-collapse, #pink #search-collapse {
+    background: #EC407A; }
+    .pink #search-collapse .search-form input, #pink #search-collapse .search-form input {
+      background: rgba(34, 34, 34, 0.5); }
+      .pink #search-collapse .search-form input::-webkit-input-placeholder, #pink #search-collapse .search-form input::-webkit-input-placeholder {
+        color: #222;
+        opacity: .7; }
+      .pink #search-collapse .search-form input::-moz-placeholder, #pink #search-collapse .search-form input::-moz-placeholder {
+        color: #222;
+        opacity: .7; }
+      .pink #search-collapse .search-form input:-ms-input-placeholder, #pink #search-collapse .search-form input:-ms-input-placeholder {
+        color: #222;
+        opacity: .7; }
 
 .purple, #purple {
   background: #222;
@@ -504,6 +556,19 @@ Version: 5.0.1
   .purple .search-form input, #purple .search-form input {
     background: #1c1c1c;
     color: #fff; }
+  .purple #search-collapse, #purple #search-collapse {
+    background: #AB47BC; }
+    .purple #search-collapse .search-form input, #purple #search-collapse .search-form input {
+      background: rgba(34, 34, 34, 0.5); }
+      .purple #search-collapse .search-form input::-webkit-input-placeholder, #purple #search-collapse .search-form input::-webkit-input-placeholder {
+        color: #222;
+        opacity: .7; }
+      .purple #search-collapse .search-form input::-moz-placeholder, #purple #search-collapse .search-form input::-moz-placeholder {
+        color: #222;
+        opacity: .7; }
+      .purple #search-collapse .search-form input:-ms-input-placeholder, #purple #search-collapse .search-form input:-ms-input-placeholder {
+        color: #222;
+        opacity: .7; }
 
 .green, #green {
   background: #222;
@@ -597,6 +662,19 @@ Version: 5.0.1
   .green .search-form input, #green .search-form input {
     background: #1c1c1c;
     color: #fff; }
+  .green #search-collapse, #green #search-collapse {
+    background: #348236; }
+    .green #search-collapse .search-form input, #green #search-collapse .search-form input {
+      background: rgba(34, 34, 34, 0.5); }
+      .green #search-collapse .search-form input::-webkit-input-placeholder, #green #search-collapse .search-form input::-webkit-input-placeholder {
+        color: #222;
+        opacity: .7; }
+      .green #search-collapse .search-form input::-moz-placeholder, #green #search-collapse .search-form input::-moz-placeholder {
+        color: #222;
+        opacity: .7; }
+      .green #search-collapse .search-form input:-ms-input-placeholder, #green #search-collapse .search-form input:-ms-input-placeholder {
+        color: #222;
+        opacity: .7; }
 
 .amber, #amber {
   background: #222;
@@ -690,6 +768,19 @@ Version: 5.0.1
   .amber .search-form input, #amber .search-form input {
     background: #1c1c1c;
     color: #fff; }
+  .amber #search-collapse, #amber #search-collapse {
+    background: #FFB300; }
+    .amber #search-collapse .search-form input, #amber #search-collapse .search-form input {
+      background: rgba(34, 34, 34, 0.5); }
+      .amber #search-collapse .search-form input::-webkit-input-placeholder, #amber #search-collapse .search-form input::-webkit-input-placeholder {
+        color: #222;
+        opacity: .7; }
+      .amber #search-collapse .search-form input::-moz-placeholder, #amber #search-collapse .search-form input::-moz-placeholder {
+        color: #222;
+        opacity: .7; }
+      .amber #search-collapse .search-form input:-ms-input-placeholder, #amber #search-collapse .search-form input:-ms-input-placeholder {
+        color: #222;
+        opacity: .7; }
 
 .yellow, #yellow {
   background: #222;
@@ -783,6 +874,19 @@ Version: 5.0.1
   .yellow .search-form input, #yellow .search-form input {
     background: #1c1c1c;
     color: #fff; }
+  .yellow #search-collapse, #yellow #search-collapse {
+    background: #FFEB3B; }
+    .yellow #search-collapse .search-form input, #yellow #search-collapse .search-form input {
+      background: rgba(34, 34, 34, 0.5); }
+      .yellow #search-collapse .search-form input::-webkit-input-placeholder, #yellow #search-collapse .search-form input::-webkit-input-placeholder {
+        color: #222;
+        opacity: .7; }
+      .yellow #search-collapse .search-form input::-moz-placeholder, #yellow #search-collapse .search-form input::-moz-placeholder {
+        color: #222;
+        opacity: .7; }
+      .yellow #search-collapse .search-form input:-ms-input-placeholder, #yellow #search-collapse .search-form input:-ms-input-placeholder {
+        color: #222;
+        opacity: .7; }
 
 .grey, #grey {
   background: #222;
@@ -876,6 +980,19 @@ Version: 5.0.1
   .grey .search-form input, #grey .search-form input {
     background: #1c1c1c;
     color: #fff; }
+  .grey #search-collapse, #grey #search-collapse {
+    background: #BDBDBD; }
+    .grey #search-collapse .search-form input, #grey #search-collapse .search-form input {
+      background: rgba(34, 34, 34, 0.5); }
+      .grey #search-collapse .search-form input::-webkit-input-placeholder, #grey #search-collapse .search-form input::-webkit-input-placeholder {
+        color: #222;
+        opacity: .7; }
+      .grey #search-collapse .search-form input::-moz-placeholder, #grey #search-collapse .search-form input::-moz-placeholder {
+        color: #222;
+        opacity: .7; }
+      .grey #search-collapse .search-form input:-ms-input-placeholder, #grey #search-collapse .search-form input:-ms-input-placeholder {
+        color: #222;
+        opacity: .7; }
 
 /*----------------------------------------------
 	Scaffolding
