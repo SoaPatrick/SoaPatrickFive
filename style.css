@@ -1086,8 +1086,8 @@ video.wp-video-shortcode {
     height: auto;
     display: block;
     margin: 3em auto;
-    -webkit-filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.2));
-    filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.2)); }
+    -webkit-filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.1));
+    filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.1)); }
   .site-header + .site-content {
     margin-top: -1px; }
 
