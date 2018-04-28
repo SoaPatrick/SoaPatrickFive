@@ -6,9 +6,17 @@
 	background: $bg-color;
 	color: $text-color;
 	
+	.site-header {
+		background: $soap-color;
+		
+		+ .site-content {
+			background: $bg-color;
+		}
+	}
+	
 	.logo--letter-s,
 	.logo--letter-p {
-		fill: $soap-color;							
+		fill: $bg-color;							
 	}	
 	
 	a {

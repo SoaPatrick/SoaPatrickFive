@@ -33,10 +33,14 @@ Version: 5.0.1
 .red, #red {
   background: #222;
   color: #fff; }
+  .red .site-header, #red .site-header {
+    background: #CF3A3A; }
+    .red .site-header + .site-content, #red .site-header + .site-content {
+      background: #222; }
   .red .logo--letter-s, #red .logo--letter-s,
   .red .logo--letter-p,
   #red .logo--letter-p {
-    fill: #CF3A3A; }
+    fill: #222; }
   .red a, #red a {
     color: #CF3A3A; }
     .red a:hover, #red a:hover, .red a:focus, #red a:focus {
@@ -119,102 +123,27 @@ Version: 5.0.1
     background: #1c1c1c;
     color: #fff; }
 
-.red-invert, #red-invert {
-  background: #CF3A3A;
-  color: #fff; }
-  .red-invert .logo--letter-s, #red-invert .logo--letter-s,
-  .red-invert .logo--letter-p,
-  #red-invert .logo--letter-p {
-    fill: #222; }
-  .red-invert a, #red-invert a {
-    color: #222; }
-    .red-invert a:hover, #red-invert a:hover, .red-invert a:focus, #red-invert a:focus {
-      color: #3c3b3b; }
-  .red-invert ul li::before, #red-invert ul li::before,
-  .red-invert ol li::before,
-  #red-invert ol li::before {
-    color: #222; }
-  .red-invert hr, #red-invert hr {
-    border-color: #222; }
-  .red-invert .site-navigation a:hover, #red-invert .site-navigation a:hover,
-  .red-invert .site-navigation a:focus,
-  #red-invert .site-navigation a:focus {
-    background: #222; }
-    .red-invert .site-navigation a:hover .svg-inline--fa, #red-invert .site-navigation a:hover .svg-inline--fa,
-    .red-invert .site-navigation a:focus .svg-inline--fa,
-    #red-invert .site-navigation a:focus .svg-inline--fa {
-      color: #fff; }
-  .red-invert .soapcolor-bg, #red-invert .soapcolor-bg {
-    background: #222;
-    color: #fff; }
-    .red-invert .soapcolor-bg a, #red-invert .soapcolor-bg a,
-    .red-invert .soapcolor-bg a:hover,
-    #red-invert .soapcolor-bg a:hover,
-    .red-invert .soapcolor-bg a:focus,
-    #red-invert .soapcolor-bg a:focus,
-    .red-invert .soapcolor-bg .svg-inline--fa,
-    #red-invert .soapcolor-bg .svg-inline--fa {
-      color: inherit; }
-  .red-invert .img-link img, #red-invert .img-link img {
-    border-color: #222; }
-    .red-invert .img-link img:hover, #red-invert .img-link img:hover, .red-invert .img-link img:focus, #red-invert .img-link img:focus {
-      border-color: #3c3b3b; }
-  .red-invert .btn, #red-invert .btn, .red-invert .navigation.posts-navigation .nav-links .page-numbers, .navigation.posts-navigation .nav-links .red-invert .page-numbers, #red-invert .navigation.posts-navigation .nav-links .page-numbers, .navigation.posts-navigation .nav-links #red-invert .page-numbers,
-  .red-invert .navigation.posts-navigation .nav-links div a, .navigation.posts-navigation .nav-links div .red-invert a,
-  #red-invert .navigation.posts-navigation .nav-links div a, .navigation.posts-navigation .nav-links div #red-invert a,
-  .red-invert .navigation.post-navigation .nav-links .page-numbers, .navigation.post-navigation .nav-links .red-invert .page-numbers,
-  #red-invert .navigation.post-navigation .nav-links .page-numbers, .navigation.post-navigation .nav-links #red-invert .page-numbers,
-  .red-invert .navigation.post-navigation .nav-links div a, .navigation.post-navigation .nav-links div .red-invert a,
-  #red-invert .navigation.post-navigation .nav-links div a, .navigation.post-navigation .nav-links div #red-invert a,
-  .red-invert .navigation.pagination .nav-links .page-numbers, .navigation.pagination .nav-links .red-invert .page-numbers,
-  #red-invert .navigation.pagination .nav-links .page-numbers, .navigation.pagination .nav-links #red-invert .page-numbers,
-  .red-invert .navigation.pagination .nav-links div a, .navigation.pagination .nav-links div .red-invert a,
-  #red-invert .navigation.pagination .nav-links div a, .navigation.pagination .nav-links div #red-invert a {
-    background: #222;
-    color: #fff; }
-    .red-invert .btn:focus, #red-invert .btn:focus, .red-invert .navigation.posts-navigation .nav-links .page-numbers:focus, .navigation.posts-navigation .nav-links .red-invert .page-numbers:focus, #red-invert .navigation.posts-navigation .nav-links .page-numbers:focus, .navigation.posts-navigation .nav-links #red-invert .page-numbers:focus,
-    .red-invert .navigation.posts-navigation .nav-links div a:focus, .navigation.posts-navigation .nav-links div .red-invert a:focus,
-    #red-invert .navigation.posts-navigation .nav-links div a:focus, .navigation.posts-navigation .nav-links div #red-invert a:focus,
-    .red-invert .navigation.post-navigation .nav-links .page-numbers:focus, .navigation.post-navigation .nav-links .red-invert .page-numbers:focus,
-    #red-invert .navigation.post-navigation .nav-links .page-numbers:focus, .navigation.post-navigation .nav-links #red-invert .page-numbers:focus,
-    .red-invert .navigation.post-navigation .nav-links div a:focus, .navigation.post-navigation .nav-links div .red-invert a:focus,
-    #red-invert .navigation.post-navigation .nav-links div a:focus, .navigation.post-navigation .nav-links div #red-invert a:focus,
-    .red-invert .navigation.pagination .nav-links .page-numbers:focus, .navigation.pagination .nav-links .red-invert .page-numbers:focus,
-    #red-invert .navigation.pagination .nav-links .page-numbers:focus, .navigation.pagination .nav-links #red-invert .page-numbers:focus,
-    .red-invert .navigation.pagination .nav-links div a:focus, .navigation.pagination .nav-links div .red-invert a:focus,
-    #red-invert .navigation.pagination .nav-links div a:focus, .navigation.pagination .nav-links div #red-invert a:focus, .red-invert .btn:hover, #red-invert .btn:hover, .red-invert .navigation.posts-navigation .nav-links .page-numbers:hover, .navigation.posts-navigation .nav-links .red-invert .page-numbers:hover, #red-invert .navigation.posts-navigation .nav-links .page-numbers:hover, .navigation.posts-navigation .nav-links #red-invert .page-numbers:hover,
-    .red-invert .navigation.posts-navigation .nav-links div a:hover, .navigation.posts-navigation .nav-links div .red-invert a:hover,
-    #red-invert .navigation.posts-navigation .nav-links div a:hover, .navigation.posts-navigation .nav-links div #red-invert a:hover,
-    .red-invert .navigation.post-navigation .nav-links .page-numbers:hover, .navigation.post-navigation .nav-links .red-invert .page-numbers:hover,
-    #red-invert .navigation.post-navigation .nav-links .page-numbers:hover, .navigation.post-navigation .nav-links #red-invert .page-numbers:hover,
-    .red-invert .navigation.post-navigation .nav-links div a:hover, .navigation.post-navigation .nav-links div .red-invert a:hover,
-    #red-invert .navigation.post-navigation .nav-links div a:hover, .navigation.post-navigation .nav-links div #red-invert a:hover,
-    .red-invert .navigation.pagination .nav-links .page-numbers:hover, .navigation.pagination .nav-links .red-invert .page-numbers:hover,
-    #red-invert .navigation.pagination .nav-links .page-numbers:hover, .navigation.pagination .nav-links #red-invert .page-numbers:hover,
-    .red-invert .navigation.pagination .nav-links div a:hover, .navigation.pagination .nav-links div .red-invert a:hover,
-    #red-invert .navigation.pagination .nav-links div a:hover, .navigation.pagination .nav-links div #red-invert a:hover {
-      background: #3c3b3b; }
-    .red-invert .btn .svg-inline--fa, #red-invert .btn .svg-inline--fa, .red-invert .navigation.posts-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.posts-navigation .nav-links .red-invert .page-numbers .svg-inline--fa, #red-invert .navigation.posts-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.posts-navigation .nav-links #red-invert .page-numbers .svg-inline--fa, .red-invert .navigation.posts-navigation .nav-links div a .svg-inline--fa, .navigation.posts-navigation .nav-links div .red-invert a .svg-inline--fa, #red-invert .navigation.posts-navigation .nav-links div a .svg-inline--fa, .navigation.posts-navigation .nav-links div #red-invert a .svg-inline--fa, .red-invert .navigation.post-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.post-navigation .nav-links .red-invert .page-numbers .svg-inline--fa, #red-invert .navigation.post-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.post-navigation .nav-links #red-invert .page-numbers .svg-inline--fa, .red-invert .navigation.post-navigation .nav-links div a .svg-inline--fa, .navigation.post-navigation .nav-links div .red-invert a .svg-inline--fa, #red-invert .navigation.post-navigation .nav-links div a .svg-inline--fa, .navigation.post-navigation .nav-links div #red-invert a .svg-inline--fa, .red-invert .navigation.pagination .nav-links .page-numbers .svg-inline--fa, .navigation.pagination .nav-links .red-invert .page-numbers .svg-inline--fa, #red-invert .navigation.pagination .nav-links .page-numbers .svg-inline--fa, .navigation.pagination .nav-links #red-invert .page-numbers .svg-inline--fa, .red-invert .navigation.pagination .nav-links div a .svg-inline--fa, .navigation.pagination .nav-links div .red-invert a .svg-inline--fa, #red-invert .navigation.pagination .nav-links div a .svg-inline--fa, .navigation.pagination .nav-links div #red-invert a .svg-inline--fa {
-      color: #fff; }
-  .red-invert .svg-inline--fa, #red-invert .svg-inline--fa {
-    color: #222; }
-  .red-invert .list-icon, #red-invert .list-icon {
-    background: #222; }
-    .red-invert .list-icon .svg-inline--fa, #red-invert .list-icon .svg-inline--fa {
-      color: #fff; }
-  .red-invert .list-title a, #red-invert .list-title a {
-    color: #fff; }
-  .red-invert .search-form input, #red-invert .search-form input {
-    background: #cb3131;
-    color: #fff; }
-
+/*
+.red-invert { 
+	@include color-theme(
+		$red,
+		$dark-grey,
+		$white,
+		$white
+	); 
+};
+*/
 .blue, #blue {
   background: #222;
   color: #fff; }
+  .blue .site-header, #blue .site-header {
+    background: #42A5F5; }
+    .blue .site-header + .site-content, #blue .site-header + .site-content {
+      background: #222; }
   .blue .logo--letter-s, #blue .logo--letter-s,
   .blue .logo--letter-p,
   #blue .logo--letter-p {
-    fill: #42A5F5; }
+    fill: #222; }
   .blue a, #blue a {
     color: #42A5F5; }
     .blue a:hover, #blue a:hover, .blue a:focus, #blue a:focus {
@@ -300,10 +229,14 @@ Version: 5.0.1
 .blue-light, #blue-light {
   background: #222;
   color: #fff; }
+  .blue-light .site-header, #blue-light .site-header {
+    background: #29B6F6; }
+    .blue-light .site-header + .site-content, #blue-light .site-header + .site-content {
+      background: #222; }
   .blue-light .logo--letter-s, #blue-light .logo--letter-s,
   .blue-light .logo--letter-p,
   #blue-light .logo--letter-p {
-    fill: #29B6F6; }
+    fill: #222; }
   .blue-light a, #blue-light a {
     color: #29B6F6; }
     .blue-light a:hover, #blue-light a:hover, .blue-light a:focus, #blue-light a:focus {
@@ -389,10 +322,14 @@ Version: 5.0.1
 .pink, #pink {
   background: #222;
   color: #fff; }
+  .pink .site-header, #pink .site-header {
+    background: #EC407A; }
+    .pink .site-header + .site-content, #pink .site-header + .site-content {
+      background: #222; }
   .pink .logo--letter-s, #pink .logo--letter-s,
   .pink .logo--letter-p,
   #pink .logo--letter-p {
-    fill: #EC407A; }
+    fill: #222; }
   .pink a, #pink a {
     color: #EC407A; }
     .pink a:hover, #pink a:hover, .pink a:focus, #pink a:focus {
@@ -478,10 +415,14 @@ Version: 5.0.1
 .purple, #purple {
   background: #222;
   color: #fff; }
+  .purple .site-header, #purple .site-header {
+    background: #AB47BC; }
+    .purple .site-header + .site-content, #purple .site-header + .site-content {
+      background: #222; }
   .purple .logo--letter-s, #purple .logo--letter-s,
   .purple .logo--letter-p,
   #purple .logo--letter-p {
-    fill: #AB47BC; }
+    fill: #222; }
   .purple a, #purple a {
     color: #AB47BC; }
     .purple a:hover, #purple a:hover, .purple a:focus, #purple a:focus {
@@ -567,10 +508,14 @@ Version: 5.0.1
 .green, #green {
   background: #222;
   color: #fff; }
+  .green .site-header, #green .site-header {
+    background: #348236; }
+    .green .site-header + .site-content, #green .site-header + .site-content {
+      background: #222; }
   .green .logo--letter-s, #green .logo--letter-s,
   .green .logo--letter-p,
   #green .logo--letter-p {
-    fill: #348236; }
+    fill: #222; }
   .green a, #green a {
     color: #348236; }
     .green a:hover, #green a:hover, .green a:focus, #green a:focus {
@@ -656,10 +601,14 @@ Version: 5.0.1
 .amber, #amber {
   background: #222;
   color: #fff; }
+  .amber .site-header, #amber .site-header {
+    background: #FFB300; }
+    .amber .site-header + .site-content, #amber .site-header + .site-content {
+      background: #222; }
   .amber .logo--letter-s, #amber .logo--letter-s,
   .amber .logo--letter-p,
   #amber .logo--letter-p {
-    fill: #FFB300; }
+    fill: #222; }
   .amber a, #amber a {
     color: #FFB300; }
     .amber a:hover, #amber a:hover, .amber a:focus, #amber a:focus {
@@ -745,10 +694,14 @@ Version: 5.0.1
 .yellow, #yellow {
   background: #222;
   color: #fff; }
+  .yellow .site-header, #yellow .site-header {
+    background: #FFEB3B; }
+    .yellow .site-header + .site-content, #yellow .site-header + .site-content {
+      background: #222; }
   .yellow .logo--letter-s, #yellow .logo--letter-s,
   .yellow .logo--letter-p,
   #yellow .logo--letter-p {
-    fill: #FFEB3B; }
+    fill: #222; }
   .yellow a, #yellow a {
     color: #FFEB3B; }
     .yellow a:hover, #yellow a:hover, .yellow a:focus, #yellow a:focus {
@@ -834,10 +787,14 @@ Version: 5.0.1
 .grey, #grey {
   background: #222;
   color: #fff; }
+  .grey .site-header, #grey .site-header {
+    background: #BDBDBD; }
+    .grey .site-header + .site-content, #grey .site-header + .site-content {
+      background: #222; }
   .grey .logo--letter-s, #grey .logo--letter-s,
   .grey .logo--letter-p,
   #grey .logo--letter-p {
-    fill: #BDBDBD; }
+    fill: #222; }
   .grey a, #grey a {
     color: #BDBDBD; }
     .grey a:hover, #grey a:hover, .grey a:focus, #grey a:focus {
@@ -1117,14 +1074,22 @@ video.wp-video-shortcode {
 /*----------------------------------------------
 	Site Header
 ----------------------------------------------*/
-.site-header .logo {
-  max-width: 10em;
-  min-width: 8em;
-  height: auto;
-  display: block;
-  margin: 3em auto;
-  -webkit-filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.1));
-  filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.1)); }
+.site-header {
+  background-image: url("bubbles.svg") !important;
+  background-position: center bottom !important;
+  background-repeat: no-repeat !important;
+  background-size: calc(50px + 98vw) !important;
+  height: calc(15vw + 320px) !important; }
+  .site-header .logo {
+    max-width: 10em;
+    min-width: 8em;
+    height: auto;
+    display: block;
+    margin: 3em auto;
+    -webkit-filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.2)); }
+  .site-header + .site-content {
+    margin-top: -1px; }
 
 /*----------------------------------------------
 	Navigation
@@ -1528,87 +1493,3 @@ figure .wp-caption-text {
 .site-footer {
   padding: 2em 0;
   text-align: center; }
-
-/*----------------------------------------------
-	Theme based on body class or id
-----------------------------------------------*/
-#earth-day {
-  background: #fff;
-  color: #222; }
-  #earth-day .logo--letter-s,
-  #earth-day .logo--letter-p {
-    fill: #43B24D; }
-  #earth-day a {
-    color: #43B24D; }
-    #earth-day a:hover, #earth-day a:focus {
-      color: #64c46c; }
-  #earth-day ul li::before,
-  #earth-day ol li::before {
-    color: #43B24D; }
-  #earth-day hr {
-    border-color: #43B24D; }
-  #earth-day .site-navigation a:hover,
-  #earth-day .site-navigation a:focus {
-    background: #43B24D; }
-    #earth-day .site-navigation a:hover .svg-inline--fa,
-    #earth-day .site-navigation a:focus .svg-inline--fa {
-      color: #fff; }
-  #earth-day .soapcolor-bg {
-    background: #43B24D;
-    color: #fff; }
-    #earth-day .soapcolor-bg a,
-    #earth-day .soapcolor-bg a:hover,
-    #earth-day .soapcolor-bg a:focus,
-    #earth-day .soapcolor-bg .svg-inline--fa {
-      color: inherit; }
-  #earth-day .img-link img {
-    border-color: #43B24D; }
-    #earth-day .img-link img:hover, #earth-day .img-link img:focus {
-      border-color: #64c46c; }
-  #earth-day .btn, #earth-day .navigation.posts-navigation .nav-links .page-numbers, .navigation.posts-navigation .nav-links #earth-day .page-numbers,
-  #earth-day .navigation.posts-navigation .nav-links div a, .navigation.posts-navigation .nav-links div #earth-day a,
-  #earth-day .navigation.post-navigation .nav-links .page-numbers, .navigation.post-navigation .nav-links #earth-day .page-numbers,
-  #earth-day .navigation.post-navigation .nav-links div a, .navigation.post-navigation .nav-links div #earth-day a,
-  #earth-day .navigation.pagination .nav-links .page-numbers, .navigation.pagination .nav-links #earth-day .page-numbers,
-  #earth-day .navigation.pagination .nav-links div a, .navigation.pagination .nav-links div #earth-day a {
-    background: #43B24D;
-    color: #fff; }
-    #earth-day .btn:focus, #earth-day .navigation.posts-navigation .nav-links .page-numbers:focus, .navigation.posts-navigation .nav-links #earth-day .page-numbers:focus,
-    #earth-day .navigation.posts-navigation .nav-links div a:focus, .navigation.posts-navigation .nav-links div #earth-day a:focus,
-    #earth-day .navigation.post-navigation .nav-links .page-numbers:focus, .navigation.post-navigation .nav-links #earth-day .page-numbers:focus,
-    #earth-day .navigation.post-navigation .nav-links div a:focus, .navigation.post-navigation .nav-links div #earth-day a:focus,
-    #earth-day .navigation.pagination .nav-links .page-numbers:focus, .navigation.pagination .nav-links #earth-day .page-numbers:focus,
-    #earth-day .navigation.pagination .nav-links div a:focus, .navigation.pagination .nav-links div #earth-day a:focus, #earth-day .btn:hover, #earth-day .navigation.posts-navigation .nav-links .page-numbers:hover, .navigation.posts-navigation .nav-links #earth-day .page-numbers:hover,
-    #earth-day .navigation.posts-navigation .nav-links div a:hover, .navigation.posts-navigation .nav-links div #earth-day a:hover,
-    #earth-day .navigation.post-navigation .nav-links .page-numbers:hover, .navigation.post-navigation .nav-links #earth-day .page-numbers:hover,
-    #earth-day .navigation.post-navigation .nav-links div a:hover, .navigation.post-navigation .nav-links div #earth-day a:hover,
-    #earth-day .navigation.pagination .nav-links .page-numbers:hover, .navigation.pagination .nav-links #earth-day .page-numbers:hover,
-    #earth-day .navigation.pagination .nav-links div a:hover, .navigation.pagination .nav-links div #earth-day a:hover {
-      background: #64c46c; }
-    #earth-day .btn .svg-inline--fa, #earth-day .navigation.posts-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.posts-navigation .nav-links #earth-day .page-numbers .svg-inline--fa, #earth-day .navigation.posts-navigation .nav-links div a .svg-inline--fa, .navigation.posts-navigation .nav-links div #earth-day a .svg-inline--fa, #earth-day .navigation.post-navigation .nav-links .page-numbers .svg-inline--fa, .navigation.post-navigation .nav-links #earth-day .page-numbers .svg-inline--fa, #earth-day .navigation.post-navigation .nav-links div a .svg-inline--fa, .navigation.post-navigation .nav-links div #earth-day a .svg-inline--fa, #earth-day .navigation.pagination .nav-links .page-numbers .svg-inline--fa, .navigation.pagination .nav-links #earth-day .page-numbers .svg-inline--fa, #earth-day .navigation.pagination .nav-links div a .svg-inline--fa, .navigation.pagination .nav-links div #earth-day a .svg-inline--fa {
-      color: #fff; }
-  #earth-day .svg-inline--fa {
-    color: #43B24D; }
-  #earth-day .list-icon {
-    background: #43B24D; }
-    #earth-day .list-icon .svg-inline--fa {
-      color: #fff; }
-  #earth-day .list-title a {
-    color: #222; }
-  #earth-day .search-form input {
-    background: #f9f9f9;
-    color: #222; }
-
-/*----------------------------------------------
-	Counter
-----------------------------------------------*/
-#clockdiv {
-  margin: 4em auto 2em auto;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: calc(22px + 1.5vw); }
-  #clockdiv div {
-    display: inline-block; }
-  #clockdiv span {
-    font-weight: bold;
-    padding-left: .25em; }

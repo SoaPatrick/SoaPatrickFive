@@ -16,6 +16,7 @@
 	); 
 };
 
+/*
 .red-invert { 
 	@include color-theme(
 		$red,
@@ -24,6 +25,7 @@
 		$white
 	); 
 };
+*/
 
 .blue { 
 	@include color-theme(
@@ -98,7 +100,6 @@
 }
 
 #red { @extend .red; };
-#red-invert { @extend .red-invert; };
 #blue { @extend .blue; };
 #blue-light { @extend .blue-light; };
 #purple { @extend .purple; }
