@@ -3,10 +3,9 @@
 ----------------------------------------------*/
 
 .breadcrumbs {
-	background: darken($dark-grey, 1%);
 	font-size: 90%;
 	padding: 1em 1.5em;
-	margin-bottom: 3em;
+	margin-bottom: 6em;
 	border-radius: 2em;
 	
 	.breadcrumbs--item {
@@ -18,7 +17,6 @@
 		
 		.svg-inline--fa {
 			margin: 0 .4em 0 .5em;
-			color: #fff !important;
 			vertical-align: -.2em;
 		}
 	}

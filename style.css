@@ -59,6 +59,10 @@ Version: 5.0.1
     .red .site-navigation a:focus .svg-inline--fa,
     #red .site-navigation a:focus .svg-inline--fa {
       color: #fff; }
+  .red .breadcrumbs, #red .breadcrumbs {
+    background: #1f1f1f; }
+    .red .breadcrumbs .svg-inline--fa, #red .breadcrumbs .svg-inline--fa {
+      color: rgba(255, 255, 255, 0.25); }
   .red .soapcolor-bg, #red .soapcolor-bg {
     background: #CF3A3A;
     color: #fff; }
@@ -175,6 +179,10 @@ Version: 5.0.1
     .blue .site-navigation a:focus .svg-inline--fa,
     #blue .site-navigation a:focus .svg-inline--fa {
       color: #fff; }
+  .blue .breadcrumbs, #blue .breadcrumbs {
+    background: #1f1f1f; }
+    .blue .breadcrumbs .svg-inline--fa, #blue .breadcrumbs .svg-inline--fa {
+      color: rgba(255, 255, 255, 0.25); }
   .blue .soapcolor-bg, #blue .soapcolor-bg {
     background: #42A5F5;
     color: #fff; }
@@ -281,6 +289,10 @@ Version: 5.0.1
     .blue-light .site-navigation a:focus .svg-inline--fa,
     #blue-light .site-navigation a:focus .svg-inline--fa {
       color: #fff; }
+  .blue-light .breadcrumbs, #blue-light .breadcrumbs {
+    background: #1f1f1f; }
+    .blue-light .breadcrumbs .svg-inline--fa, #blue-light .breadcrumbs .svg-inline--fa {
+      color: rgba(255, 255, 255, 0.25); }
   .blue-light .soapcolor-bg, #blue-light .soapcolor-bg {
     background: #29B6F6;
     color: #fff; }
@@ -387,6 +399,10 @@ Version: 5.0.1
     .pink .site-navigation a:focus .svg-inline--fa,
     #pink .site-navigation a:focus .svg-inline--fa {
       color: #fff; }
+  .pink .breadcrumbs, #pink .breadcrumbs {
+    background: #1f1f1f; }
+    .pink .breadcrumbs .svg-inline--fa, #pink .breadcrumbs .svg-inline--fa {
+      color: rgba(255, 255, 255, 0.25); }
   .pink .soapcolor-bg, #pink .soapcolor-bg {
     background: #EC407A;
     color: #fff; }
@@ -493,6 +509,10 @@ Version: 5.0.1
     .purple .site-navigation a:focus .svg-inline--fa,
     #purple .site-navigation a:focus .svg-inline--fa {
       color: #fff; }
+  .purple .breadcrumbs, #purple .breadcrumbs {
+    background: #1f1f1f; }
+    .purple .breadcrumbs .svg-inline--fa, #purple .breadcrumbs .svg-inline--fa {
+      color: rgba(255, 255, 255, 0.25); }
   .purple .soapcolor-bg, #purple .soapcolor-bg {
     background: #AB47BC;
     color: #fff; }
@@ -599,6 +619,10 @@ Version: 5.0.1
     .green .site-navigation a:focus .svg-inline--fa,
     #green .site-navigation a:focus .svg-inline--fa {
       color: #fff; }
+  .green .breadcrumbs, #green .breadcrumbs {
+    background: #1f1f1f; }
+    .green .breadcrumbs .svg-inline--fa, #green .breadcrumbs .svg-inline--fa {
+      color: rgba(255, 255, 255, 0.25); }
   .green .soapcolor-bg, #green .soapcolor-bg {
     background: #348236;
     color: #fff; }
@@ -705,6 +729,10 @@ Version: 5.0.1
     .amber .site-navigation a:focus .svg-inline--fa,
     #amber .site-navigation a:focus .svg-inline--fa {
       color: #222; }
+  .amber .breadcrumbs, #amber .breadcrumbs {
+    background: #1f1f1f; }
+    .amber .breadcrumbs .svg-inline--fa, #amber .breadcrumbs .svg-inline--fa {
+      color: rgba(255, 255, 255, 0.25); }
   .amber .soapcolor-bg, #amber .soapcolor-bg {
     background: #FFB300;
     color: #222; }
@@ -811,6 +839,10 @@ Version: 5.0.1
     .yellow .site-navigation a:focus .svg-inline--fa,
     #yellow .site-navigation a:focus .svg-inline--fa {
       color: #222; }
+  .yellow .breadcrumbs, #yellow .breadcrumbs {
+    background: #1f1f1f; }
+    .yellow .breadcrumbs .svg-inline--fa, #yellow .breadcrumbs .svg-inline--fa {
+      color: rgba(255, 255, 255, 0.25); }
   .yellow .soapcolor-bg, #yellow .soapcolor-bg {
     background: #FFEB3B;
     color: #222; }
@@ -917,6 +949,10 @@ Version: 5.0.1
     .grey .site-navigation a:focus .svg-inline--fa,
     #grey .site-navigation a:focus .svg-inline--fa {
       color: #222; }
+  .grey .breadcrumbs, #grey .breadcrumbs {
+    background: #1f1f1f; }
+    .grey .breadcrumbs .svg-inline--fa, #grey .breadcrumbs .svg-inline--fa {
+      color: rgba(255, 255, 255, 0.25); }
   .grey .soapcolor-bg, #grey .soapcolor-bg {
     background: #BDBDBD;
     color: #222; }
@@ -1246,10 +1282,9 @@ video.wp-video-shortcode {
 	Breadcrumbs
 ----------------------------------------------*/
 .breadcrumbs {
-  background: #1f1f1f;
   font-size: 90%;
   padding: 1em 1.5em;
-  margin-bottom: 3em;
+  margin-bottom: 6em;
   border-radius: 2em; }
   .breadcrumbs .breadcrumbs--item:after {
     display: none;
@@ -1257,7 +1292,6 @@ video.wp-video-shortcode {
     content: "\f105"; }
   .breadcrumbs .breadcrumbs--item .svg-inline--fa {
     margin: 0 .4em 0 .5em;
-    color: #fff !important;
     vertical-align: -.2em; }
 
 /*----------------------------------------------

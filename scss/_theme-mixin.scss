@@ -50,6 +50,14 @@
 		}	
 	}	
 	
+	.breadcrumbs {
+		background: darken($bg-color, 1%);
+
+		.svg-inline--fa {
+			color: rgba($text-color, .25);
+		}
+	}	
+	
 	.soapcolor-bg {
 		background: $soap-color;
 		color: $sp-text-color;
