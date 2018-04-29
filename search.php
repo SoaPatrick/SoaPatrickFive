@@ -10,11 +10,9 @@
 get_header(); ?>
     <div class="site-content blog-post-list">
 	    <div class="container">
-			<?php if ( have_posts() ) : ?>
+			<?php if ( have_posts() ) : ?>					
 				<header class="page-header padding-indent">
-					<h1 class="title-large"><?php
-						printf( esc_html__( 'Search: %s', 'soapatrickfour' ), '<span>' . get_search_query() . '</span>' );
-					?></h1>
+					<h1 class="title-large">Search: <?php echo get_search_query(); ?></h1>
 				</header>
 				<hr class="margin-extend">
 				<?php

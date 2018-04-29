@@ -7,7 +7,11 @@ get_header(); ?>
 
     <div class="site-content tags-archive-list">
 	    <div class="container">	
-			<article>		    
+			<article>	
+				<nav class="breadcrumbs">
+				    <span class="breadcrumbs--item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></span>						
+				    <span class="breadcrumbs--item__last">Tags</span>
+				</nav>						    
 				<header class="page-header padding-inden">		
 					<h1 class="title-large">Tags</h1>
 				</header>

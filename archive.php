@@ -9,11 +9,16 @@
 
 get_header(); ?>
     <div class="site-content">
-	    <div class="container">		
+	    <div class="container">
 			<?php				        
 			if ( have_posts() ) : ?>
+				<nav class="breadcrumbs">
+				    <span class="breadcrumbs--item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></span>						
+				    <span class="breadcrumbs--item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/storage/">Storage</a></span>
+				    <span class="breadcrumbs--item__last"><?php the_archive_title();?></span>
+				</nav>			
 				<header class="page-header padding-indent">
-					<h1 class="title-large"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/storage/">Storage:</a> <span class="no-wrap"><?php the_archive_title();?></span></h1>
+					<h1 class="title-large"><?php the_archive_title();?></h1>
 				</header>
 				<hr class="margin-extend">
 				<?php 

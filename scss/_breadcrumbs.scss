@@ -1,0 +1,25 @@
+/*----------------------------------------------
+	Breadcrumbs
+----------------------------------------------*/
+
+.breadcrumbs {
+	background: darken($dark-grey, 1%);
+	font-size: 90%;
+	padding: 1em 1.5em;
+	margin-bottom: 3em;
+	border-radius: 2em;
+	
+	.breadcrumbs--item {
+		&:after {
+			display: none;
+			font-family: "Font Awesome 5 Light";				
+			content: "\f105";
+		}
+		
+		.svg-inline--fa {
+			margin: 0 .4em 0 .5em;
+			color: #fff !important;
+			vertical-align: -.2em;
+		}
+	}
+}

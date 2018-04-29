@@ -1243,6 +1243,24 @@ video.wp-video-shortcode {
       width: auto; } }
 
 /*----------------------------------------------
+	Breadcrumbs
+----------------------------------------------*/
+.breadcrumbs {
+  background: #1f1f1f;
+  font-size: 90%;
+  padding: 1em 1.5em;
+  margin-bottom: 3em;
+  border-radius: 2em; }
+  .breadcrumbs .breadcrumbs--item:after {
+    display: none;
+    font-family: "Font Awesome 5 Light";
+    content: "\f105"; }
+  .breadcrumbs .breadcrumbs--item .svg-inline--fa {
+    margin: 0 .4em 0 .5em;
+    color: #fff !important;
+    vertical-align: -.2em; }
+
+/*----------------------------------------------
 	Site Content
 ----------------------------------------------*/
 .site-content {
