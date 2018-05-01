@@ -16,18 +16,7 @@
 	); 
 };
 
-/*
-.red-invert { 
-	@include color-theme(
-		$red,
-		$dark-grey,
-		$white,
-		$white
-	); 
-};
-*/
-
-.blue { 
+#blue { 
 	@include color-theme(
 		$dark-grey,
 		$blue,
@@ -36,16 +25,7 @@
 	); 
 };
 
-.blue-light { 
-	@include color-theme(
-		$dark-grey,
-		$blue-light,
-		$white,
-		$white
-	); 
-};
-
-.pink { 
+#pink { 
 	@include color-theme(
 		$dark-grey,
 		$pink,
@@ -54,7 +34,7 @@
 	); 
 };
 
-.purple { 
+#purple { 
 	@include color-theme(
 		$dark-grey,
 		$purple,
@@ -63,7 +43,7 @@
 	); 
 };
 
-.green { 
+#green { 
 	@include color-theme(
 		$dark-grey,
 		$green,
@@ -72,7 +52,7 @@
 	); 
 };
 
-.amber { 
+#amber { 
 	@include color-theme(
 		$dark-grey,
 		$amber,
@@ -80,31 +60,3 @@
 		$dark-grey
 	); 
 };
-
-.yellow { 
-	@include color-theme(
-		$dark-grey,
-		$yellow,
-		$white,
-		$dark-grey
-	); 
-};
-
-.grey {
-	@include color-theme(
-		$dark-grey,
-		$grey,
-		$white,
-		$dark-grey
-	)
-}
-
-#red { @extend .red; };
-#blue { @extend .blue; };
-#blue-light { @extend .blue-light; };
-#purple { @extend .purple; }
-#pink { @extend .pink; };
-#green { @extend .green; };
-#amber { @extend .amber; };
-#yellow { @extend .yellow; };
-#grey { @extend .grey; }

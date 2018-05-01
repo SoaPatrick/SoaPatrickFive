@@ -13,7 +13,8 @@ body {
 	font-size: $font-size-base;
 	font-family: $font-base;
 	font-weight: 300;
-    -webkit-font-smoothing: antialiased;    	
+    -webkit-font-smoothing: antialiased;    
+//  padding: calc(1vw + 1em);	
 }
 
 .wrapper {
@@ -37,7 +38,7 @@ body {
 }
 
 .container {
-    min-width: 750px;	
+    min-width: 730px;	
     width: 70vw;    
     max-width: 1250px;
 }
