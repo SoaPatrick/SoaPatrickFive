@@ -1283,16 +1283,20 @@ video.wp-video-shortcode {
 ----------------------------------------------*/
 .breadcrumbs {
   font-size: 90%;
-  padding: 1em 1.5em;
+  padding: .5em 1.5em;
   margin-bottom: 6em;
-  border-radius: 2em; }
+  border-radius: 2em;
+  display: flex;
+  flex-wrap: wrap; }
+  .breadcrumbs > span {
+    padding: .5em 0; }
   .breadcrumbs .breadcrumbs--item:after {
     display: none;
     font-family: "Font Awesome 5 Light";
     content: "\f105"; }
   .breadcrumbs .breadcrumbs--item .svg-inline--fa {
-    margin: 0 .4em 0 .5em;
-    vertical-align: -.2em; }
+    margin: 0 .5em;
+    vertical-align: -.25em; }
 
 /*----------------------------------------------
 	Site Content
