@@ -6,15 +6,15 @@
 	background-image: url('bubbles.svg') !important;
 	background-position: center bottom !important;
 	background-repeat: no-repeat !important;
-	background-size: calc(50px + 98vw) !important;
-	height: calc(15vw + 320px) !important;
+	background-size: calc(100px + 98vw) !important;
+	min-height: calc(15vw + 320px) !important;
 	
 	.logo {
-		max-width: 10em;
-		min-width: 8em;	
-		height: auto;
+	    max-width: 10em;
+	    min-width: 8em;
+	    height: auto;
 		display: block;
-		margin: 3em auto;
+		margin: 3em auto 18vw auto;
 		-webkit-filter: drop-shadow( 0 0 20px rgba(0,0,0,.1) );
 		filter: drop-shadow( 0 0 20px rgba(0,0,0,.1) );
 	}
