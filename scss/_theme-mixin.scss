@@ -81,19 +81,52 @@
 		}
 	}
 	
-	.btn {
-	    background: $soap-color;
+	.btn-red,
+	.btn-dark {
+		@extend .btn;		
 	    color: $sp-text-color;
+				
+		.svg-inline--fa {
+			color: $sp-text-color;
+		} 	
+	}	
+	
+	.btn-red {
+	    background: $soap-color;
+
+		&:focus,
+		&:hover {
+			background: darken($soap-color, 10%);
+		}		
+	}
+	
+	.btn-dark {	
+		background: lighten($bg-color, 10%);
 		
 		&:focus,
 		&:hover {
-			background: lighten($soap-color, 10%);
+			background: $soap-color;
 		}
+	}
+	
+	.btn-disabled {
+		@extend .btn-dark;		
+		box-shadow: none !important;
+		opacity: .5;
 		
-		.svg-inline--fa {
-			color: $sp-text-color;
-		} 		
-			
+		&:focus,
+		&:hover {
+			background: lighten($bg-color, 10%);
+		}
+	}
+	
+	.btn-active {
+		@extend .btn-red;
+		
+		&:focus,
+		&:hover {
+			background: $soap-color;
+		}
 	}
 	
 	.svg-inline--fa {
