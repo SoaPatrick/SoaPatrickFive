@@ -26,9 +26,11 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="/wp-content/themes/soapatrickfive/favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/wp-content/themes/soapatrickfive/favicon/favicon-16x16.png">
 	<link rel="manifest" href="/wp-content/themes/soapatrickfive/favicon/site.webmanifest">
-	<link rel="mask-icon" href="/wp-content/themes/soapatrickfive/favicon/safari-pinned-tab.svg" color="#cf3a3a">
+	<link rel="mask-icon" href="/wp-content/themes/soapatrickfive/favicon/safari-pinned-tab.svg" color="#cf3c3b">
+	<link rel="shortcut icon" href="/wp-content/themes/soapatrickfive/favicon/favicon.ico">
 	<meta name="msapplication-TileColor" content="#222222">
-	<meta name="theme-color" content="#222222">	
+	<meta name="msapplication-config" content="/wp-content/themes/soapatrickfive/favicon/browserconfig.xml">
+	<meta name="theme-color" content="#222222">
 	<!--
 	/**
 	 * @license
