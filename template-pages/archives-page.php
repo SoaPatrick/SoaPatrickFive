@@ -35,7 +35,7 @@ get_header(); ?>
 							 
 							            foreach($months as $month): ?>
 									        <li><a href="<?php echo get_month_link($year, $month); ?>">
-									            <?php echo date('F', mktime(0, 0, 0, $month));?></a>
+									            <?php echo date('F', strtotime("2012-$month-01"));?></a>
 									        </li>
 										<?php endforeach;?>
 						        </ul>
