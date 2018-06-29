@@ -12,15 +12,16 @@ Version: 5.0.1
 ----------------------------------------------*/
 
 /* @import must be at top of file, otherwise CSS will not work */
-@import url("//hello.myfonts.net/count/364b31");
+@import url("//hello.myfonts.net/count/36f9a1");
 
+  
 @font-face {
-	font-family: 'QanelasSoft-ExtraBold';
-	src: url('font/364B31_0_0.eot');
-	src: url('font/364B31_0_0.eot?#iefix') format('embedded-opentype'),
-		url('font/364B31_0_0.woff2') format('woff2'),
-		url('font/364B31_0_0.woff') format('woff'),
-		url('font/364B31_0_0.ttf') format('truetype');
+  font-family: 'AmsiProNarw-Black';
+  src: url('webfonts/36F9A1_0_0.eot');
+  src: url('webfonts/36F9A1_0_0.eot?#iefix') format('embedded-opentype'),
+    url('webfonts/36F9A1_0_0.woff2') format('woff2'),
+    url('webfonts/36F9A1_0_0.woff') format('woff'),
+    url('webfonts/36F9A1_0_0.ttf') format('truetype');
 }
 
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700');
@@ -43,7 +44,7 @@ $white: #fff;
 
 // Font
 $font-base: 'Source Sans Pro', serif;
-$font-heading: 'QanelasSoft-ExtraBold', sans-serif;
+$font-heading: 'AmsiProNarw-Black', sans-serif;
 
 $font-size-base: calc(18px + .25vw);
 $font-size-title-large: calc(22px + 3vw);

@@ -11,12 +11,12 @@ Version: 5.0.1
 	Import Font
 ----------------------------------------------*/
 /* @import must be at top of file, otherwise CSS will not work */
-@import url("//hello.myfonts.net/count/364b31");
+@import url("//hello.myfonts.net/count/36f9a1");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700");
 @font-face {
-  font-family: 'QanelasSoft-ExtraBold';
-  src: url("font/364B31_0_0.eot");
-  src: url("font/364B31_0_0.eot?#iefix") format("embedded-opentype"), url("font/364B31_0_0.woff2") format("woff2"), url("font/364B31_0_0.woff") format("woff"), url("font/364B31_0_0.ttf") format("truetype"); }
+  font-family: 'AmsiProNarw-Black';
+  src: url("webfonts/36F9A1_0_0.eot");
+  src: url("webfonts/36F9A1_0_0.eot?#iefix") format("embedded-opentype"), url("webfonts/36F9A1_0_0.woff2") format("woff2"), url("webfonts/36F9A1_0_0.woff") format("woff"), url("webfonts/36F9A1_0_0.ttf") format("truetype"); }
 
 /*----------------------------------------------
 	Variables
@@ -878,14 +878,14 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "QanelasSoft-ExtraBold", sans-serif;
-  text-transform: uppercase;
+  font-family: "AmsiProNarw-Black", sans-serif;
   font-weight: normal;
   line-height: 1.3; }
 
 .title-large {
   font-size: calc(22px + 3vw);
   text-align: center;
+  text-transform: uppercase;
   margin: 0; }
 
 .title-medium, .blog-post-status p {
@@ -1285,7 +1285,7 @@ video.wp-video-shortcode {
   margin-right: .25em; }
 
 .blog-post-status p {
-  font-family: "QanelasSoft-ExtraBold", sans-serif;
+  font-family: "AmsiProNarw-Black", sans-serif;
   display: inline; }
 
 .blog-post-status .svg-inline--fa {
