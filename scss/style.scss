@@ -14,17 +14,16 @@ Version: 5.0.1
 /* @import must be at top of file, otherwise CSS will not work */
 @import url("//hello.myfonts.net/count/36f9a1");
 
-  
 @font-face {
   font-family: 'AmsiProNarw-Black';
-  src: url('webfonts/36F9A1_0_0.eot');
-  src: url('webfonts/36F9A1_0_0.eot?#iefix') format('embedded-opentype'),
-    url('webfonts/36F9A1_0_0.woff2') format('woff2'),
-    url('webfonts/36F9A1_0_0.woff') format('woff'),
-    url('webfonts/36F9A1_0_0.ttf') format('truetype');
+  src: url('font/36F9A1_0_0.eot');
+  src: url('font/36F9A1_0_0.eot?#iefix') format('embedded-opentype'),
+    url('font/36F9A1_0_0.woff2') format('woff2'),
+    url('font/36F9A1_0_0.woff') format('woff'),
+    url('font/36F9A1_0_0.ttf') format('truetype');
 }
 
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700');
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700");
 
 /*----------------------------------------------
 	Variables
