@@ -19,9 +19,6 @@
 	<script>
 		FontAwesomeConfig = { searchPseudoElements: true };
 	</script>
-	<?php if (!in_array($_SERVER['REMOTE_ADDR'], array('127.0.0.1', '::1'))) : ?>
-		<script defer src="https://pro.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-+1nLPoB0gaUktsZJP+ycZectl3GX7wP8Xf2PE/JHrb7X1u7Emm+v7wJMbAcPr8Ge" crossorigin="anonymous"></script>
-	<?php endif; ?>		
 	<link rel="apple-touch-icon" sizes="180x180" href="/wp-content/themes/soapatrickfive/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/wp-content/themes/soapatrickfive/favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/wp-content/themes/soapatrickfive/favicon/favicon-16x16.png">
