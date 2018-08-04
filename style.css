@@ -944,17 +944,13 @@ ol {
 blockquote {
   margin-left: 2em;
   margin-right: 2em; }
-  blockquote p::before, blockquote p::after {
+  blockquote p::before {
     display: none;
     font-family: "Font Awesome 5 Light"; }
   blockquote p::before {
     content: "\f10d"; }
-  blockquote p::after {
-    content: "\f10e"; }
   blockquote p .fa-quote-left {
     margin-right: .25em; }
-  blockquote p .fa-quote-right {
-    margin-left: .25em; }
 
 /*----------------------------------------------
 	Button
@@ -976,6 +972,14 @@ blockquote {
   padding: .5em 1em;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
   font-size: calc(18px + .5vw); }
+
+button,
+select,
+textarea,
+input {
+  font-size: calc(18px + .25vw);
+  font-family: "Source Sans Pro", serif;
+  font-weight: 300; }
 
 /*----------------------------------------------
 	Tools, Helper Classes
@@ -1065,11 +1069,10 @@ video.wp-video-shortcode {
     font-size: calc(18px + .5vw); }
 
 @media (max-width: 767px) {
-  .site-footer {
-    margin-bottom: 3em; }
+  body {
+    margin-top: 3em; }
   .site-navigation {
-    top: auto;
-    bottom: 0;
+    top: 0;
     height: 3em;
     width: 100%;
     display: flex; }
@@ -1240,7 +1243,8 @@ video.wp-video-shortcode {
     padding: .5em;
     width: calc(100% - 1em);
     font-size: calc(18px + 1vw);
-    border: 0; }
+    border: 0;
+    font-weight: 400; }
     .search-form input:focus {
       outline: none; }
 

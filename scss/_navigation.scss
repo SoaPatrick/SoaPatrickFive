@@ -26,13 +26,12 @@
 }
 
 @media (max-width: 767px) {
-	.site-footer {
-		margin-bottom: 3em;
+	body {
+		margin-top: 3em;
 	}
-	
+
 	.site-navigation {	
-		top: auto;
-		bottom: 0;
+		top: 0;
 		height: 3em;
 		width: 100%;
 		display: flex;

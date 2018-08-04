@@ -95,26 +95,17 @@ blockquote  {
 	margin-right: 2em;
 	
 	p {	
-		&::before,		
-		&::after {
+		&::before {
 			display: none;
 			font-family: "Font Awesome 5 Light";
 		}				
 					
 		&::before {
 			content: "\f10d";
-		}			
-		
-		&::after {
-			content: "\f10e";
-		}			
+		}				
 		
 		.fa-quote-left {
 		    margin-right: .25em;				
-		}
-		
-		.fa-quote-right {
-		    margin-left: .25em;				
 		}
 	}			
 }
@@ -124,8 +115,17 @@ blockquote  {
 ----------------------------------------------*/
 
 .btn {
-    display: block;
-    padding: .5em 1em;
-    box-shadow: 0 0 30px rgba(0,0,0,.3);
-	font-size: calc(18px + .5vw);
+  display: block;
+  padding: .5em 1em;
+  box-shadow: 0 0 30px rgba(0,0,0,.3);
+  font-size: calc(18px + .5vw);
+}
+
+button,
+select,
+textarea,
+input {
+	font-size: $font-size-base;
+	font-family: $font-base;
+	font-weight: 300;
 }
