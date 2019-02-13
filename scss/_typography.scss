@@ -66,7 +66,7 @@ ul {
 	list-style: none;
 }
 
-ul:not(.fa-ul):not(.list-style-none){
+ul:not(.fa-ul):not(.list-style-none):not(.wp-block-gallery) {
 	li::before {
 		font-family: sans-serif;
 		content: "•";
