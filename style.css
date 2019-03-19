@@ -1478,3 +1478,18 @@ figure .wp-caption-text {
 .site-footer {
   padding: 2em 0;
   text-align: center; }
+
+/*----------------------------------------------
+	Counter
+----------------------------------------------*/
+#clockdiv {
+  margin: 0 auto 2em auto;
+  padding: 0 2em;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: calc(22px + 1.5vw); }
+  #clockdiv div {
+    display: inline-block; }
+  #clockdiv span {
+    font-weight: bold;
+    padding-left: .25em; }

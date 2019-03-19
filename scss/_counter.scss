@@ -1,0 +1,20 @@
+/*----------------------------------------------
+	Counter
+----------------------------------------------*/
+
+#clockdiv {
+	margin: 0 auto 2em auto;
+	padding: 0 2em;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: $font-size-title-medium;
+	
+	div {
+	  display: inline-block;
+	}	
+	
+	span {
+	  font-weight: bold;
+	  padding-left: .25em;
+	}	
+}
