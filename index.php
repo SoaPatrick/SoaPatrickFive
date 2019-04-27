@@ -14,18 +14,6 @@
 
 get_header(); ?>
     <div class="site-content">
-		<div id="clockdiv">
-			<div id="clock-days">
-				<span class="days"></span> days
-			</div>
-			<div id="clock-hours">  
-				<span class="hours"></span> hrs
-			</div>
-			<div id="clock-minutes">        
-				<span class="minutes"></span> mins
-			</div>   
-			<span class="seconds"></span> secs    
-		</div>		    
 	    <div class="container">
 			<?php
 				while ( have_posts() ) : the_post();
