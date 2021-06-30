@@ -90,7 +90,7 @@ add_action( 'after_setup_theme', 'soapatrickfive_content_width', 0 );
  * Enqueue scripts and styles.
  */
 function soapatrickfive_scripts() {
-	wp_enqueue_style( 'soapatrickfive-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'soapatrickfive-style', get_template_directory_uri() . '/css/app.css' );
 	wp_enqueue_script( 'soapatrickfive-scripts', get_template_directory_uri() . '/js/scripts.js', '','' , true );	
   wp_enqueue_script( 'soapatrickfive-fa5', get_template_directory_uri() . '/js/fontawesome-all.min.js','','5.2.0', true  );
 	if ( !is_admin() ) wp_deregister_script('jquery');		
